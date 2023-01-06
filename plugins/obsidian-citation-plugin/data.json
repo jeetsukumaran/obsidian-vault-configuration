@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
   "literatureNoteFolder": "readings",
-  "literatureNoteContentTemplate": "---\ntitle: >\n    {{title}}\nauthors: >\n    {{authorString}}\nyear: >\n    {{year}}\ndoi: >\n    {{DOI}}\nurl: >\n    {{URL}}\ncitekey: >\n    {{citekey}}\nzotero: >\n    {{zoteroSelectURI}}\nabstract: >\n    {{abstract}}\n---\n\n",
+  "literatureNoteContentTemplate": "---\ntitle: >\n    {{title}}\nauthors: >\n    {{authorString}}\nyear: >\n    {{year}}\ndoi: >\n    {{DOI}}\nurl: >\n    {{URL}}\ncitekey: >\n    {{citekey}}\nzotero: >\n    {{zoteroSelectURI}}\nabstract: >\n    {{abstract}}\n---\n[read]({{zoteroSelectURI}})\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "/home/jeet/site/content/workspaces/journal/volumes/multiplexed-coalescent/reference-notes/bibliographies/refs.bib"
