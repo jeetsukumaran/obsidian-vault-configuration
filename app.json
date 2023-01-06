@@ -1,0 +1,12 @@
+{
+  "vimMode": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "trashOption": "system",
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}
