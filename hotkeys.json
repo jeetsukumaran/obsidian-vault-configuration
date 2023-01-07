@@ -1,3 +1,11 @@
 {
-  "obsidian-auto-link-title:enhance-url-with-title": []
+  "obsidian-auto-link-title:enhance-url-with-title": [],
+  "obsidian-shellcommands:shell-command-rob425oq6y": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ]
 }
