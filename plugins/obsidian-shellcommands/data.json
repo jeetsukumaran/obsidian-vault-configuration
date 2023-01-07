@@ -21,7 +21,7 @@
         "default": "echo {{file_path:absolute}}"
       },
       "shells": {},
-      "alias": "Copy filepath to clipboard",
+      "alias": "Copy Filepath to Clipboard",
       "icon": "clipboard-copy",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -46,12 +46,62 @@
         "default": "echo {{vault_path}}"
       },
       "shells": {},
-      "alias": "",
-      "icon": null,
+      "alias": "Copy Vault Path to Clipboard",
+      "icon": "inbox",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
         "stdout": "clipboard",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "rob425oq6y",
+      "platform_specific_commands": {
+        "default": "cd {{vault_path}} && gnome-terminal "
+      },
+      "shells": {},
+      "alias": "Open shell in Vault Path",
+      "icon": "terminal-square",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "kg0polj4gc",
+      "platform_specific_commands": {
+        "default": "cd {{vault_path}} && gnome-terminal -- nvim {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "Edit in NeoVim",
+      "icon": "hammer",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
         "stderr": "notification"
       },
       "output_wrappers": {
