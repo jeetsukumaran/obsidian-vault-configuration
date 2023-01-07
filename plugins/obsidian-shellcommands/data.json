@@ -71,7 +71,7 @@
         "default": "cd {{vault_path}} && gnome-terminal "
       },
       "shells": {},
-      "alias": "Open shell in Vault Path",
+      "alias": "Open Terminal in Vault Path",
       "icon": "terminal-square",
       "confirm_execution": false,
       "ignore_error_codes": [],
