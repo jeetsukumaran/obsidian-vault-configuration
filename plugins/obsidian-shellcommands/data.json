@@ -93,7 +93,7 @@
     {
       "id": "kg0polj4gc",
       "platform_specific_commands": {
-        "default": "cd {{vault_path}} && gnome-terminal -- nvim {{file_path:absolute}}"
+        "default": "cd {{vault_path}} && gnome-terminal -- nvim \"+call cursor({{caret_position:line}}, {{caret_position:column}})\" {{file_path:absolute}}"
       },
       "shells": {},
       "alias": "Edit in NeoVim",
