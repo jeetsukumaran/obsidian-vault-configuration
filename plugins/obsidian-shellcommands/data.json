@@ -18,7 +18,7 @@
     {
       "id": "sb5kdbj7w9",
       "platform_specific_commands": {
-        "default": "echo {{file_path:absolute}}"
+        "default": "echo {{file_path:absolute}}  >&2"
       },
       "shells": {},
       "alias": "Copy Filepath to Clipboard",
@@ -26,8 +26,8 @@
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
-        "stdout": "clipboard",
-        "stderr": "notification"
+        "stdout": "ignore",
+        "stderr": "clipboard"
       },
       "output_wrappers": {
         "stdout": null,
@@ -43,7 +43,7 @@
     {
       "id": "v90bful6s0",
       "platform_specific_commands": {
-        "default": "echo {{vault_path}}"
+        "default": "echo {{vault_path}} | xclip -selection c"
       },
       "shells": {},
       "alias": "Copy Vault Path to Clipboard",
@@ -51,8 +51,8 @@
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
-        "stdout": "clipboard",
-        "stderr": "notification"
+        "stdout": "ignore",
+        "stderr": "ignore"
       },
       "output_wrappers": {
         "stdout": null,
