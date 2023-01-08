@@ -5,10 +5,13 @@
   "obsidian-tikzjax",
   "copy-as-latex",
   "obsidian-latex",
-  "obsidian-pandoc",
   "obsidian-enhancing-export",
-  "obsidian-pandoc-reference-list",
   "obsidian-citation-plugin",
   "obsidian-admonition",
-  "obsidian-matrix"
+  "obsidian-matrix",
+  "obsidian-graphviz",
+  "table-editor-obsidian",
+  "obsidian-linter",
+  "omnisearch",
+  "file-tree-alternative"
 ]
