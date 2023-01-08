@@ -8,5 +8,6 @@
   "showUnsupportedFiles": true,
   "showFrontmatter": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": true
 }

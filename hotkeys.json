@@ -1,13 +1,5 @@
 {
   "obsidian-auto-link-title:enhance-url-with-title": [],
-  "obsidian-shellcommands:shell-command-rob425oq6y": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
   "obsidian-shellcommands:shell-command-kg0polj4gc": [
     {
       "modifiers": [
@@ -21,6 +13,23 @@
       "modifiers": [
         "Alt",
         "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-48sr4u8nqa": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-rob425oq6y": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
       ],
       "key": "T"
     }
