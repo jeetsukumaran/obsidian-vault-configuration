@@ -33,5 +33,11 @@
       ],
       "key": "T"
     }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
   ]
 }
