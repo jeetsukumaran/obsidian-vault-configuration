@@ -1,6 +1,6 @@
 {
   "vimMode": false,
-  "livePreview": true,
+  "livePreview": false,
   "readableLineLength": true,
   "strictLineBreaks": true,
   "trashOption": "system",
@@ -8,6 +8,11 @@
   "showUnsupportedFiles": true,
   "showFrontmatter": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": false,
-  "showInlineTitle": true
+  "promptDelete": true,
+  "showInlineTitle": false,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "attachmentFolderPath": "_annex/_attachments"
 }
