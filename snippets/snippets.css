@@ -4,6 +4,10 @@
 }
 
 body {
+    --font-text-theme: "Ubuntu";
+    --font-interface-theme: "Ubuntu";
+    --font-editor-theme: "Ubuntu";
+    --font-monospace-theme: "Ubuntu Mono";
     --theme-accent-h: 204;
     --theme-accent-s: 24%;
     --theme-accent-l: 31%;
