@@ -4,5 +4,8 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "snippets"
-  ]
+  ],
+  "interfaceFontFamily": "Ubuntu",
+  "textFontFamily": "Ubuntu",
+  "monospaceFontFamily": "Ubuntu Mono"
 }
