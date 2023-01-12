@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "cssTheme": "Typewriter",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "snippets"
+  ]
 }
