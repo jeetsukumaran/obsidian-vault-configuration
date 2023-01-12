@@ -1,8 +1,27 @@
 .nav-file-title, .nav-folder-title {
-    font-size: 20px;
+    font-size: 18px;
+    color: #887766;
     font-family:
         "Ubuntu Mono",
         "Courier New",
         "monospace"
     !important;
 }
+
+body {
+    --theme-accent-h: 204;
+    --theme-accent-s: 24%;
+    --theme-accent-l: 31%;
+    --theme-accent-d: 31%;
+}
+
+/* collapse arrow for folders */
+/* .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title>.nav-folder-collapse-indicator{ */
+/* 	color: #ff0000; */
+/* } */
+
+svg.right-triangle path {
+  stroke: #888800;
+  /* stroke: #aaaa22; */
+}
+

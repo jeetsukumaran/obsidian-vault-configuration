@@ -388,7 +388,7 @@ body {
   background-color: var(--vim-cursor) !important;
 }
 
-/* blur background when pop-ups are active 
+/* blur background when pop-ups are active
    (credit: Deep Work) */
 body .modal {
   border-radius: 18px;
@@ -427,7 +427,7 @@ div.todo-item-view-item span.due-date {
   color: white; /* makes due dates legible */
 }
 
-div.todo-item-view-item span.due-date.overdue { 
+div.todo-item-view-item span.due-date.overdue {
   background-color: var(--orange);
 }
 
