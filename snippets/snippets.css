@@ -59,10 +59,11 @@ svg.right-triangle path {
 
 .inline-title {
     /* background: #202020; */
-    background: #224466;
-    color: #667788;
+    /* background: #224466; */
+    background: #403830;
+    color: #999888;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 100;
     font-style: italic;
     padding: 10px;
     border-radius: 100px;
