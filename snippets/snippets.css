@@ -1,11 +1,6 @@
 .nav-file-title, .nav-folder-title {
-    font-size: 18px;
-    color: #887766;
-    font-family:
-        "Ubuntu Mono",
-        "Courier New",
-        "monospace"
-    !important;
+    font-size: 16px;
+    color: #bbaa99;
 }
 
 body {
@@ -21,7 +16,32 @@ body {
 /* } */
 
 svg.right-triangle path {
-  stroke: #888800;
+  stroke: #448888;
   /* stroke: #aaaa22; */
+}
+
+/* /1* Selection the first H1 header of the Note *1/ */
+/* pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 { */
+/*     color: red; */
+/* } */
+
+/* header in edit/preview modes */
+.cm-header-1, .markdown-preview-mode h1 {
+}
+.cm-header-2, .markdown-preview-mode h2 {
+}
+.cm-header-3, .markdown-preview-mode h3 {
+}
+.cm-header-4, .markdown-preview-mode h4 {
+}
+.cm-header-5, .markdown-preview-mode h5 {
+}
+.cm-header-6, .markdown-preview-mode h6 {
+}
+
+/* hash tags in headers */
+.cm-formatting-header {
+    color: #444444;
+    font-size: 0.6em;
 }
 
