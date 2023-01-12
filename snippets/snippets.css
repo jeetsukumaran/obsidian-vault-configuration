@@ -16,7 +16,7 @@ body {
 /* } */
 
 svg.right-triangle path {
-  stroke: #448888;
+  stroke: #5599aa;
   /* stroke: #aaaa22; */
 }
 
@@ -26,22 +26,33 @@ svg.right-triangle path {
 /* } */
 
 /* header in edit/preview modes */
-.cm-header-1, .markdown-preview-mode h1 {
+.cm-header-1, .markdown-preview-view h1 {
+    color: #977070;
 }
-.cm-header-2, .markdown-preview-mode h2 {
+.cm-header-2, .markdown-preview-view h2 {
+    color: #448888;
 }
-.cm-header-3, .markdown-preview-mode h3 {
+.cm-header-3, .markdown-preview-view h3 {
+    color: #5b8060;
 }
-.cm-header-4, .markdown-preview-mode h4 {
+.cm-header-4, .markdown-preview-view h4 {
+    color: #808060;
 }
-.cm-header-5, .markdown-preview-mode h5 {
+.cm-header-5, .markdown-preview-view h5 {
+    color: #667070;
 }
-.cm-header-6, .markdown-preview-mode h6 {
+.cm-header-6, .markdown-preview-view h6 {
+    color: #406060;
 }
 
 /* hash tags in headers */
 .cm-formatting-header {
-    color: #444444;
-    font-size: 0.6em;
+    /* color: #009988; */
+    color: #5599aa;
+    border-bottom: none;
 }
+
+/* .markdown-preview-view h1 { */
+/*     border-bottom: 1px solid; */
+/* } */
 
