@@ -52,7 +52,17 @@ svg.right-triangle path {
     border-bottom: none;
 }
 
-/* .markdown-preview-view h1 { */
-/*     border-bottom: 1px solid; */
-/* } */
+
+.inline-title {
+    /* background: #202020; */
+    background: #224466;
+    color: #667788;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
