@@ -1,20 +1,14 @@
 [
   "obsidian-shellcommands",
   "obsidian-auto-link-title",
-  "obsidian-read-it-later",
   "obsidian-tikzjax",
   "copy-as-latex",
   "obsidian-latex",
-  "obsidian-enhancing-export",
   "obsidian-citation-plugin",
   "obsidian-admonition",
   "obsidian-matrix",
   "obsidian-graphviz",
-  "table-editor-obsidian",
   "obsidian-linter",
-  "omnisearch",
   "obsidian-outliner",
-  "better-pdf-plugin",
-  "obsidian-carry-forward",
-  "obsidian-zoom"
+  "better-pdf-plugin"
 ]
