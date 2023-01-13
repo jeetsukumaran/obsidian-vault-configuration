@@ -10,7 +10,14 @@
     /* --background-secondary: #bbb098; */
     /* --background-secondary-alt: #000000; */
     --text-normal: #c2b9a3;
-    --subaccent-color: #4499aa;
+    /* --subaccent-color: #4499aa; */
+    /* --subaccent-color: #449098; */
+    /* --subaccent-color: #aaaaaa; */
+    /* --subaccent-color: #ccbbaa; */
+    /* --subaccent-color: #ffa500; */
+    /* --subaccent-color: #dfbb81; */
+    --subaccent-color: #c0b080;
+    /* --subaccent-color: #dcd6cb; */
 }
 
 .nav-folder-title {
@@ -23,7 +30,7 @@
 .nav-file-title {
     font-size: 16px;
     border-radius: 10px;
-    color: #bbb098 !important;
+    color: #d5d5c5 !important;
 }
 
 .nav-folder .nav-folder-title {
@@ -48,11 +55,10 @@
 .nav-file .is-active {
     border-radius: 20px !important;
     background: #bbb098 !important;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: bold;
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .is-active .nav-file-title-content {
