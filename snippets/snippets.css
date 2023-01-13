@@ -10,11 +10,13 @@
     /* --background-secondary: #bbb098; */
     /* --background-secondary-alt: #000000; */
     --text-normal: #c2b9a3;
+    --subaccent-color: #4499aa;
 }
 
 .nav-folder-title {
+    /* font-weight: normal; */
     font-size: 16px;
-    color: #0088bb !important;
+    color: var(--subaccent-color) !important;
     /* color: #000000; */
 }
 
@@ -97,7 +99,7 @@ body {
 /* } */
 
 svg.right-triangle path {
-  stroke: #ccccbb;
+  stroke: var(--subaccent-color);
   stroke-width: 2px;
   stroke-linecap="round";
 }
@@ -247,7 +249,7 @@ svg.right-triangle path {
 .nav-folder-children .nav-file-title-content:first-child::before {
   /* content: "∙ "; */
   content: "🗅   ";
-  color: #0088bb;
+  color: var(--subaccent-color);
   font-weight: bold;
   /* filter: invert(87%) sepia(20%) saturate(1026%) hue-rotate(113deg) */
   /*   brightness(105%) contrast(103%); */
