@@ -65,10 +65,8 @@ body {
     /* --accent-l: 40%; */
 
     /* --accent-h: 47; */
-    /* /1* --accent-s: 5%; *1/ */
-    /* /1* --accent-l: 50%; *1/ */
-    /* --accent-s: 40%; */
-    /* --accent-l: 80%; */
+    /* --accent-s: 10%; */
+    /* --accent-l: 45%; */
     /* --accent-d: 0%; */
 
 
@@ -77,7 +75,8 @@ body {
   --interactive-accent-hover: #c2b9a3;
   /* --interactive-accent: #bdb59a; */
   /* --interactive-accent: #8f8975; */
-  --interactive-accent: #827d6a;
+  /* --interactive-accent: #827d6a; */
+  --interactive-accent: #807a68;
 
 
     /* --theme-accent-h: 204; */
