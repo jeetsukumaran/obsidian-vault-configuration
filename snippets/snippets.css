@@ -216,6 +216,7 @@ svg.right-triangle path {
   /* content: "∙ "; */
   content: "🗅 ";
   color: #0088bb;
+  font-weight: bold;
   /* filter: invert(87%) sepia(20%) saturate(1026%) hue-rotate(113deg) */
   /*   brightness(105%) contrast(103%); */
 }
