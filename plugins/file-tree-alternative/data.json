@@ -2,11 +2,11 @@
   "openViewOnStart": false,
   "ribbonIcon": true,
   "showRootFolder": true,
-  "showFilesFromSubFolders": true,
+  "showFilesFromSubFolders": false,
   "searchFunction": true,
-  "allSearchOnlyInFocusedFolder": false,
+  "allSearchOnlyInFocusedFolder": true,
   "showFilesFromSubFoldersButton": true,
-  "revealActiveFileButton": false,
+  "revealActiveFileButton": true,
   "excludedExtensions": "",
   "folderIcon": "default",
   "folderCount": true,
@@ -17,9 +17,9 @@
   "sortFilesBy": "name",
   "sortFoldersBy": "name",
   "fixedHeaderInFileList": true,
-  "createdYaml": false,
+  "createdYaml": true,
   "fileNameIsHeader": false,
   "folderNote": false,
-  "deleteFileOption": "trash",
-  "showFileNameAsFullPath": false
+  "deleteFileOption": "system-trash",
+  "showFileNameAsFullPath": true
 }

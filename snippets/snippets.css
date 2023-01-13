@@ -252,11 +252,11 @@ svg.right-triangle path {
 
 /* add colour to folder icons - needs 2 lines of .nav-folder-children above to work*/
 .nav-folder-title-content::before {
-    content: "[";
+    /* content: "["; */
 }
 
 .nav-folder-title-content::after {
-    content: "]";
+    /* content: "]"; */
 }
 
 /*hover color*/ /* DEBUG hover */
