@@ -4,5 +4,6 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "snippets"
-  ]
+  ],
+  "baseFontSize": 30
 }
