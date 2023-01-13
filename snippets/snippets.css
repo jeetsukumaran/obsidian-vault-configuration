@@ -215,7 +215,8 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 
 /* Folder and file icons */
 .nav-folder-children .nav-file-title-content:first-child::before {
-  content: "∙ ";
+  /* content: "∙ "; */
+  content: "🗅 ";
   color: #0088bb;
   /* filter: invert(87%) sepia(20%) saturate(1026%) hue-rotate(113deg) */
   /*   brightness(105%) contrast(103%); */
