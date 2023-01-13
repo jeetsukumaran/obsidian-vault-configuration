@@ -1,9 +1,9 @@
 {
   "accentColor": "#3c6680",
-  "cssTheme": "Typewriter",
+  "cssTheme": "",
   "nativeMenus": false,
   "enabledCssSnippets": [
     "snippets"
   ],
-  "baseFontSize": 30
+  "baseFontSize": 16
 }
