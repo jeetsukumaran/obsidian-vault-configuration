@@ -20,18 +20,18 @@
 
 .nav-file-title {
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #bbb098 !important;
 }
 
 .nav-folder .nav-folder-title {
     /* background: #6699cc; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .nav-folder .is-collapsed .nav-folder-title {
     /* background: #336699; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .nav-file-title:hover,
@@ -46,6 +46,11 @@
 .nav-file .is-active {
     border-radius: 20px !important;
     background: #bbb098 !important;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
 }
 
 .is-active .nav-file-title-content {
@@ -236,7 +241,7 @@ svg.right-triangle path {
 /* Folder and file icons */
 .nav-folder-children .nav-file-title-content:first-child::before {
   /* content: "∙ "; */
-  content: "🗅 ";
+  content: "🗅   ";
   color: #0088bb;
   font-weight: bold;
   /* filter: invert(87%) sepia(20%) saturate(1026%) hue-rotate(113deg) */
