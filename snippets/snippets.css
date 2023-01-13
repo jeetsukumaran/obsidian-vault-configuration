@@ -1,7 +1,52 @@
-.nav-file-title, .nav-folder-title {
-    font-size: 16px;
-    color: #bbaa99;
+.theme-dark{
+    --background-primary: #181818;
+    /* --background-primary-alt: #000000; */
+    /* --background-secondary: #404850; */
+    /* --background-secondary-alt: #bbb098; */
+    /* --background-secondary-alt: #000000; */
 }
+
+
+.nav-folder-title {
+    font-size: 16px;
+    color: #99aabb !important;
+    /* color: #000000; */
+}
+
+.nav-file-title {
+    font-size: 16px;
+    border-radius: 20px;
+    color: #bbb098 !important;
+}
+
+.nav-folder .nav-folder-title {
+    /* background: #6699cc; */
+    border-radius: 20px;
+}
+
+.nav-folder .is-collapsed .nav-folder-title {
+    /* background: #336699; */
+    border-radius: 20px;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover,
+.nav-file-title-content:hover,
+.nav-folder-title-content:hover{
+    /* font-weight: bold; */
+    /* background: #bbb098 !important; */
+    /* color: #336699 !important; */
+}
+
+.nav-file .is-active {
+    border-radius: 20px !important;
+    background: #bbb098 !important;
+}
+
+.is-active .nav-file-title-content {
+    color: var(--background-secondary);
+}
+
 
 body {
     --font-text-theme: "Ubuntu";
@@ -20,9 +65,11 @@ body {
 /* } */
 
 svg.right-triangle path {
-  stroke: #5599aa;
-  /* stroke: #aaaa22; */
+  stroke: #0088bb;
+  stroke-width: 8px;
+  stroke-linecap="round";
 }
+
 
 /* /1* Selection the first H1 header of the Note *1/ */
 /* pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 { */
@@ -56,16 +103,19 @@ svg.right-triangle path {
     border-bottom: none;
 }
 
-
 .inline-title {
     /* background: #202020; */
     /* background: #224466; */
-    background: #403830;
-    color: #999888;
+    /* background: #484020; */
+    /* background: #403830; */
+    /* background: #404850; */
+    /* background: var(--background-secondary); */
+    background: #404850;
+    font-family: monospace;
     font-size: 20px;
     font-weight: 100;
-    font-style: italic;
     padding: 10px;
+    border: solid 1px;
     border-radius: 100px;
     text-align: center;
     margin-bottom: 20px;
