@@ -174,12 +174,13 @@ svg.right-triangle path {
 
 /* file xplor : smaller & bold vault title */
 .nav-folder.mod-root > .nav-folder-title {
-  /* padding-left: 6px; */
-  /* font-size: 14px; */
-  /* font-weight: bolder; */
-  /* top: -6px; /1* higher *1/ */
-  /* cursor: default; */
+  padding-left: 6px;
+  font-size: 14px;
+  font-weight: bolder;
+  top: -6px; /* higher */
+  cursor: default;
   /* color: var(--base2); */
+  color: var(--base2);
 }
 
 /* Enhancing the view of folders in left pane */
@@ -285,52 +286,52 @@ svg.right-triangle path {
 /* } */
 
 /* change font size of file explorer */
-.nav-file-title,
-.nav-folder-title {
-  font-size: 14px;
-  line-height: 15px;
-}
+/* .nav-file-title, */
+/* .nav-folder-title { */
+/*   font-size: 14px; */
+/*   line-height: 15px; */
+/* } */
 
 /* change font size of search results */
-.search-result-file-title {
-  font-size: xyz;
-}
-.search-result-file-matches {
-  font-size: xyz;
-}
+/* .search-result-file-title { */
+/*   font-size: xyz; */
+/* } */
+/* .search-result-file-matches { */
+/*   font-size: xyz; */
+/* } */
 
 /* Reduce space of header buttons/icons - Blue Topaz */
-div.nav-header {
-  padding: 0px 5px 5px 5px;
-  margin-bottom: 0px;
-  margin-top: 5px;
-  line-height: 0px;
-}
-div.nav-buttons-container {
-  margin: 0px 0px 0px 0px;
-}
-input.search-input {
-  margin: 0px 10px -3px 10px;
-}
-.nav-action-button {
-  margin: 0px 2px 0px 2px !important;
-}
-.workspace-leaf-content[data-type="search"] .nav-action-button,
-.workspace-leaf-content[data-type="backlink"] .nav-action-button {
-  padding: 3px 3px 3px 3px;
-}
+/* div.nav-header { */
+/*   padding: 0px 5px 5px 5px; */
+/*   margin-bottom: 0px; */
+/*   margin-top: 5px; */
+/*   line-height: 0px; */
+/* } */
+/* div.nav-buttons-container { */
+/*   margin: 0px 0px 0px 0px; */
+/* } */
+/* input.search-input { */
+/*   margin: 0px 10px -3px 10px; */
+/* } */
+/* .nav-action-button { */
+/*   margin: 0px 2px 0px 2px !important; */
+/* } */
+/* .workspace-leaf-content[data-type="search"] .nav-action-button, */
+/* .workspace-leaf-content[data-type="backlink"] .nav-action-button { */
+/*   padding: 3px 3px 3px 3px; */
+/* } */
 
 /* Fix background of folder-collapse-indicator */
-body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
-  background: none;
-}
+/* body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator { */
+/*   background: none; */
+/* } */
 
-/* Line up tabs with macOS traffic lights */
-.hider-frameless .workspace-split.mod-left-split > .workspace-tabs {
-  padding: 0;
-}
-.workspace-tab-container-inner {
-  padding-left: 30px;
-}
+/* /1* Line up tabs with macOS traffic lights *1/ */
+/* .hider-frameless .workspace-split.mod-left-split > .workspace-tabs { */
+/*   padding: 0; */
+/* } */
+/* .workspace-tab-container-inner { */
+/*   padding-left: 30px; */
+/* } */
 
 /* }}}1 */
