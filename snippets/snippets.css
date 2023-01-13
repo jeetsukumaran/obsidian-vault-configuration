@@ -1,7 +1,7 @@
 .theme-dark{
     --background-primary: #181818;
     /* --background-primary-alt: #000000; */
-    /* --background-secondary: #404850; */
+    --background-secondary: #404850;
     /* --background-secondary-alt: #bbb098; */
     /* --background-secondary-alt: #000000; */
 }
@@ -78,10 +78,16 @@ svg.right-triangle path {
 
 /* header in edit/preview modes */
 .cm-header-1, .markdown-preview-view h1 {
-    color: #977070;
+    /* color: #236B5F; */
+    /* color: #b57614; */
+    /* color: #076678; */
+    /* color: #448888; */
+    color: #404850;
+    width: 100%;
 }
 .cm-header-2, .markdown-preview-view h2 {
-    color: #448888;
+    color: #076678;
+    /* color: #236B5F; */
 }
 .cm-header-3, .markdown-preview-view h3 {
     color: #5b8060;
@@ -99,8 +105,9 @@ svg.right-triangle path {
 /* hash tags in headers */
 .cm-formatting-header {
     /* color: #009988; */
-    color: #5599aa;
-    border-bottom: none;
+    /* color: #5599aa; */
+    /* color: #236B5F; */
+    color: #404850;
 }
 
 .inline-title {
