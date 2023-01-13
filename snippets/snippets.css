@@ -58,10 +58,33 @@ body {
     --font-interface-theme: "Ubuntu";
     --font-editor-theme: "Ubuntu";
     --font-monospace-theme: "Ubuntu Mono";
-    --theme-accent-h: 204;
-    --theme-accent-s: 24%;
-    --theme-accent-l: 31%;
-    --theme-accent-d: 31%;
+
+    /** 41: nice sandy/khaki/beige accent hue **/
+    /* --accent-h: 41; */
+    /* --accent-s: 10%; */
+    /* --accent-l: 40%; */
+
+    /* --accent-h: 47; */
+    /* /1* --accent-s: 5%; *1/ */
+    /* /1* --accent-l: 50%; *1/ */
+    /* --accent-s: 40%; */
+    /* --accent-l: 80%; */
+    /* --accent-d: 0%; */
+
+
+
+  /* --interactive-accent-rgb: green; */
+  --interactive-accent-hover: #c2b9a3;
+  /* --interactive-accent: #bdb59a; */
+  /* --interactive-accent: #8f8975; */
+  --interactive-accent: #827d6a;
+
+
+    /* --theme-accent-h: 204; */
+    /* --theme-accent-s: 24%; */
+    /* --theme-accent-l: 31%; */
+    /* --theme-accent-d: 31%; */
+    --text-accent: #c2b9a3;
 }
 
 /* collapse arrow for folders */
