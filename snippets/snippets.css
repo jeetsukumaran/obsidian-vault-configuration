@@ -65,6 +65,18 @@
     color: var(--background-secondary);
 }
 
+/* file xplor : smaller & bold vault title */
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: 6px;
+  font-size: 14px;
+  font-weight: bolder;
+  top: -6px; /* higher */
+  cursor: default;
+  /* color: var(--base2); */
+  color: var(--base2);
+  border: solid 1px;
+}
+
 
 body {
     --font-text-theme: "Ubuntu";
@@ -163,51 +175,41 @@ svg.right-triangle path {
  */
 
 /* condense line spacing on file explorer title list. also avoids character-level word breaks */
-.nav-file-title-content,
-.search-result-file-title,
-.search-result-file-match {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  line-height: normal !important;
-  word-break: keep-all;
-}
+/* .nav-file-title-content, */
+/* .search-result-file-title, */
+/* .search-result-file-match { */
+/*   padding-top: 0 !important; */
+/*   padding-bottom: 0 !important; */
+/*   line-height: normal !important; */
+/*   word-break: keep-all; */
+/* } */
 
-/* file xplor : smaller & bold vault title */
-.nav-folder.mod-root > .nav-folder-title {
-  padding-left: 6px;
-  font-size: 14px;
-  font-weight: bolder;
-  top: -6px; /* higher */
-  cursor: default;
-  /* color: var(--base2); */
-  color: var(--base2);
-}
 
 /* Enhancing the view of folders in left pane */
 /* by Shamama on https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/112 */
 
 /* outliner for the outline */
-.outline-heading-children {
-  border-left: 1px solid rgba(118, 158, 165, 0.2);
-  border-radius: 0 0px 0px 0;
-  transition: all 0.5s ease-in-out;
-}
+/* .outline-heading-children { */
+/*   border-left: 1px solid rgba(118, 158, 165, 0.2); */
+/*   border-radius: 0 0px 0px 0; */
+/*   transition: all 0.5s ease-in-out; */
+/* } */
 
-.outline-heading-children:hover {
-  border-left-color: rgba(118, 158, 165, 0.4);
-}
+/* .outline-heading-children:hover { */
+/*   border-left-color: rgba(118, 158, 165, 0.4); */
+/* } */
 
 /* Connectining lines for files and folders in left pane*/
-.nav-folder,
-.nav-file {
-  margin: 0 !important;
-  border-left: 1px solid rgba(118, 158, 165, 0.2);
-}
-/* Compact */
-.nav-file-title,
-.nav-folder-title {
-  padding: 0px 14px 0px 20px;
-}
+/* .nav-folder, */
+/* .nav-file { */
+/*   margin: 0 !important; */
+/*   border-left: 1px solid rgba(118, 158, 165, 0.2); */
+/* } */
+/* /1* Compact *1/ */
+/* .nav-file-title, */
+/* .nav-folder-title { */
+/*   padding: 0px 14px 0px 20px; */
+/* } */
 
 /* == File Explorer - animation for active file as per Obuntu === */
 /* .nav-file-title, */
@@ -247,6 +249,7 @@ svg.right-triangle path {
 /*    /** hover in file explorer **/*/
 /*}*/
 
+/* ?? removing this makes thte file icon not show up?? */
 .nav-file-tag {
   background-color: var(--background-secondary-alt);
   top: -1px;
@@ -254,7 +257,6 @@ svg.right-triangle path {
 
 /* Folder and file icons */
 .nav-folder-children .nav-file-title-content:first-child::before {
-  /* content: "∙ "; */
   content: "🗅   ";
   color: var(--subaccent-color);
   font-weight: bold;
@@ -335,3 +337,28 @@ svg.right-triangle path {
 /* } */
 
 /* }}}1 */
+
+
+/* author: https://github.com/deathau */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/2 */
+
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+  content: "";
+  border-left: 1px solid rgba(0, 122, 255, 0.25);
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before {
+  left: 0;
+  top: -5px;
+  bottom: -4px;
+}
+ul ul::before {
+  left: -11px;
+  top: 0;
+  bottom: 0;
+}
