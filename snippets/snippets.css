@@ -22,13 +22,13 @@
 
 .nav-folder-title {
     /* font-weight: normal; */
-    font-size: 16px;
+    /* font-size: 14px; */
     color: var(--subaccent-color) !important;
     /* color: #000000; */
 }
 
 .nav-file-title {
-    font-size: 16px;
+    /* font-size: 14px; */
     border-radius: 10px;
     color: #d5d5c5 !important;
 }
