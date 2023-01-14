@@ -1,9 +1,7 @@
 {
   "accentColor": "",
-  "cssTheme": "Wombat",
+  "cssTheme": "Mnemonaut",
   "nativeMenus": false,
-  "enabledCssSnippets": [
-    "snippets"
-  ],
+  "enabledCssSnippets": [],
   "baseFontSize": 16
 }
