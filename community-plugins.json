@@ -13,5 +13,6 @@
   "better-pdf-plugin",
   "file-tree-alternative",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "omnisearch"
 ]
