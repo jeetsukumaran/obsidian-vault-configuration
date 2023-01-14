@@ -1,39 +1,63 @@
+/*
+
+#aaa090
+#8a8070
+#746c64
+#646060
+#484850
+
+#3E556B
+#404850
+#606c78
+#808d9a
+#909ba7
+#a0a9b3
+
+
+*/
+
+
 :root
 {
-    --mnemonaut-dark-bg1                          : #1c1c1c; /* background main */
-    --mnemonaut-dark-bg2                          : #404850; /* menu background and border */
-    --mnemonaut-dark-text-normal                  : #c2b9a3; /* text */
-    --mnemonaut-dark-text-faint                   : red; /* arrow, list, bullet point */
-    --mnemonaut-dark-text-muted                   : #cebd9e; /* text menu */
-    --mnemonaut-dark-text-bold                    : #ebcb8b30;
-    --mnemonaut-dark-text-italic                    : #ebcb8b30;
-    --mnemonaut-dark-text-heading-fg              : #404850;
-    --mnemonaut-dark-text-highlight-bg            : #ebcb8b30;
-    --mnemonaut-dark-text-highlight-fg            : blue;
-    --mnemonaut-dark-text-accent                  : #d08770; /* links */
-    --mnemonaut-dark-text-accent-hover            : #d08770; /* links */
-    --mnemonaut-dark-tag-fg                       : #ffffff;
-    --mnemonaut-dark-tag-background               : #ffffff;
-    --mnemonaut-dark-tag-background-hover         : #ffffff;
-    --mnemonaut-dark-titlebar-focused-text-fg     : #ffffff;
-    --mnemonaut-dark-inline-title-fg              : #ebcb8b;
-    --mnemonaut-dark-checkbox-fg                  : #fff000;
-    --mnemonaut-dark-checkbox-done-fg             : #ffffff;
-    --mnemonaut-dark-text-table-header-bg         : #ebcb8b10;
-    --mnemonaut-dark-text-table-row-bg            : #ebcb8b10;
-    --mnemonaut-dark-code-fg                      : #99bbaa;
-    --mnemonaut-dark-code-bg                      : #404040;
-    --mnemonaut-dark-icon-hover                   : #000000;
-    --mnemonaut-dark-icon-focused                 : #000000;
-    --mnemonaut-dark-nav-item-active              : #bbb098;
-    --mnemonaut-dark-nav-item-hover               : #bcb290;
-    --mnemonaut-dark-nav-file-tag                 : #000000;
-    --mnemonaut-dark-graph-line                   : #585858; /* graph line */
-    --mnemonaut-dark-graph-node                   : #585858; /* graph line */
-    --mnemonaut-dark-graph-node-tag               : #585858; /* graph line */
-    --mnemonaut-dark-graph-node-attachment        : #585858; /* graph line */
-    --mnemonaut-dark-tab-focused-active-fg        : #ffffff;
-    --mnemonaut-dark-tab-focused-active-current-fg: #ffffff;
+    /* --mnemonaut-bg1                          : #181818; /1* background main *1/ */
+    /* --mnemonaut-bg1                          : #aaa090; /1* background main *1/ */
+    /* --mnemonaut-bg1                          : #8a8070; /1* background main *1/ */
+    /* --mnemonaut-bg1                          : #aaa090; /1* background main *1/ */
+    /* --mnemonaut-bg1                          : #aaa090; /1* background main *1/ */
+    --mnemonaut-bg1                          : #aaa090; /* background main */
+    --mnemonaut-bg2                          : #404850; /* menu background and border */
+    --mnemonaut-text-normal                  : #404850; /* text */
+    --mnemonaut-text-faint                   : #204366; /* stroke, arrow, list, bullet point */
+    --mnemonaut-text-muted                   : #cebd9e; /* text menu */
+    --mnemonaut-text-bold                    : #ebcb8b30;
+    --mnemonaut-text-italic                  : #ebcb8b30;
+    --mnemonaut-text-heading-fg              : #3E556B;
+    --mnemonaut-text-highlight-bg            : #ebcb8b30;
+    --mnemonaut-text-highlight-fg            : blue;
+    --mnemonaut-text-accent                  : #d08770; /* links */
+    --mnemonaut-text-accent-hover            : #d08770; /* links */
+    --mnemonaut-tag-fg                       : #ffffff;
+    --mnemonaut-tag-background               : #ffffff;
+    --mnemonaut-tag-background-hover         : #ffffff;
+    --mnemonaut-titlebar-focused-text-fg     : #ffffff;
+    --mnemonaut-inline-title-fg              : #ebcb8b;
+    --mnemonaut-checkbox-fg                  : #fff000;
+    --mnemonaut-checkbox-done-fg             : #ffffff;
+    --mnemonaut-text-table-header-bg         : #ebcb8b10;
+    --mnemonaut-text-table-row-bg            : #ebcb8b10;
+    --mnemonaut-code-fg                      : #000000;
+    --mnemonaut-code-bg                      : #aaa090;
+    --mnemonaut-icon-hover                   : #000000;
+    --mnemonaut-icon-focused                 : #000000;
+    --mnemonaut-nav-item-active              : #bbb098;
+    --mnemonaut-nav-item-hover               : #bcb290;
+    --mnemonaut-nav-file-tag                 : #000000;
+    --mnemonaut-graph-line                   : #585858; /* graph line */
+    --mnemonaut-graph-node                   : #585858; /* graph line */
+    --mnemonaut-graph-node-tag               : #585858; /* graph line */
+    --mnemonaut-graph-node-attachment        : #585858; /* graph line */
+    --mnemonaut-tab-focused-active-fg        : #ffffff;
+    --mnemonaut-tab-focused-active-current-fg: #ffffff;
 }
 
 body
@@ -56,72 +80,72 @@ body
 
 .theme-dark
 {
-    --background-primary:            var(--mnemonaut-dark-bg1);
-    --background-primary-alt:        var(--mnemonaut-dark-bg1);
-    --background-secondary:          var(--mnemonaut-dark-bg2);
-    --background-secondary-alt:      var(--mnemonaut-dark-bg2);
-    --background-modifier-border:    var(--mnemonaut-dark-bg2);
+    --background-primary:            var(--mnemonaut-bg1);
+    --background-primary-alt:        var(--mnemonaut-bg1);
+    --background-secondary:          var(--mnemonaut-bg2);
+    --background-secondary-alt:      var(--mnemonaut-bg2);
+    --background-modifier-border:    var(--mnemonaut-bg2);
 
-    --cursor-line-background:        var(--mnemonaut-dark-graph-line);
+    --cursor-line-background:        var(--mnemonaut-graph-line);
 
-    --text-normal:                   var(--mnemonaut-dark-text-normal);
-    --text-faint:                    var(--mnemonaut-dark-text-faint);
-    --text-muted:                    var(--mnemonaut-dark-text-muted);
+    --text-normal:                   var(--mnemonaut-text-normal);
+    --text-faint:                    var(--mnemonaut-text-faint);
+    --text-muted:                    var(--mnemonaut-text-muted);
 
-    --h1-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h2-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h3-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h4-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h5-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h6-color:                      var(--mnemonaut-dark-text-heading-fg);
+    --h1-color:                      var(--mnemonaut-text-heading-fg);
+    --h2-color:                      var(--mnemonaut-text-heading-fg);
+    --h3-color:                      var(--mnemonaut-text-heading-fg);
+    --h4-color:                      var(--mnemonaut-text-heading-fg);
+    --h5-color:                      var(--mnemonaut-text-heading-fg);
+    --h6-color:                      var(--mnemonaut-text-heading-fg);
 
-    --text-highlight-bg:             var(--mnemonaut-dark-text-highlight-bg);
-    --text-highlight-fg:             var(--mnemonaut-dark-text-highlight-fg);
+    --text-highlight-bg:             var(--mnemonaut-text-highlight-bg);
+    --text-highlight-fg:             var(--mnemonaut-text-highlight-fg);
 
-    --text-accent:                   var(--mnemonaut-dark-text-accent);
-    --text-accent-hover:             var(--mnemonaut-dark-text-accent-hover);
+    --text-accent:                   var(--mnemonaut-text-accent);
+    --text-accent-hover:             var(--mnemonaut-text-accent-hover);
 
-    --tag-color:                     var(--mnemonaut-dark-tag-fg);
-    --tag-background:                var(--mnemonaut-dark-tag-bg);
-    --tag-background-hover:          var(--mnemonaut-dark-tag-bg-hover);
+    --tag-color:                     var(--mnemonaut-tag-fg);
+    --tag-background:                var(--mnemonaut-tag-bg);
+    --tag-background-hover:          var(--mnemonaut-tag-bg-hover);
 
-    --titlebar-text-color-focused:   var(--mnemonaut-dark-titlebar-focused-text-fg);
+    --titlebar-text-color-focused:   var(--mnemonaut-titlebar-focused-text-fg);
 
-    --inline-title-color:            var(--mnemonaut-dark-inline-title-fg);
+    --inline-title-color:            var(--mnemonaut-inline-title-fg);
 
-    --bold-color:                    var(--mnemonaut-dark-text-bold);
-    --italic-color:                  var(--mnemonaut-dark-text-italic);
+    --bold-color:                    var(--mnemonaut-text-bold);
+    --italic-color:                  var(--mnemonaut-text-italic);
 
-    --checkbox-color:                var(--mnemonaut-dark-checkbox-fg);
-    --checkbox-color-hover:          var(--mnemonaut-dark-checkbox-fg);
-    --checkbox-border-color:         var(--mnemonaut-dark-checkbox-fg);
-    --checkbox-border-color-hover:   var(--mnemonaut-dark-checkbox-fg);
-    --checklist-done-color:          var(--mnemonaut-dark-checkbox-donoe-fg);
+    --checkbox-color:                var(--mnemonaut-checkbox-fg);
+    --checkbox-color-hover:          var(--mnemonaut-checkbox-fg);
+    --checkbox-border-color:         var(--mnemonaut-checkbox-fg);
+    --checkbox-border-color-hover:   var(--mnemonaut-checkbox-fg);
+    --checklist-done-color:          var(--mnemonaut-checkbox-donoe-fg);
 
-    --table-header-background:       var(--mnemonaut-dark-text-table-header-bg);
-    --table-header-background-hover: var(--mnemonaut-dark-text-highlight-bg);
-    --table-row-background:          var(--mnemonaut-dark-text-table-header-bg);
-    --table-row-background-hover:    var(--mnemonaut-dark-text-highlight-bg);
+    --table-header-background:       var(--mnemonaut-text-table-header-bg);
+    --table-header-background-hover: var(--mnemonaut-text-highlight-bg);
+    --table-row-background:          var(--mnemonaut-text-table-header-bg);
+    --table-row-background-hover:    var(--mnemonaut-text-highlight-bg);
 
-    --text-selection:                var(--mnemonaut-dark-text-highlight-bg);
+    --text-selection:                var(--mnemonaut-text-highlight-bg);
 
-    --code-normal:                   var(--mnemonaut-dark-code-fg);
-    --code-background:               var(--mnemonaut-dark-code-bg);
+    --code-normal:                   var(--mnemonaut-code-fg);
+    --code-background:               var(--mnemonaut-code-bg);
 
-    --icon-color-hover:              var(--mnemonaut-dark-item-hover);
-    --icon-color-focused:            var(--mnemonaut-dark-item-focused);
+    --icon-color-hover:              var(--mnemonaut-item-hover);
+    --icon-color-focused:            var(--mnemonaut-item-focused);
 
-    --nav-item-color-hover:          var(--mnemonaut-dark-nav-item-hover);
-    --nav-item-color-active:         var(--mnemonaut-dark-nav-item-active);
-    --nav-file-tag:                  var(--mnemonaut-dark-nav-file-tag);
+    --nav-item-color-hover:          var(--mnemonaut-nav-item-hover);
+    --nav-item-color-active:         var(--mnemonaut-nav-item-active);
+    --nav-file-tag:                  var(--mnemonaut-nav-file-tag);
 
-    --graph-line:                    var(--mnemonaut-dark-graph-line);
-    --graph-node:                    var(--mnemonaut-dark-graph-node);
-    --graph-node-tag:                var(--mnemonaut-dark-graph-node-tag);
-    --graph-node-attachment:         var(--mnemonaut-dark-graph-node-attachement);
+    --graph-line:                    var(--mnemonaut-graph-line);
+    --graph-node:                    var(--mnemonaut-graph-node);
+    --graph-node-tag:                var(--mnemonaut-graph-node-tag);
+    --graph-node-attachment:         var(--mnemonaut-graph-node-attachement);
 
-    --tab-text-color-focused-active:         var(--mnemonaut-dark-tab-focused-active-fg);
-    --tab-text-color-focused-active-current: var(--mnemonaut-dark-tab-focused-active-current-fg);
+    --tab-text-color-focused-active:         var(--mnemonaut-tab-focused-active-fg);
+    --tab-text-color-focused-active-current: var(--mnemonaut-tab-focused-active-current-fg);
 }
 
 
