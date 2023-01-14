@@ -168,7 +168,7 @@
     {
       "id": "fhwxws5blp",
       "platform_specific_commands": {
-        "default": "nvim --server /tmp/neovim.pipe --remote {{file_path:absolute}} && nvim --server /tmp/neovim.pipe --remote-send ':call cursor({{caret_position:line}}, {{caret_position:column}})<CR>'"
+        "default": "nvim --server /tmp/neovim.pipe --remote-silent {{file_path:absolute}} && nvim --server /tmp/neovim.pipe --remote-send ':call cursor({{caret_position:line}}, {{caret_position:column}})<CR>'"
       },
       "shells": {},
       "alias": "Edit in NeoVim RPC",
