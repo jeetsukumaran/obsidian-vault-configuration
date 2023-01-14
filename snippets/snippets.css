@@ -168,6 +168,39 @@ svg.right-triangle path {
     margin-bottom: 20px;
 }
 
+/* YAML front matter syntax color
+    https://forum.obsidian.md/t/syntax-highlighting-in-metadata-frontmatter/40431/2
+*/
+
+/* <span class="cm-def cm-hmd-frontmatter" spellcheck="false">---</span> */
+/* span.cm-hmd-frontmatter { */
+span.cm-hmd-frontmatter {
+    color: red;
+}
+
+/* color YAML value text */
+span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter {
+    color: #827d6a;
+}
+
+/* color YAML value - if it's a number */
+span.cm-number.cm-hmd-frontmatter {
+    /* color: pink !important; */
+}
+
+/* color YAML key text */
+span.cm-atom.cm-hmd-frontmatter {
+    color: #404850;
+    color: #4499aa;
+    font-weight; bold;
+}
+
+/* color YAML separator text */
+span.cm-meta.cm-hmd-frontmatter {
+    color: #404850;
+    font-weight; bold;
+}
+
 /* }}}1 */
 
 /* {{{1 cristianvasquez/file_explorer.css
@@ -339,6 +372,7 @@ svg.right-triangle path {
 /* }}}1 */
 
 
+/* {{{1 cristianvasquez/file_explorer.css */
 /* author: https://github.com/deathau */
 /* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/2 */
 
@@ -362,3 +396,7 @@ ul ul::before {
   top: 0;
   bottom: 0;
 }
+
+
+/* }}}1 */
+
