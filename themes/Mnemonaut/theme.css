@@ -1,15 +1,15 @@
 :root
 {
     --mnemonaut-dark-bg1                          : #1c1c1c; /* background main */
-    --mnemonaut-dark-bg2                          : #242424; /* menu background and border */
-    --mnemonaut-dark-text-normal                  : #cccccc; /* text */
-    --mnemonaut-dark-text-faint                   : #87afff; /* arrow, list, bullet point */
+    --mnemonaut-dark-bg2                          : #404850; /* menu background and border */
+    --mnemonaut-dark-text-normal                  : #c2b9a3; /* text */
+    --mnemonaut-dark-text-faint                   : red; /* arrow, list, bullet point */
     --mnemonaut-dark-text-muted                   : #cebd9e; /* text menu */
     --mnemonaut-dark-text-bold                    : #ebcb8b30;
     --mnemonaut-dark-text-italic                    : #ebcb8b30;
-    --mnemonaut-dark-text-heading-fg              : #cebd9e; /* text menu */
+    --mnemonaut-dark-text-heading-fg              : #404850;
     --mnemonaut-dark-text-highlight-bg            : #ebcb8b30;
-    --mnemonaut-dark-text-highlight-fg            : var(--mnemonaut-dark-text-normal);
+    --mnemonaut-dark-text-highlight-fg            : blue;
     --mnemonaut-dark-text-accent                  : #d08770; /* links */
     --mnemonaut-dark-text-accent-hover            : #d08770; /* links */
     --mnemonaut-dark-tag-fg                       : #ffffff;
@@ -21,12 +21,12 @@
     --mnemonaut-dark-checkbox-done-fg             : #ffffff;
     --mnemonaut-dark-text-table-header-bg         : #ebcb8b10;
     --mnemonaut-dark-text-table-row-bg            : #ebcb8b10;
-    --mnemonaut-dark-code-fg                      : #ebcb8b30;
-    --mnemonaut-dark-code-bg                      : #000000;
+    --mnemonaut-dark-code-fg                      : #99bbaa;
+    --mnemonaut-dark-code-bg                      : #404040;
     --mnemonaut-dark-icon-hover                   : #000000;
     --mnemonaut-dark-icon-focused                 : #000000;
-    --mnemonaut-dark-nav-item-hover               : #000000;
-    --mnemonaut-dark-nav-item-active             : #000000;
+    --mnemonaut-dark-nav-item-active              : #bbb098;
+    --mnemonaut-dark-nav-item-hover               : #bcb290;
     --mnemonaut-dark-nav-file-tag                 : #000000;
     --mnemonaut-dark-graph-line                   : #585858; /* graph line */
     --mnemonaut-dark-graph-node                   : #585858; /* graph line */
@@ -38,10 +38,9 @@
 
 body
 {
-    /* peach-pale for the accent (button color) */
-    --accent-h: 40;
-    --accent-s: 71%;
-    --accent-l: 73%;
+    --accent-h: 197;
+    --accent-s: 18%;
+    --accent-l: 50%;
 
     --link-decoration:                none;
     --link-decoration-hover:          none;
@@ -107,14 +106,14 @@ body
     --text-selection:                var(--mnemonaut-dark-text-highlight-bg);
 
     --code-normal:                   var(--mnemonaut-dark-code-fg);
-    --code-background:               var(--mnemonaut-dark-code-fg);
+    --code-background:               var(--mnemonaut-dark-code-bg);
 
     --icon-color-hover:              var(--mnemonaut-dark-item-hover);
     --icon-color-focused:            var(--mnemonaut-dark-item-focused);
 
     --nav-item-color-hover:          var(--mnemonaut-dark-nav-item-hover);
     --nav-item-color-active:         var(--mnemonaut-dark-nav-item-active);
-    --nav-file-tag:                  var(--mnemonaut-dark-nav-item-active);
+    --nav-file-tag:                  var(--mnemonaut-dark-nav-file-tag);
 
     --graph-line:                    var(--mnemonaut-dark-graph-line);
     --graph-node:                    var(--mnemonaut-dark-graph-node);
