@@ -39,5 +39,14 @@
       "modifiers": [],
       "key": "F5"
     }
+  ],
+  "obsidian-shellcommands:shell-command-fhwxws5blp": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
   ]
 }

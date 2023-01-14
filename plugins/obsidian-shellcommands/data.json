@@ -164,6 +164,31 @@
       "command_palette_availability": "enabled",
       "preactions": [],
       "variable_default_values": {}
+    },
+    {
+      "id": "fhwxws5blp",
+      "platform_specific_commands": {
+        "default": "nvim --server /tmp/neovim.pipe --remote {{file_path:absolute}} && nvim --server /tmp/neovim.pipe --remote-send ':call cursor({{caret_position:line}}, {{caret_position:column}})<CR>'"
+      },
+      "shells": {},
+      "alias": "Edit in NeoVim RPC",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
     }
   ],
   "prompts": [],
