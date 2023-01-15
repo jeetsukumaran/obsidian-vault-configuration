@@ -426,9 +426,13 @@ span.cm-meta.cm-hmd-frontmatter {
     color: var(--text-muted);
 }
 .vertical-tab-header-group-title {
-    color: var(--background-primary);
-    border-top: solid 1px;
-    border-bottom: solid 1px;
+    color: var(--background-secondary);
+    background: var(--background-primary);
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 .vertical-tab-header-group-items {
 }
