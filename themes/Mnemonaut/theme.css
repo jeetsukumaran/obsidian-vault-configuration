@@ -6,17 +6,18 @@
 #8a8070
 #746c64
 #646060
-#484850
+#514a3e
 #484032
 #453f35
+#423c23
 #323030
-#514a3e
+#2e2a23
 #1b1b20
 
 ** Slate/Blue
 
 #3d372f
-#404850
+#484850
 #606c78
 #808d9a
 #909ba7
@@ -40,7 +41,8 @@
 :root
 {
     --mnemonaut-light-bg1                          : #aaa090; /* background main */
-    --mnemonaut-light-fg1                          : #28251f; /* text */
+    --mnemonaut-light-fg1                          : #444040; /* text */
+    /* --mnemonaut-light-fg1                          : #423c33; /1* text *1/ */
     --mnemonaut-light-bg2                          : #404850; /* menu background and border */
     --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
     --mnemonaut-light-text-ornament                : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
@@ -49,6 +51,7 @@
     --mnemonaut-light-text-bold                    : #ebcb8b30;
     --mnemonaut-light-text-italic                  : #ebcb8b30;
     --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
+    /* --mnemonaut-light-text-heading-fg              : #423c23; */
     --mnemonaut-light-text-highlight-bg            : red;
     --mnemonaut-light-text-highlight-fg            : blue;
     --mnemonaut-light-text-accent                  : #d08770; /* links */
@@ -88,16 +91,21 @@ body
     --accent-s: 18%;
     --accent-l: 50%;
 
-    --link-decoration:                none;
-    --link-decoration-hover:          none;
-    --link-external-decoration:       none;
-    --link-external-decoration-hover: none;
+    --font-text-theme: "Ubuntu";
+    --font-interface-theme: "Ubuntu";
+    --font-editor-theme: "Ubuntu";
+    --font-monospace-theme: "Ubuntu Mono";
 
-    --tag-decoration:                 none;
-    --tag-decoration-hover:           underline;
-    --tag-padding-x:                  .5em;
-    --tag-padding-y:                  .2em;
-    --tag-radius:                     .5em;
+    /* --link-decoration:                none; */
+    /* --link-decoration-hover:          none; */
+    /* --link-external-decoration:       none; */
+    /* --link-external-decoration-hover: none; */
+
+    /* --tag-decoration:                 none; */
+    /* --tag-decoration-hover:           underline; */
+    /* --tag-padding-x:                  .5em; */
+    /* --tag-padding-y:                  .2em; */
+    /* --tag-radius:                     .5em; */
 }
 
 /* }}}1 */
@@ -263,7 +271,7 @@ body
 
 /* hash tags in headers */
 .cm-formatting-header {
-    color: var(--background-secondary);
+    color: var(--h1-color);
 }
 
 
