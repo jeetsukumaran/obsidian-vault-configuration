@@ -76,7 +76,8 @@
     /* --mnemonaut-dark-text-accent       : #CEA52C; /1* links *1/ */
     /* --mnemonaut-dark-text-accent       : #BF9F40; /1* links *1/ */
     /* --mnemonaut-dark-text-accent       : #8F7A3D; /1* links *1/ */
-    --mnemonaut-dark-text-accent       : #A69359; /* links */
+    /* --mnemonaut-dark-text-accent       : #A69359; /1* links *1/ */
+    --mnemonaut-dark-text-accent       : #bc9a62; /* links */
     --mnemonaut-dark-text-accent-hover : #00f0a0; /* links */
 }
 

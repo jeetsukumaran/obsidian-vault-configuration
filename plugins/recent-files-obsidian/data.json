@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "@winsor-2000-species-demes",
+      "path": "references/@winsor-2000-species-demes.md"
+    },
+    {
+      "basename": "DENDROPY-TODO",
+      "path": "utility/gouge/DENDROPY-TODO.md"
+    },
+    {
+      "basename": "sony-a7riii-setup-and-usage-notes",
+      "path": "utility/gouge/sony-a7riii-setup-and-usage-notes.md"
+    },
+    {
       "basename": "linux-gnome-neovim-integration",
       "path": "utility/gouge/linux-gnome-neovim-integration.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "pythobits",
       "path": "utility/gouge/pythobits.md"
-    },
-    {
-      "basename": "sony-a7riii-setup-and-usage-notes",
-      "path": "utility/gouge/sony-a7riii-setup-and-usage-notes.md"
     }
   ],
   "omittedPaths": [],
