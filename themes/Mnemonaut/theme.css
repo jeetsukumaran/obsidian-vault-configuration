@@ -33,8 +33,17 @@
 :root
 {
     --mnemonaut-dark-bg1                          : #323030; /* background main */
-    --mnemonaut-dark-fg1                          : #eeeedd; /* text */
+    --mnemonaut-dark-fg1                          : #aaa090; /* text */
+    /* --mnemonaut-dark-fg1                          : #b0a898; /1* text *1/ */
+    /* --mnemonaut-dark-fg1                          : #b0a898; /1* text *1/ */
     --mnemonaut-dark-bg2                          : #404850; /* menu background and border */
+    --mnemonaut-dark-text-normal                  : var(--mnemonaut-dark-fg1); /* text */
+    --mnemonaut-dark-text-faint                   : #787068; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --mnemonaut-dark-text-faint                   : #746c64; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-muted                   : #ccc6bd; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted                   : #eee0b0; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted                   : #aaa070; /1* menu/interface text *1/ */
+    --mnemonaut-dark-text-muted                   : #b8b8c0; /* menu/interface text */
 }
 
 /* }}}1 */
@@ -49,12 +58,10 @@
     /* --mnemonaut-light-fg1                          : #423c33; /1* text *1/ */
     --mnemonaut-light-bg2                          : #404850; /* menu background and border */
     /* --mnemonaut-light-bg2                          : #606c78; /1* menu background and border *1/ */
-    --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
+    --mnemonaut-light-text-normal                  : var(--mnemonaut-light-fg1); /* text */
     /* --mnemonaut-light-text-ornament                : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-light-text-faint                   : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-muted                   : #ccc6bd; /* menu/interface text */
-    --mnemonaut-light-text-bold                    : var(--mnemonaut-light-fg1);
-    --mnemonaut-light-text-italic                  : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
     --mnemonaut-light-text-highlight-bg            : #a0a9b3;
     --mnemonaut-light-text-highlight-fg            : none;
@@ -161,8 +168,8 @@ body
 
     --inline-title-color:            var(--mnemonaut-dark-inline-title-fg);
 
-    --bold-color:                    var(--mnemonaut-dark-text-bold);
-    --italic-color:                  var(--mnemonaut-dark-text-italic);
+    --bold-color:                    var(--text-normal);
+    --italic-color:                  var(--text-normal);
 
     --checkbox-color:                var(--mnemonaut-dark-checkbox-fg);
     --checkbox-color-hover:          var(--mnemonaut-dark-checkbox-fg);
@@ -235,8 +242,8 @@ body
 
     --inline-title-color:            #ffffff; /* no effect: fg/bg color set below */
 
-    --bold-color:                    var(--mnemonaut-light-text-bold);
-    --italic-color:                  var(--mnemonaut-light-text-italic);
+    --bold-color:                    var(--text-normal);
+    --italic-color:                  var(--text-normal);
 
     --checkbox-color:                var(--mnemonaut-light-checkbox-fg);
     --checkbox-color-hover:          var(--mnemonaut-light-checkbox-fg);
@@ -497,7 +504,7 @@ span.cm-hmd-frontmatter,
 .frontmatter-container,
 /* YAML container title in preview mode */
 .frontmatter-container-header {
-    color: var(--background-secondary) !important;
+    color: var(--text-muted) !important;
 }
 
 .frontmatter-section {
@@ -507,7 +514,7 @@ span.cm-hmd-frontmatter,
 span.cm-atom.cm-hmd-frontmatter,
 /* YAML label in preview mode */
 .frontmatter-section-label {
-    color: var(--background-secondary) !important;
+    color: var(--text-muted) !important;
 }
 
 /* YAML value in source mode */
