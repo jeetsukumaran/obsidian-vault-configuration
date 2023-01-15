@@ -53,8 +53,11 @@
     --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
     --mnemonaut-light-text-highlight-bg            : #a0a9b3;
     --mnemonaut-light-text-highlight-fg            : none;
-    --mnemonaut-light-text-accent                  : #d08770; /* links */
-    --mnemonaut-light-text-accent-hover            : #d08770; /* links */
+    /* --mnemonaut-light-text-accent                  : #8b4b4b; /1* links *1/ */
+    /* --mnemonaut-light-text-accent                  : #006600; /1* links *1/ */
+    /* --mnemonaut-light-text-accent-hover            : #008800; /1* links *1/ */
+    --mnemonaut-light-text-accent                  : #014b70; /* links */
+    --mnemonaut-light-text-accent-hover            : #000088; /* links */
     --mnemonaut-light-tag-fg                       : #ffffff;
     --mnemonaut-light-tag-background               : #ffffff;
     --mnemonaut-light-tag-background-hover         : #ffffff;
