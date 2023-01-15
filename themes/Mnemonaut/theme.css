@@ -40,13 +40,18 @@
     --mnemonaut-dark-text-normal   : var(--mnemonaut-dark-fg1); /* text */
     /* --mnemonaut-dark-text-faint    : #787068; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     /* --mnemonaut-dark-text-faint    : #746c64; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-dark-text-faint    : #b8b8c0; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-faint    : #b8b8c0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     /* --mnemonaut-dark-text-faint    : #f9edc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-dark-text-faint    : #FCEEC4; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-faint    : #f0e8d0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint    : #fceec4; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-dark-text-faint    : #FFF0C1; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-faint    : #6B6666; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-dark-text-faint    : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     /* --mnemonaut-dark-text-muted : #ccc6bd; /1* menu/interface text *1/ */
     /* --mnemonaut-dark-text-muted : #eee0b0; /1* menu/interface text *1/ */
     /* --mnemonaut-dark-text-muted : #aaa070; /1* menu/interface text *1/ */
     /* --mnemonaut-dark-text-muted    : #f9edc7; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted    : #b8b8c0; /1* menu/interface text *1/ */
     --mnemonaut-dark-text-muted    : #b8b8c0; /* menu/interface text */
 }
 
