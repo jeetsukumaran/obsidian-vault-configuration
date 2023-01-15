@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "linux-gnome-neovim-integration",
-      "path": "utility/gouge/linux-gnome-neovim-integration.md"
+      "basename": "ubuntu-set-default-applications",
+      "path": "utility/gouge/ubuntu-set-default-applications.md"
+    },
+    {
+      "basename": "illustrator",
+      "path": "utility/gouge/illustrator.md"
     },
     {
       "basename": "owl-photography",
       "path": "utility/gouge/owl-photography.md"
+    },
+    {
+      "basename": "obsidian-plugin-manual-install",
+      "path": "utility/gouge/obsidian-plugin-manual-install.md"
+    },
+    {
+      "basename": "pythobits",
+      "path": "utility/gouge/pythobits.md"
+    },
+    {
+      "basename": "linux-gnome-neovim-integration",
+      "path": "utility/gouge/linux-gnome-neovim-integration.md"
     },
     {
       "basename": "building-blas-and-lapack-numpy-and-scipy",

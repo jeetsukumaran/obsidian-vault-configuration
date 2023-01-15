@@ -13,7 +13,6 @@
 #514a3e
 #484032
 #453f35
-#423c23
 #323030
 #2e2a23
 #1b1b20
@@ -21,7 +20,7 @@
 ** Slate/Blue
 
 #3d372f
-#484850
+#404850
 #606c78
 #808d9a
 #909ba7
@@ -290,18 +289,22 @@ body
 }
 
 
-/* note filename shown as 0-th level title */
 .inline-title {
     background: var(--background-secondary);
-    color: var(--background-primary);
+    color: var(--text-muted);
     font-family: monospace;
     font-size: 20px;
     font-weight: 100;
     padding: 10px;
-    /* border: solid 1px var(--mnemonaut-fg1); */
     border-radius: 80px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.theme-dark .inline-title {
+}
+
+.theme-light .inline-title {
 }
 
 
@@ -309,21 +312,21 @@ body
 
 /* UI {{{2 */
 
-.modal-close-button {
+.theme-light .modal-close-button {
     color: var(--background-secondary);
 }
-.mod-community-modal .modal-close-button {
+.theme-light .mod-community-modal .modal-close-button {
     color: var(--background-primary);
 }
 /* }}}2 */
 
 /* tab header {{{2 */
 
-.workspace-tab-header-container-inner {
+.theme-light .workspace-tab-header-container-inner {
     color: var(--background-primary);
     font-style: italic;
 }
-.workspace-tab-header.is-active {
+.theme-light .workspace-tab-header.is-active {
     color: var(--background-secondary);
     font-weight: bold;
 }
@@ -333,7 +336,7 @@ body
 /* header  {{{2 */
 
 .view-header {
-    border-bottom: solid 1px var(--text-normal);
+    border-bottom: solid 0.5px var(--text-normal);
 }
 
 /* .view-header-title-container:after { */
@@ -407,10 +410,10 @@ body
 
 /* left sidebar of settings modal dialog */
 
-.vertical-tab-header {
+.theme-light .vertical-tab-header {
     color: var(--text-muted);
 }
-.vertical-tab-header-group-title {
+.theme-light .vertical-tab-header-group-title {
     color: var(--background-secondary);
     background: var(--background-primary);
     border-radius: 20px;
@@ -425,16 +428,16 @@ body
 .vertical-tab-content {
 }
 
-.setting-item-name {
+.theme-light .setting-item-name {
     color: var(--background-secondary) !important;
 }
 
-.setting-item-description {
+.theme-light .setting-item-description {
     color: var(--text-normal);
     font-style: italic;
 }
 
-.setting-item-control button {
+.theme-light .setting-item-control button {
     background: var(--background-secondary);
     color: var(--text-muted);
 }
@@ -444,7 +447,7 @@ body
 /* these menu dialogs are built differently  {{{2 */
 
 /* theme manager/ browser */
-.community-modal-controls .setting-item-name {
+.theme-light .community-modal-controls .setting-item-name {
     color: var(--text-muted) !important;
 }
 
@@ -459,6 +462,28 @@ body
 /*     font-style: italic; */
 /* } */
 
+
+/* }}}2 */
+
+/* Code {{{2 */
+
+/* source view general lines */
+.cm-line {
+    line-height: 1.5em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    word-break: keep-all;
+}
+
+HyperMD-codeblock.cm-line {
+}
+
+.cm-hmd-codeblock {
+    line-height: 1.2em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: normal !important;
+}
 
 /* }}}2 */
 
@@ -494,26 +519,3 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 }
 
 /* }}}1 */
-
-
-/* Views {{{2 */
-
-/* source view general lines */
-.cm-line {
-    line-height: 1.5em !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    word-break: keep-all;
-}
-
-HyperMD-codeblock.cm-line {
-}
-
-.cm-hmd-codeblock {
-    line-height: 1.2em !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    line-height: normal !important;
-}
-
-/* }}}2 */
