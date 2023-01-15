@@ -389,32 +389,35 @@ span.cm-meta.cm-hmd-frontmatter {
 /* settings menu */
 
 .vertical-tab-header {
-    background: #404040;
-    color: #808080;
+    background: #303030;
+    color: #bbbbbb;
 }
 
 .vertical-tab-header-group-title {
     /* background: var(--background-secondary); */
-    color: #fff000;
+    color: #ffffff;
 }
 
 .vertical-tab-header-group-items {
     /* background: var(--background-secondary); */
-    color: #ffffff;
+    /* color: #888888; */
 }
 
 .vertical-tab-content {
-    background: #404040;
-    color: #ffffff;
+    background: var(--background-secondary);
 }
 
 .setting-item-name {
-    color: #ffffff;
+    color: var(--titlebar-text-color-focused);
 }
 
 .setting-item-description {
-    color: #ffffff;
+    color: var(--text-muted);
 }
 
 
+.setting-item-control button {
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
 
