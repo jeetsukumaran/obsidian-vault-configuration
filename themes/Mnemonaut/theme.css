@@ -29,6 +29,8 @@
 :root
 {
     --mnemonaut-dark-bg1                          : #323030; /* background main */
+    --mnemonaut-dark-fg1                          : #eeeedd; /* text */
+    --mnemonaut-dark-bg2                          : #404850; /* menu background and border */
 }
 
 /* }}}1 */
@@ -40,13 +42,13 @@
     --mnemonaut-light-bg1                          : #aaa090; /* background main */
     --mnemonaut-light-fg1                          : #28251f; /* text */
     --mnemonaut-light-bg2                          : #404850; /* menu background and border */
-    --mnemonaut-light-text-normal                  : var(--mnemonaut-fg1); /* text */
+    --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
     --mnemonaut-light-text-ornament                : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-sidebar-ornament        : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-muted                   : #cebd9e; /* text menu */
     --mnemonaut-light-text-bold                    : #ebcb8b30;
     --mnemonaut-light-text-italic                  : #ebcb8b30;
-    --mnemonaut-light-text-heading-fg              : var(--mnemonaut-bg2);
+    --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
     --mnemonaut-light-text-highlight-bg            : red;
     --mnemonaut-light-text-highlight-fg            : blue;
     --mnemonaut-light-text-accent                  : #d08770; /* links */
@@ -112,7 +114,7 @@ body
 
     --cursor-line-background:        var(--mnemonaut-dark-graph-line);
 
-    --text-normal:                   var(--mnemonaut-dark-text-normal);
+    --text-normal:                   var(--mnemonaut-dark-fg1);
     --text-faint:                    var(--mnemonaut-dark-text-ornament);
     --text-muted:                    var(--mnemonaut-dark-text-muted);
 
@@ -186,7 +188,7 @@ body
 
     --cursor-line-background:        var(--mnemonaut-light-graph-line);
 
-    --text-normal:                   var(--mnemonaut-light-text-normal);
+    --text-normal:                   var(--mnemonaut-light-fg1);
     --text-faint:                    var(--mnemonaut-light-text-ornament);
     --text-muted:                    var(--mnemonaut-light-text-muted);
 
@@ -253,22 +255,22 @@ body
 /* Interface {{{2 */
 
 /* little arrows in the native file explorer */
-svg.right-triangle path {
-  stroke: var(--subaccent-color);
-  stroke-width: 2px;
-  stroke-linecap="round";
-}
+/* svg.right-triangle path { */
+/*   stroke: var(--subaccent-color); */
+/*   stroke-width: 2px; */
+/*   stroke-linecap="round"; */
+/* } */
 
 /* hash tags in headers */
 .cm-formatting-header {
-    color: var(--mnemonaut-bg2);
+    color: var(--background-secondary);
 }
 
 
 /* note filename shown as 0-th level title */
 .inline-title {
-    background: var(--mnemonaut-bg2);
-    color: var(--mnemonaut-bg1);
+    background: var(--background-secondary);
+    color: var(--background-primary);
     font-family: monospace;
     font-size: 20px;
     font-weight: 100;
