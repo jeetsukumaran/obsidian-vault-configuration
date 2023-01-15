@@ -61,7 +61,7 @@
 
     --mnemonaut-light-inline-title-fg              : none; /* set below */
 
-    --mnemonaut-light-tab-focused-active-fg        : #0088ff;
+    --mnemonaut-light-tab-focused-active-fg        : #fff0a0;
     --mnemonaut-light-tab-focused-active-current-fg        : var(--mnemonaut-light-bg2);
 
     --mnemonaut-light-titlebar-focused-text-fg     : red;
