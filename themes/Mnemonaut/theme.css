@@ -32,27 +32,52 @@
 
 :root
 {
-    --mnemonaut-dark-bg1           : #323030; /* background main */
-    --mnemonaut-dark-fg1           : #aaa090; /* text */
-    /* --mnemonaut-dark-fg1        : #b0a898; /1* text *1/ */
-    /* --mnemonaut-dark-fg1        : #b0a898; /1* text *1/ */
-    --mnemonaut-dark-bg2           : #404850; /* menu background and border */
-    --mnemonaut-dark-text-normal   : var(--mnemonaut-dark-fg1); /* text */
-    /* --mnemonaut-dark-text-faint    : #787068; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint    : #746c64; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint    : #b8b8c0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint    : #f9edc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint    : #f0e8d0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint    : #fceec4; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-dark-text-faint    : #FFF0C1; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    /* --mnemonaut-dark-text-faint    : #6B6666; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-dark-text-faint    : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    /* --mnemonaut-dark-text-muted : #ccc6bd; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted : #eee0b0; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted : #aaa070; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted    : #f9edc7; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted    : #b8b8c0; /1* menu/interface text *1/ */
-    --mnemonaut-dark-text-muted    : #b8b8c0; /* menu/interface text */
+    --mnemonaut-dark-bg1               : #323030; /* background main */
+    --mnemonaut-dark-fg1               : #aaa090; /* text */
+    /* --mnemonaut-dark-fg1            : #b0a898; /1* text *1/ */
+    /* --mnemonaut-dark-fg1            : #b0a898; /1* text *1/ */
+    /* --mnemonaut-dark-bg2               : #616E7A; /1* menu background and border *1/ */
+    /* --mnemonaut-dark-bg2               : #404850; /1* menu background and border *1/ */
+    /* --mnemonaut-dark-bg2               : #4e575f; /1* menu background and border *1/ */
+    --mnemonaut-dark-bg2               : #4e575f; /* menu background and border */
+
+    --mnemonaut-dark-text-normal       : var(--mnemonaut-dark-fg1); /* text */
+    /* --mnemonaut-dark-text-faint     : #787068; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint     : #746c64; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint     : #b8b8c0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint     : #f9edc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint     : #f0e8d0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint     : #fceec4; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-dark-text-faint        : #FFF0C1; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-faint     : #6B6666; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-dark-text-faint        : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-muted     : #ccc6bd; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted     : #eee0b0; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted     : #aaa070; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted     : #f9edc7; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted     : #b8b8c0; /1* menu/interface text *1/ */
+    --mnemonaut-dark-text-muted        : #b8b8c0; /* menu/interface text */
+
+    /* --mnemonaut-dark-text-heading-fg   : #546e7a; */
+    /* --mnemonaut-dark-text-heading-fg   : var(--mnemonaut-dark-bg2); */
+    /* --mnemonaut-dark-text-heading-fg   : #606B76; */
+    /* --mnemonaut-dark-text-heading-fg   : #4e575f; */
+    /* --mnemonaut-dark-text-heading-fg   : #5A646D; */
+    /* --mnemonaut-dark-text-heading-fg   : #5C6770; */
+    /* --mnemonaut-dark-text-heading-fg   : #555F68; */
+    --mnemonaut-dark-text-heading-fg   : #5A646D;
+    --mnemonaut-dark-text-highlight-bg  : #555555;
+    --mnemonaut-dark-text-highlight-fg  : none;
+    /* --mnemonaut-dark-text-accent       : #76838E; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #61819E; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #4083BF; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #ffbf00; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #E0C36C; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #CEA52C; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #BF9F40; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #8F7A3D; /1* links *1/ */
+    --mnemonaut-dark-text-accent       : #A69359; /* links */
+    --mnemonaut-dark-text-accent-hover : #00f0a0; /* links */
 }
 
 /* }}}1 */
@@ -62,21 +87,21 @@
 :root
 {
     --mnemonaut-light-bg1                           : #999080; /* background main */
-    /* --mnemonaut-light-bg1                        : #aaa090; /1* background main *1/ */
     --mnemonaut-light-fg1                           : #444040; /* text */
-    /* --mnemonaut-light-fg1                        : #423c33; /1* text *1/ */
     --mnemonaut-light-bg2                           : #404850; /* menu background and border */
-    /* --mnemonaut-light-bg2                        : #606c78; /1* menu background and border *1/ */
+    --mnemonaut-light-bg2                           : #616E7A; /* menu background and border */
+    --mnemonaut-light-bg2                           : #606B76; /* menu background and border */
+    --mnemonaut-light-bg2                           : #5f6b77; /* menu background and border */
+    --mnemonaut-light-bg2                           : #505962; /* menu background and border */
+    --mnemonaut-light-bg2                           : #4E575F; /* menu background and border */
+
     --mnemonaut-light-text-normal                   : var(--mnemonaut-light-fg1); /* text */
-    /* --mnemonaut-light-text-ornament              : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-light-text-faint                    : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --mnemonaut-light-text-faint                    : #888080; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-muted                    : #ccc6bd; /* menu/interface text */
+
     --mnemonaut-light-text-heading-fg               : var(--mnemonaut-light-bg2);
     --mnemonaut-light-text-highlight-bg             : #a0a9b3;
     --mnemonaut-light-text-highlight-fg             : none;
-    /* --mnemonaut-light-text-accent                : #8b4b4b; /1* links *1/ */
-    /* --mnemonaut-light-text-accent                : #006600; /1* links *1/ */
-    /* --mnemonaut-light-text-accent-hover          : #008800; /1* links *1/ */
     --mnemonaut-light-text-accent                   : #014b70; /* links */
     --mnemonaut-light-text-accent-hover             : #000088; /* links */
 

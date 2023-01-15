@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "_scratch",
-      "path": "_scratch.md"
+      "basename": "linux-gnome-neovim-integration",
+      "path": "utility/gouge/linux-gnome-neovim-integration.md"
     },
     {
-      "basename": "how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity",
-      "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
-    },
-    {
-      "basename": "building-blas-and-lapack-numpy-and-scipy",
-      "path": "utility/gouge/building-blas-and-lapack-numpy-and-scipy.md"
+      "basename": "obsidian-appimage-install",
+      "path": "utility/gouge/obsidian-appimage-install.md"
     },
     {
       "basename": "obsidian-plugin-manual-install",
       "path": "utility/gouge/obsidian-plugin-manual-install.md"
     },
     {
-      "basename": "linux-gnome-neovim-integration",
-      "path": "utility/gouge/linux-gnome-neovim-integration.md"
+      "basename": "capture-00-gouge",
+      "path": "utility/gouge/capture-00-gouge.md"
+    },
+    {
+      "basename": "how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity",
+      "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
+    },
+    {
+      "basename": "_scratch",
+      "path": "_scratch.md"
+    },
+    {
+      "basename": "building-blas-and-lapack-numpy-and-scipy",
+      "path": "utility/gouge/building-blas-and-lapack-numpy-and-scipy.md"
     },
     {
       "basename": "synchronization-of-obsidian-repository-configuration",
@@ -39,10 +47,6 @@
     {
       "basename": "pythobits",
       "path": "utility/gouge/pythobits.md"
-    },
-    {
-      "basename": "obsidian-appimage-install",
-      "path": "utility/gouge/obsidian-appimage-install.md"
     },
     {
       "basename": "sony-a7riii-setup-and-usage-notes",
