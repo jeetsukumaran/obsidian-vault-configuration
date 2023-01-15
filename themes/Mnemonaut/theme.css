@@ -47,7 +47,7 @@
     --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
     --mnemonaut-light-text-ornament                : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-sidebar-ornament        : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --mnemonaut-light-text-muted                   : #cebd9e; /* text menu */
+    --mnemonaut-light-text-muted                   : #cebd9e; /* menu/interface text */
     --mnemonaut-light-text-bold                    : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-italic                  : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
@@ -337,36 +337,8 @@ span.cm-meta.cm-hmd-frontmatter {
 
 /* }}}1 */
 
+/* tabs */
 
-/* header */
-
-.view-header {
-}
-
-.view-header-title-container:after {
-  background: linear-gradient(to bottom, transparent, var(--background-primary)) !important;
-}
-
-.workspace-leaf.mod-active .view-header {
-  background-color: var(--background-secondary-alt) !important;
-  border: solid 1px var(--background-primary);
-}
-
-.workspace-leaf.mod-active .view-header-title-container:after {
-  background: linear-gradient(to bottom, transparent, var(--background-secondary-alt)) !important;
-}
-
-.workspace-leaf.mod-active .view-header-title,
-.workspace-leaf.mod-active .view-header-icon
-{
-  color: var(--text-faint);
-}
-
-.view-header-title, .view-header-icon, .view-action{
-  color: var(--text-faint);
-}
-
-/* general/inactive tabs */
 .workspace-tab-header-container-inner {
     color: var(--background-primary);
     font-style: italic;
@@ -374,5 +346,43 @@ span.cm-meta.cm-hmd-frontmatter {
 .workspace-tab-header.is-active {
     color: var(--background-secondary);
     font-weight: bold;
+}
+
+/* header */
+
+.view-header {
+    border-bottom: solid 1px var(--text-normal);
+}
+
+/* .view-header-title-container:after { */
+/*   background: linear-gradient(to bottom, transparent, var(--background-primary)) !important; */
+/* } */
+
+/* .workspace-leaf.mod-active .view-header { */
+/*   border: solid 1px var(--background-primary); */
+/* } */
+
+/* .workspace-leaf.mod-active .view-header-title-container:after { */
+/*   background: linear-gradient(to bottom, transparent, var(--background-secondary-alt)) !important; */
+/* } */
+
+/* .workspace-leaf.mod-active .view-header-title, */
+/* .workspace-leaf.mod-active .view-header-icon */
+/* { */
+/*   color: var(--text-faint); */
+/* } */
+
+/* .view-header-title, .view-header-icon, .view-action{ */
+/*   color: var(--text-faint); */
+/* } */
+
+.workspace-leaf.mod-active .view-header-title,
+.workspace-leaf.mod-active .view-header-icon
+.view-header-title,
+.view-header-icon,
+.view-action,
+.view-header-nav-buttons .clickable-icon
+{
+  color: var(--text-faint);
 }
 
