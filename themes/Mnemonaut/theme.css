@@ -45,8 +45,8 @@
     /* --mnemonaut-light-fg1                          : #423c33; /1* text *1/ */
     --mnemonaut-light-bg2                          : #404850; /* menu background and border */
     --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
-    --mnemonaut-light-text-ornament                : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --mnemonaut-light-text-sidebar-ornament        : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-light-text-ornament                : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-light-text-faint                   : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-muted                   : #cebd9e; /* menu/interface text */
     --mnemonaut-light-text-bold                    : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-italic                  : var(--mnemonaut-light-fg1);
@@ -131,7 +131,7 @@ body
     --cursor-line-background:        var(--mnemonaut-dark-graph-line);
 
     --text-normal:                   var(--mnemonaut-dark-fg1);
-    --text-faint:                    var(--mnemonaut-dark-text-ornament);
+    --text-faint:                    var(--mnemonaut-dark-text-faint);
     --text-muted:                    var(--mnemonaut-dark-text-muted);
 
     --h1-color:                      var(--mnemonaut-dark-text-heading-fg);
@@ -205,7 +205,7 @@ body
     --cursor-line-background:        var(--mnemonaut-light-graph-line);
 
     --text-normal:                   var(--mnemonaut-light-fg1);
-    --text-faint:                    var(--mnemonaut-light-text-ornament);
+    --text-faint:                    var(--mnemonaut-light-text-faint);
     --text-muted:                    var(--mnemonaut-light-text-muted);
 
     --h1-color:                      var(--mnemonaut-light-text-heading-fg);
@@ -385,4 +385,36 @@ span.cm-meta.cm-hmd-frontmatter {
 {
   color: var(--text-faint);
 }
+
+/* settings menu */
+
+.vertical-tab-header {
+    background: #404040;
+    color: #808080;
+}
+
+.vertical-tab-header-group-title {
+    /* background: var(--background-secondary); */
+    color: #fff000;
+}
+
+.vertical-tab-header-group-items {
+    /* background: var(--background-secondary); */
+    color: #ffffff;
+}
+
+.vertical-tab-content {
+    background: #404040;
+    color: #ffffff;
+}
+
+.setting-item-name {
+    color: #ffffff;
+}
+
+.setting-item-description {
+    color: #ffffff;
+}
+
+
 
