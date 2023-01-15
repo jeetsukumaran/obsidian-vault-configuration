@@ -348,7 +348,7 @@ span.cm-meta.cm-hmd-frontmatter {
 }
 
 .workspace-leaf.mod-active .view-header {
-    background: black;
+    /* background: black; */
   /* background-color: var(--background-secondary-alt) !important; */
   /* border-top: 0px !important; */
   /* border-bottom: 3px solid var(--interactive-accent) !important; */
