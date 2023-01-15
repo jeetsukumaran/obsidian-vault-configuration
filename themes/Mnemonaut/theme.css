@@ -48,8 +48,8 @@
     /* --mnemonaut-dark-text-faint     : #f9edc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     /* --mnemonaut-dark-text-faint     : #f0e8d0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     /* --mnemonaut-dark-text-faint     : #fceec4; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-dark-text-faint        : #FFF0C1; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    /* --mnemonaut-dark-text-faint     : #6B6666; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint        : #fff0c1; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint     : #6b6666; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-dark-text-faint        : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     /* --mnemonaut-dark-text-muted     : #ccc6bd; /1* menu/interface text *1/ */
     /* --mnemonaut-dark-text-muted     : #eee0b0; /1* menu/interface text *1/ */
@@ -79,6 +79,11 @@
     /* --mnemonaut-dark-text-accent       : #A69359; /1* links *1/ */
     --mnemonaut-dark-text-accent       : #bc9a62; /* links */
     --mnemonaut-dark-text-accent-hover : #00f0a0; /* links */
+
+    /* --mnemonaut-dark-code-fg                       : #908880; */
+    --mnemonaut-dark-code-fg                       : #449944;
+    /* --mnemonaut-dark-code-bg                       : #b8b0a3; */
+    --mnemonaut-dark-code-bg                       : #282424;
 }
 
 /* }}}1 */
