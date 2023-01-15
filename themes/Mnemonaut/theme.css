@@ -451,7 +451,7 @@ span.cm-meta.cm-hmd-frontmatter {
 
 
 .setting-item-control button {
-    background: var(--background-primary);
-    color: var(--text-normal);
+    background: var(--background-secondary);
+    color: var(--text-muted);
 }
 
