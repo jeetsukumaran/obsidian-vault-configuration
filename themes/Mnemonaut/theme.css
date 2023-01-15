@@ -426,41 +426,35 @@ body
 
 /* YAML front matter syntax color {{{2 */
 
+/* YAML container in source mode */
+span.cm-hmd-frontmatter,
+/* YAML container in preview mode */
 .frontmatter-container,
-.cm-hmd-frontmatter {
-    /* color: red !important; */
-}
-
+/* YAML container title in preview mode */
 .frontmatter-container-header {
-    /* color: blue !important; */
+    color: var(--background-secondary) !important;
 }
 
 .frontmatter-section {
-    /* color: black !important; */
 }
 
+/* YAML label in source mode */
+span.cm-atom.cm-hmd-frontmatter,
+/* YAML label in preview mode */
 .frontmatter-section-label {
-    /* color: green !important; */
+    color: var(--background-secondary) !important;
 }
 
+/* YAML value in source mode */
+span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
+/* YAML value in preview mode */
 .frontmatter-section-data {
-    /* color: orange !important; */
+    color: orange !important;
 }
 
-/* color YAML value text */
-span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter {
-}
-
-/* color YAML value - if it's a number */
-span.cm-number.cm-hmd-frontmatter {
-}
-
-/* color YAML key text */
-span.cm-atom.cm-hmd-frontmatter {
-}
-
-/* color YAML separator text */
+/* YAML separator text in source mode*/
 span.cm-meta.cm-hmd-frontmatter {
+    color: blue;
 }
 
 /* }}}2 */
