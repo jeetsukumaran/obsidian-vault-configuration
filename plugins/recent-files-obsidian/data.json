@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "linux-gnome-neovim-integration",
+      "path": "utility/gouge/linux-gnome-neovim-integration.md"
+    },
+    {
+      "basename": "owl-photography",
+      "path": "utility/gouge/owl-photography.md"
+    },
+    {
       "basename": "building-blas-and-lapack-numpy-and-scipy",
       "path": "utility/gouge/building-blas-and-lapack-numpy-and-scipy.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "sony-a7riii-setup-and-usage-notes",
       "path": "utility/gouge/sony-a7riii-setup-and-usage-notes.md"
-    },
-    {
-      "basename": "linux-gnome-neovim-integration",
-      "path": "utility/gouge/linux-gnome-neovim-integration.md"
     }
   ],
   "omittedPaths": [],
