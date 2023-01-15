@@ -53,7 +53,7 @@
     --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
     /* --mnemonaut-light-text-ornament                : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-light-text-faint                   : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --mnemonaut-light-text-muted                   : #aaa090; /* menu/interface text */
+    --mnemonaut-light-text-muted                   : #ccc6bd; /* menu/interface text */
     --mnemonaut-light-text-bold                    : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-italic                  : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
@@ -448,16 +448,16 @@ body
     color: var(--text-muted) !important;
 }
 
-/* plugin browser */
-.community-item * {
-    color: var(--background-secondary) !important;
-}
+/* /1* plugin browser *1/ */
+/* .community-item * { */
+/*     color: var(--background-secondary) !important; */
+/* } */
 
-.community-item-author,
-.community-item-downloads,
-.community-item-updated {
-    font-style: italic;
-}
+/* .community-item-author, */
+/* .community-item-downloads, */
+/* .community-item-updated { */
+/*     font-style: italic; */
+/* } */
 
 
 /* }}}2 */
