@@ -2,7 +2,11 @@
 
 ** Beige/Tan/Brown/Red
 
+#ccc6bd
+#c8c1b7
+#bfb7ab
 #aaa090
+#999080;
 #8a8070
 #746c64
 #646060
@@ -67,7 +71,7 @@
     --mnemonaut-light-titlebar-focused-text-fg     : #ffffff;
 
     --mnemonaut-light-code-fg                      : #206020;
-    --mnemonaut-light-code-bg                      : none;
+    --mnemonaut-light-code-bg                      : #b8b0a3;
 
     --mnemonaut-light-icon-hover                   : red;
     --mnemonaut-light-icon-focused                 : red;
