@@ -48,8 +48,8 @@
     --mnemonaut-light-text-ornament                : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-sidebar-ornament        : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-muted                   : #cebd9e; /* text menu */
-    --mnemonaut-light-text-bold                    : #ebcb8b30;
-    --mnemonaut-light-text-italic                  : #ebcb8b30;
+    --mnemonaut-light-text-bold                    : var(--mnemonaut-light-fg1);
+    --mnemonaut-light-text-italic                  : var(--mnemonaut-light-fg1);
     --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
     --mnemonaut-light-text-highlight-bg            : #a0a9b3;
     --mnemonaut-light-text-highlight-fg            : none;
@@ -272,7 +272,7 @@ body
 
 /* little arrows in the native file explorer */
 /* svg.right-triangle path { */
-/*   stroke: var(--subaccent-color); */
+/*   stroke: blue; */
 /*   stroke-width: 2px; */
 /*   stroke-linecap="round"; */
 /* } */
@@ -348,25 +348,23 @@ span.cm-meta.cm-hmd-frontmatter {
 }
 
 .workspace-leaf.mod-active .view-header {
-    /* background: black; */
-  /* background-color: var(--background-secondary-alt) !important; */
-  /* border-top: 0px !important; */
-  /* border-bottom: 3px solid var(--interactive-accent) !important; */
+  background-color: var(--background-secondary-alt) !important;
+  border: solid 1px var(--background-primary);
 }
 
-/* .workspace-leaf.mod-active .view-header-title-container:after { */
-/*   background: linear-gradient(to bottom, transparent, var(--background-secondary-alt)) !important; */
-/* } */
+.workspace-leaf.mod-active .view-header-title-container:after {
+  background: linear-gradient(to bottom, transparent, var(--background-secondary-alt)) !important;
+}
 
-/* .workspace-leaf.mod-active .view-header-title, */
-/* .workspace-leaf.mod-active .view-header-icon */
-/* { */
-/*   color: var(--background-modifier-border); */
-/* } */
+.workspace-leaf.mod-active .view-header-title,
+.workspace-leaf.mod-active .view-header-icon
+{
+  color: var(--text-faint);
+}
 
-/* .view-header-title, .view-header-icon, .view-action{ */
-/*   color: var(--text-faint); */
-/* } */
+.view-header-title, .view-header-icon, .view-action{
+  color: var(--text-faint);
+}
 
 /* general/inactive tabs */
 .workspace-tab-header-container-inner {
