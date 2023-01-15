@@ -44,10 +44,12 @@
 
 :root
 {
-    --mnemonaut-light-bg1                          : #aaa090; /* background main */
+    --mnemonaut-light-bg1                          : #999080; /* background main */
+    /* --mnemonaut-light-bg1                          : #aaa090; /1* background main *1/ */
     --mnemonaut-light-fg1                          : #444040; /* text */
     /* --mnemonaut-light-fg1                          : #423c33; /1* text *1/ */
     --mnemonaut-light-bg2                          : #404850; /* menu background and border */
+    /* --mnemonaut-light-bg2                          : #606c78; /1* menu background and border *1/ */
     --mnemonaut-light-text-normal                  : var(--mnemomonaut-light-fg1); /* text */
     /* --mnemonaut-light-text-ornament                : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-light-text-faint                   : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
@@ -368,7 +370,7 @@ body
 
 /* }}}2 */
 
-/* settings menu  {{{2 */
+/* settings modal dialog {{{2 */
 
 /* .vertical-tab-header { */
 /*     background: #303030; */
@@ -403,7 +405,8 @@ body
 /*     color: var(--text-normal); */
 /* } */
 
-/* left sidebar of settings */
+/* left sidebar of settings modal dialog */
+
 .vertical-tab-header {
     color: var(--text-muted);
 }
@@ -425,25 +428,43 @@ body
 .setting-item-name {
     color: var(--background-secondary) !important;
 }
-.community-modal-controls .setting-item-name {
-    color: var(--text-muted) !important;
-}
 
 .setting-item-description {
     color: var(--text-normal);
     font-style: italic;
 }
 
-
 .setting-item-control button {
     background: var(--background-secondary);
     color: var(--text-muted);
 }
 
+/* }}}2 */
+
+/* these menu dialogs are built differently  {{{2 */
+
+/* theme manager/ browser */
+.community-modal-controls .setting-item-name {
+    color: var(--text-muted) !important;
+}
+
+/* plugin browser */
+.community-item * {
+    color: var(--background-secondary) !important;
+}
+
+.community-item-author,
+.community-item-downloads,
+.community-item-updated {
+    font-style: italic;
+}
+
 
 /* }}}2 */
 
-/* YAML front matter syntax color {{{2 */
+/* }}}1 */
+
+/* YAML front matter syntax color {{{1 */
 
 /* YAML container in source mode */
 span.cm-hmd-frontmatter,
@@ -472,13 +493,6 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 
 }
 
-/* YAML separator text in source mode*/
-span.cm-meta.cm-hmd-frontmatter {
-    color: blue;
-}
-
-/* }}}2 */
-
-
 /* }}}1 */
+
 
