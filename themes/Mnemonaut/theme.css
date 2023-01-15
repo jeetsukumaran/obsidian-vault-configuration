@@ -388,31 +388,61 @@ span.cm-meta.cm-hmd-frontmatter {
 
 /* settings menu */
 
+/* .vertical-tab-header { */
+/*     background: #303030; */
+/*     color: #bbbbbb; */
+/* } */
+
+/* .vertical-tab-header-group-title { */
+/*     /1* background: var(--background-secondary); *1/ */
+/*     color: #ffffff; */
+/* } */
+
+/* .vertical-tab-header-group-items { */
+/*     /1* background: var(--background-secondary); *1/ */
+/*     /1* color: #888888; *1/ */
+/* } */
+
+/* .vertical-tab-content { */
+/*     background: var(--background-secondary); */
+/* } */
+
+/* .setting-item-name { */
+/*     color: var(--titlebar-text-color-focused); */
+/* } */
+
+/* .setting-item-description { */
+/*     color: var(--text-muted); */
+/* } */
+
+
+/* .setting-item-control button { */
+/*     background: var(--background-primary); */
+/*     color: var(--text-normal); */
+/* } */
+
+/* left sidebar of settings */
 .vertical-tab-header {
-    background: #303030;
-    color: #bbbbbb;
+    color: var(--text-muted);
 }
-
 .vertical-tab-header-group-title {
-    /* background: var(--background-secondary); */
-    color: #ffffff;
+    color: var(--background-primary);
+    border-top: solid 1px;
+    border-bottom: solid 1px;
 }
-
 .vertical-tab-header-group-items {
-    /* background: var(--background-secondary); */
-    /* color: #888888; */
 }
 
 .vertical-tab-content {
-    background: var(--background-secondary);
 }
 
 .setting-item-name {
-    color: var(--titlebar-text-color-focused);
+    color: var(--background-secondary);
 }
 
 .setting-item-description {
-    color: var(--text-muted);
+    color: var(--text-normal);
+    font-style: italic;
 }
 
 
