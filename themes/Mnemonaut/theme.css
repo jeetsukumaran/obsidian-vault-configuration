@@ -300,41 +300,6 @@ body
 
 /* }}}2 */
 
-/* YAML front matter syntax color {{{2
-    https://forum.obsidian.md/t/syntax-highlighting-in-metadata-frontmatter/40431/2
-*/
-
-/* <span class="cm-def cm-hmd-frontmatter" spellcheck="false">---</span> */
-/* span.cm-hmd-frontmatter { */
-span.cm-hmd-frontmatter {
-    color: #827d6a;
-}
-
-/* color YAML value text */
-span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter {
-    color: #827d6a;
-}
-
-/* color YAML value - if it's a number */
-span.cm-number.cm-hmd-frontmatter {
-    /* color: pink !important; */
-}
-
-/* color YAML key text */
-span.cm-atom.cm-hmd-frontmatter {
-    color: #404850;
-    color: #4499aa;
-    font-weight; bold;
-}
-
-/* color YAML separator text */
-span.cm-meta.cm-hmd-frontmatter {
-    color: #404850;
-    font-weight; bold;
-}
-
-/* }}}2 */
-
 /* tab header {{{2 */
 
 .workspace-tab-header-container-inner {
@@ -459,6 +424,46 @@ span.cm-meta.cm-hmd-frontmatter {
 
 /* }}}2 */
 
+/* YAML front matter syntax color {{{2 */
+
+.frontmatter-container,
+.cm-hmd-frontmatter {
+    /* color: red !important; */
+}
+
+.frontmatter-container-header {
+    /* color: blue !important; */
+}
+
+.frontmatter-section {
+    /* color: black !important; */
+}
+
+.frontmatter-section-label {
+    /* color: green !important; */
+}
+
+.frontmatter-section-data {
+    /* color: orange !important; */
+}
+
+/* color YAML value text */
+span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter {
+}
+
+/* color YAML value - if it's a number */
+span.cm-number.cm-hmd-frontmatter {
+}
+
+/* color YAML key text */
+span.cm-atom.cm-hmd-frontmatter {
+}
+
+/* color YAML separator text */
+span.cm-meta.cm-hmd-frontmatter {
+}
+
+/* }}}2 */
 
 
 /* }}}1 */
