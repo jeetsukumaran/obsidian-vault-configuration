@@ -305,6 +305,16 @@ body
 
 /* }}}2 */
 
+/* UI {{{2 */
+
+.modal-close-button {
+    color: var(--background-secondary);
+}
+.mod-community-modal .modal-close-button {
+    color: var(--background-primary);
+}
+/* }}}2 */
+
 /* tab header {{{2 */
 
 .workspace-tab-header-container-inner {
