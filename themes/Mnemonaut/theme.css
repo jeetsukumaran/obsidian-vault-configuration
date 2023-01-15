@@ -32,18 +32,22 @@
 
 :root
 {
-    --mnemonaut-dark-bg1                          : #323030; /* background main */
-    --mnemonaut-dark-fg1                          : #aaa090; /* text */
-    /* --mnemonaut-dark-fg1                          : #b0a898; /1* text *1/ */
-    /* --mnemonaut-dark-fg1                          : #b0a898; /1* text *1/ */
-    --mnemonaut-dark-bg2                          : #404850; /* menu background and border */
-    --mnemonaut-dark-text-normal                  : var(--mnemonaut-dark-fg1); /* text */
-    --mnemonaut-dark-text-faint                   : #787068; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --mnemonaut-dark-text-faint                   : #746c64; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    /* --mnemonaut-dark-text-muted                   : #ccc6bd; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted                   : #eee0b0; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted                   : #aaa070; /1* menu/interface text *1/ */
-    --mnemonaut-dark-text-muted                   : #b8b8c0; /* menu/interface text */
+    --mnemonaut-dark-bg1           : #323030; /* background main */
+    --mnemonaut-dark-fg1           : #aaa090; /* text */
+    /* --mnemonaut-dark-fg1        : #b0a898; /1* text *1/ */
+    /* --mnemonaut-dark-fg1        : #b0a898; /1* text *1/ */
+    --mnemonaut-dark-bg2           : #404850; /* menu background and border */
+    --mnemonaut-dark-text-normal   : var(--mnemonaut-dark-fg1); /* text */
+    /* --mnemonaut-dark-text-faint    : #787068; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-dark-text-faint    : #746c64; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-dark-text-faint    : #b8b8c0; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-faint    : #f9edc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-dark-text-faint    : #FCEEC4; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-dark-text-muted : #ccc6bd; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted : #eee0b0; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted : #aaa070; /1* menu/interface text *1/ */
+    /* --mnemonaut-dark-text-muted    : #f9edc7; /1* menu/interface text *1/ */
+    --mnemonaut-dark-text-muted    : #b8b8c0; /* menu/interface text */
 }
 
 /* }}}1 */
@@ -52,53 +56,53 @@
 
 :root
 {
-    --mnemonaut-light-bg1                          : #999080; /* background main */
-    /* --mnemonaut-light-bg1                          : #aaa090; /1* background main *1/ */
-    --mnemonaut-light-fg1                          : #444040; /* text */
-    /* --mnemonaut-light-fg1                          : #423c33; /1* text *1/ */
-    --mnemonaut-light-bg2                          : #404850; /* menu background and border */
-    /* --mnemonaut-light-bg2                          : #606c78; /1* menu background and border *1/ */
-    --mnemonaut-light-text-normal                  : var(--mnemonaut-light-fg1); /* text */
-    /* --mnemonaut-light-text-ornament                : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-light-text-faint                   : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --mnemonaut-light-text-muted                   : #ccc6bd; /* menu/interface text */
-    --mnemonaut-light-text-heading-fg              : var(--mnemonaut-light-bg2);
-    --mnemonaut-light-text-highlight-bg            : #a0a9b3;
-    --mnemonaut-light-text-highlight-fg            : none;
-    /* --mnemonaut-light-text-accent                  : #8b4b4b; /1* links *1/ */
-    /* --mnemonaut-light-text-accent                  : #006600; /1* links *1/ */
-    /* --mnemonaut-light-text-accent-hover            : #008800; /1* links *1/ */
-    --mnemonaut-light-text-accent                  : #014b70; /* links */
-    --mnemonaut-light-text-accent-hover            : #000088; /* links */
+    --mnemonaut-light-bg1                           : #999080; /* background main */
+    /* --mnemonaut-light-bg1                        : #aaa090; /1* background main *1/ */
+    --mnemonaut-light-fg1                           : #444040; /* text */
+    /* --mnemonaut-light-fg1                        : #423c33; /1* text *1/ */
+    --mnemonaut-light-bg2                           : #404850; /* menu background and border */
+    /* --mnemonaut-light-bg2                        : #606c78; /1* menu background and border *1/ */
+    --mnemonaut-light-text-normal                   : var(--mnemonaut-light-fg1); /* text */
+    /* --mnemonaut-light-text-ornament              : #646060; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-light-text-faint                    : #646060; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --mnemonaut-light-text-muted                    : #ccc6bd; /* menu/interface text */
+    --mnemonaut-light-text-heading-fg               : var(--mnemonaut-light-bg2);
+    --mnemonaut-light-text-highlight-bg             : #a0a9b3;
+    --mnemonaut-light-text-highlight-fg             : none;
+    /* --mnemonaut-light-text-accent                : #8b4b4b; /1* links *1/ */
+    /* --mnemonaut-light-text-accent                : #006600; /1* links *1/ */
+    /* --mnemonaut-light-text-accent-hover          : #008800; /1* links *1/ */
+    --mnemonaut-light-text-accent                   : #014b70; /* links */
+    --mnemonaut-light-text-accent-hover             : #000088; /* links */
 
-    --mnemonaut-light-inline-title-fg              : none; /* set below */
+    --mnemonaut-light-inline-title-fg               : none; /* set below */
 
-    --mnemonaut-light-tab-focused-active-fg             : #fff0a0;
-    --mnemonaut-light-tab-focused-active-current-fg     : var(--mnemonaut-light-bg2);
+    --mnemonaut-light-tab-focused-active-fg         : #fff0a0;
+    --mnemonaut-light-tab-focused-active-current-fg : var(--mnemonaut-light-bg2);
 
-    --mnemonaut-light-titlebar-focused-text-fg     : #ffffff;
+    --mnemonaut-light-titlebar-focused-text-fg      : #ffffff;
 
-    --mnemonaut-light-code-fg                      : #206020;
-    --mnemonaut-light-code-bg                      : #b8b0a3;
+    --mnemonaut-light-code-fg                       : #206020;
+    --mnemonaut-light-code-bg                       : #b8b0a3;
 
-    --mnemonaut-light-icon-hover                   : red;
-    --mnemonaut-light-icon-focused                 : red;
+    --mnemonaut-light-icon-hover                    : red;
+    --mnemonaut-light-icon-focused                  : red;
 
-    --mnemonaut-light-text-table-header-bg         : #ebcb8b10;
-    --mnemonaut-light-text-table-row-bg            : #ebcb8b10;
-    --mnemonaut-light-nav-item-active              : #bbb098;
-    --mnemonaut-light-nav-item-hover               : #bcb290;
-    --mnemonaut-light-nav-file-tag                 : #000000;
-    --mnemonaut-light-graph-line                   : #585858; /* graph line */
-    --mnemonaut-light-graph-node                   : #585858; /* graph line */
-    --mnemonaut-light-graph-node-tag               : #585858; /* graph line */
-    --mnemonaut-light-graph-node-attachment        : #585858; /* graph line */
+    --mnemonaut-light-text-table-header-bg          : #ebcb8b10;
+    --mnemonaut-light-text-table-row-bg             : #ebcb8b10;
+    --mnemonaut-light-nav-item-active               : #bbb098;
+    --mnemonaut-light-nav-item-hover                : #bcb290;
+    --mnemonaut-light-nav-file-tag                  : #000000;
+    --mnemonaut-light-graph-line                    : #585858; /* graph line */
+    --mnemonaut-light-graph-node                    : #585858; /* graph line */
+    --mnemonaut-light-graph-node-tag                : #585858; /* graph line */
+    --mnemonaut-light-graph-node-attachment         : #585858; /* graph line */
 
-    --mnemonaut-light-checkbox-fg                  : #fff000;
-    --mnemonaut-light-checkbox-done-fg             : #ffffff;
-    --mnemonaut-light-tag-fg                       : #ffffff;
-    --mnemonaut-light-tag-background               : #ffffff;
-    --mnemonaut-light-tag-background-hover         : #ffffff;
+    --mnemonaut-light-checkbox-fg                   : #fff000;
+    --mnemonaut-light-checkbox-done-fg              : #ffffff;
+    --mnemonaut-light-tag-fg                        : #ffffff;
+    --mnemonaut-light-tag-background                : #ffffff;
+    --mnemonaut-light-tag-background-hover          : #ffffff;
 }
 
 /* }}}1 */

@@ -5,6 +5,26 @@
       "path": "_scratch.md"
     },
     {
+      "basename": "how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity",
+      "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
+    },
+    {
+      "basename": "building-blas-and-lapack-numpy-and-scipy",
+      "path": "utility/gouge/building-blas-and-lapack-numpy-and-scipy.md"
+    },
+    {
+      "basename": "obsidian-plugin-manual-install",
+      "path": "utility/gouge/obsidian-plugin-manual-install.md"
+    },
+    {
+      "basename": "linux-gnome-neovim-integration",
+      "path": "utility/gouge/linux-gnome-neovim-integration.md"
+    },
+    {
+      "basename": "synchronization-of-obsidian-repository-configuration",
+      "path": "utility/gouge/synchronization-of-obsidian-repository-configuration.md"
+    },
+    {
       "basename": "ubuntu-set-default-applications",
       "path": "utility/gouge/ubuntu-set-default-applications.md"
     },
@@ -17,20 +37,8 @@
       "path": "utility/gouge/owl-photography.md"
     },
     {
-      "basename": "obsidian-plugin-manual-install",
-      "path": "utility/gouge/obsidian-plugin-manual-install.md"
-    },
-    {
       "basename": "pythobits",
       "path": "utility/gouge/pythobits.md"
-    },
-    {
-      "basename": "linux-gnome-neovim-integration",
-      "path": "utility/gouge/linux-gnome-neovim-integration.md"
-    },
-    {
-      "basename": "building-blas-and-lapack-numpy-and-scipy",
-      "path": "utility/gouge/building-blas-and-lapack-numpy-and-scipy.md"
     },
     {
       "basename": "obsidian-appimage-install",
