@@ -116,11 +116,6 @@ body {
 /* 	color: #ff0000; */
 /* } */
 
-svg.right-triangle path {
-  stroke: var(--subaccent-color);
-  stroke-width: 2px;
-  stroke-linecap="round";
-}
 
 
 /* /1* Selection the first H1 header of the Note *1/ */
@@ -129,77 +124,8 @@ svg.right-triangle path {
 /* } */
 
 /* header in edit/preview modes */
-.cm-header-1, .markdown-preview-view h1,
-.cm-header-2, .markdown-preview-view h2,
-.cm-header-3, .markdown-preview-view h3,
-.cm-header-4, .markdown-preview-view h4,
-.cm-header-5, .markdown-preview-view h5,
-.cm-header-6, .markdown-preview-view h6 {
-    /* color: #236B5F; */
-    /* color: #b57614; */
-    /* color: #076678; */
-    /* color: #448888; */
-    color: #404850;
-}
 
-/* hash tags in headers */
-.cm-formatting-header {
-    /* color: #009988; */
-    /* color: #5599aa; */
-    /* color: #236B5F; */
-    color: #404850;
-}
 
-.inline-title {
-    /* background: #202020; */
-    /* background: #224466; */
-    /* background: #484020; */
-    /* background: #403830; */
-    /* background: #404850; */
-    /* background: var(--background-secondary); */
-    background: #404850;
-    font-family: monospace;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px;
-    border: solid 1px;
-    border-radius: 100px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* YAML front matter syntax color
-    https://forum.obsidian.md/t/syntax-highlighting-in-metadata-frontmatter/40431/2
-*/
-
-/* <span class="cm-def cm-hmd-frontmatter" spellcheck="false">---</span> */
-/* span.cm-hmd-frontmatter { */
-span.cm-hmd-frontmatter {
-    color: #827d6a;
-}
-
-/* color YAML value text */
-span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter {
-    color: #827d6a;
-}
-
-/* color YAML value - if it's a number */
-span.cm-number.cm-hmd-frontmatter {
-    /* color: pink !important; */
-}
-
-/* color YAML key text */
-span.cm-atom.cm-hmd-frontmatter {
-    color: #404850;
-    color: #4499aa;
-    font-weight; bold;
-}
-
-/* color YAML separator text */
-span.cm-meta.cm-hmd-frontmatter {
-    color: #404850;
-    font-weight; bold;
-}
 
 /* }}}1 */
 

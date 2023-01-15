@@ -3,5 +3,6 @@
   "cssTheme": "Mnemonaut",
   "nativeMenus": false,
   "enabledCssSnippets": [],
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "theme": "moonstone"
 }
