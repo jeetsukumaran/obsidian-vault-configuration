@@ -59,9 +59,13 @@
     --mnemonaut-light-text-accent                  : #014b70; /* links */
     --mnemonaut-light-text-accent-hover            : #000088; /* links */
 
-    --mnemonaut-light-inline-title-fg              : ;
-    --mnemonaut-light-checkbox-fg                  : #fff000;
-    --mnemonaut-light-checkbox-done-fg             : #ffffff;
+    --mnemonaut-light-inline-title-fg              : none; /* set below */
+
+    --mnemonaut-light-tab-focused-active-fg        : #0088ff;
+    --mnemonaut-light-tab-focused-active-current-fg        : var(--mnemonaut-light-bg2);
+
+    --mnemonaut-light-titlebar-focused-text-fg     : red;
+
     --mnemonaut-light-text-table-header-bg         : #ebcb8b10;
     --mnemonaut-light-text-table-row-bg            : #ebcb8b10;
     --mnemonaut-light-code-fg                      : #000000;
@@ -75,13 +79,12 @@
     --mnemonaut-light-graph-node                   : #585858; /* graph line */
     --mnemonaut-light-graph-node-tag               : #585858; /* graph line */
     --mnemonaut-light-graph-node-attachment        : #585858; /* graph line */
-    --mnemonaut-light-tab-focused-active-fg        : #ffffff;
-    --mnemonaut-light-tab-focused-active-current-fg: #ffffff;
 
+    --mnemonaut-light-checkbox-fg                  : #fff000;
+    --mnemonaut-light-checkbox-done-fg             : #ffffff;
     --mnemonaut-light-tag-fg                       : #ffffff;
     --mnemonaut-light-tag-background               : #ffffff;
     --mnemonaut-light-tag-background-hover         : #ffffff;
-    --mnemonaut-light-titlebar-focused-text-fg     : #ffffff;
 }
 
 /* }}}1 */
@@ -225,8 +228,8 @@ body
 
     --inline-title-color:            #ffffff; /* no effect: fg/bg color set below */
 
-    --bold-color:                    var(--text-normal);
-    --italic-color:                  var(--text-normal);
+    --bold-color:                    var(--mnemonaut-light-text-bold);
+    --italic-color:                  var(--mnemonaut-light-text-italic);
 
     --checkbox-color:                var(--mnemonaut-light-checkbox-fg);
     --checkbox-color-hover:          var(--mnemonaut-light-checkbox-fg);
