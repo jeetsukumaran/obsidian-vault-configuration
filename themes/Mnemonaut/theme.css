@@ -58,11 +58,8 @@
     /* --mnemonaut-light-text-accent-hover            : #008800; /1* links *1/ */
     --mnemonaut-light-text-accent                  : #014b70; /* links */
     --mnemonaut-light-text-accent-hover            : #000088; /* links */
-    --mnemonaut-light-tag-fg                       : #ffffff;
-    --mnemonaut-light-tag-background               : #ffffff;
-    --mnemonaut-light-tag-background-hover         : #ffffff;
-    --mnemonaut-light-titlebar-focused-text-fg     : #ffffff;
-    --mnemonaut-light-inline-title-fg              : #ebcb8b;
+
+    --mnemonaut-light-inline-title-fg              : ;
     --mnemonaut-light-checkbox-fg                  : #fff000;
     --mnemonaut-light-checkbox-done-fg             : #ffffff;
     --mnemonaut-light-text-table-header-bg         : #ebcb8b10;
@@ -80,6 +77,11 @@
     --mnemonaut-light-graph-node-attachment        : #585858; /* graph line */
     --mnemonaut-light-tab-focused-active-fg        : #ffffff;
     --mnemonaut-light-tab-focused-active-current-fg: #ffffff;
+
+    --mnemonaut-light-tag-fg                       : #ffffff;
+    --mnemonaut-light-tag-background               : #ffffff;
+    --mnemonaut-light-tag-background-hover         : #ffffff;
+    --mnemonaut-light-titlebar-focused-text-fg     : #ffffff;
 }
 
 /* }}}1 */
@@ -221,7 +223,7 @@ body
 
     --titlebar-text-color-focused:   var(--mnemonaut-light-titlebar-focused-text-fg);
 
-    --inline-title-color:            var(--mnemonaut-light-inline-title-fg);
+    --inline-title-color:            #ffffff; /* no effect: fg/bg color set below */
 
     --bold-color:                    var(--mnemonaut-light-text-bold);
     --italic-color:                  var(--mnemonaut-light-text-italic);
