@@ -104,7 +104,15 @@
     --mnemonaut-light-bg2                           : #4E575F; /* menu background and border */
 
     --mnemonaut-light-text-normal                   : var(--mnemonaut-light-fg1); /* text */
-    --mnemonaut-light-text-faint                    : #888080; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --mnemonaut-light-text-faint                    : #eab676; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-light-text-faint                    : #873e23; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #e5c271; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #d39f27; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #d39300; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #bdc6cc; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #348cc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #266d9c; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #0095ff; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-light-text-muted                    : #ccc6bd; /* menu/interface text */
 
     --mnemonaut-light-text-heading-fg               : var(--mnemonaut-light-bg2);
@@ -566,15 +574,15 @@ span.cm-hmd-frontmatter,
 span.cm-atom.cm-hmd-frontmatter,
 /* YAML label in preview mode */
 .frontmatter-section-label {
-    color: var(--text-muted) !important;
+    color: var(--text-faint) !important;
 }
 
 /* YAML value in source mode */
 span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 /* YAML value in preview mode */
 .frontmatter-section-data {
-    color: var(--code-normal) !important;
-
+    /* color: var(--code-normal) !important; */
+    color: var(--text-muted) !important;
 }
 
 /* }}}1 */
