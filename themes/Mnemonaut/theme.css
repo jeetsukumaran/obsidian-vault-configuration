@@ -383,16 +383,12 @@ body
 }
 
 /* little arrows in the native file explorer */
-.theme-dark .right-triangle path {
-  stroke: #323030;
+.right-triangle path {
+  stroke: var(--background-primary);
   stroke-width: 4px;
   stroke-linecap="round";
 }
-.theme-light .right-triangle path {
-  stroke: #00aaaa;
-  stroke-width: 4px;
-  stroke-linecap="round";
-}
+
 
 .nav-folder-title {
     font-weight: normal;
