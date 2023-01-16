@@ -446,13 +446,13 @@ body
 }
 /* }}}2 */
 
-/* header  {{{2 */
+/* vie header  {{{2 */
 
 /* .view-header-title-container:after { */
 /*   background: linear-gradient(to bottom, transparent, var(--background-primary)) !important; */
 /* } */
 
-.view-header {
+.workspace-leaf.mod-active .view-header {
   border-bottom: solid 1px var(--background-secondary);
   border-top: solid 1px var(--background-primary);
 }
