@@ -472,15 +472,11 @@ body
 
 /* header  {{{2 */
 
-.view-header {
-    border-bottom: solid 0.5px var(--text-normal);
-}
-
 /* .view-header-title-container:after { */
 /*   background: linear-gradient(to bottom, transparent, var(--background-primary)) !important; */
 /* } */
 
-.workspace-leaf.mod-active .view-header {
+.view-header {
   border-bottom: solid 1px var(--background-secondary);
   border-top: solid 1px var(--background-primary);
 }
