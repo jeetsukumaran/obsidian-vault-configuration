@@ -77,11 +77,13 @@
     /* --mnemonaut-dark-text-accent       : #BF9F40; /1* links *1/ */
     /* --mnemonaut-dark-text-accent       : #8F7A3D; /1* links *1/ */
     /* --mnemonaut-dark-text-accent       : #A69359; /1* links *1/ */
-    --mnemonaut-dark-text-accent       : #c09860; /* links */
+    /* --mnemonaut-dark-text-accent       : #669944; /1* links *1/ */
+    /* --mnemonaut-dark-text-accent       : #a8a060; /1* links *1/ */
+    --mnemonaut-dark-text-accent       : #a8a060; /* links */
     --mnemonaut-dark-text-accent-hover : #ffff00; /* links */
 
     /* --mnemonaut-dark-code-fg                       : #908880; */
-    --mnemonaut-dark-code-fg                       : #449944;
+    --mnemonaut-dark-code-fg                       : #60a8a0;
     /* --mnemonaut-dark-code-bg                       : #b8b0a3; */
     --mnemonaut-dark-code-bg                       : #282424;
 }

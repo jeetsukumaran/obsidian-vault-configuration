@@ -5,6 +5,34 @@
       "path": "utility/gouge/linux-gnome-neovim-integration.md"
     },
     {
+      "basename": "ubuntu-set-default-applications",
+      "path": "utility/gouge/ubuntu-set-default-applications.md"
+    },
+    {
+      "basename": "smugglers-sampan",
+      "path": "general/creative/smugglers-sampan.md"
+    },
+    {
+      "basename": "protein-hacker",
+      "path": "general/creative/protein-hacker.md"
+    },
+    {
+      "basename": "aztec-gunpowder-and-steel",
+      "path": "general/creative/aztec-gunpowder-and-steel.md"
+    },
+    {
+      "basename": "project-ideas",
+      "path": "general/perceptions/projects/project-ideas.md"
+    },
+    {
+      "basename": "multistructural-coalescent-research-questions",
+      "path": "general/perceptions/projects/multistructural-coalescent-research-questions.md"
+    },
+    {
+      "basename": "obsidian-neovim-flow",
+      "path": "utility/gouge/obsidian-neovim-flow.md"
+    },
+    {
       "basename": "@winsor-2000-species-demes",
       "path": "references/@winsor-2000-species-demes.md"
     },
@@ -43,10 +71,6 @@
     {
       "basename": "synchronization-of-obsidian-repository-configuration",
       "path": "utility/gouge/synchronization-of-obsidian-repository-configuration.md"
-    },
-    {
-      "basename": "ubuntu-set-default-applications",
-      "path": "utility/gouge/ubuntu-set-default-applications.md"
     },
     {
       "basename": "illustrator",
