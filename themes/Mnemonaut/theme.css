@@ -389,10 +389,24 @@ body
   stroke-linecap="round";
 }
 
-.nav-folder-title {
+.theme-light .nav-folder-title {
     font-weight: normal;
     color: var(--background-primary) !important;
 }
+
+.theme-dark .nav-folder-title {
+    font-weight: normal;
+    /* color: var(--background-primary) !important; */
+    /* color: #c8c888; */
+    /* color: #201000; */
+    /* color: #b8b878; */
+    /* color: #78b8c8; */
+    /* color: #c8b878; */
+    /* color: var(--text-normal) !important; */
+    /* color: var(--text-normal) !important; */
+    color: #c0b088;
+}
+
 
 .nav-file-title {
     border-radius: 10px;
