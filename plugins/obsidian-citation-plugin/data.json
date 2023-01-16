@@ -1,9 +1,9 @@
 {
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
-  "literatureNoteFolder": "references",
+  "literatureNoteFolder": "reference/readings",
   "literatureNoteContentTemplate": "---\ntitle: >\n    {{title}}\nauthors: [{{authorString}}]\nyear: {{year}}\ndoi: {{DOI}}\nurl: {{URL}}\ncitekey: {{citekey}}\nzotero: {{zoteroSelectURI}}\nabstract: >\n    {{abstract}}\ntags: [{{entry.data.fields.keywords}}]\nzotero: {{zoteroSelectURI}}\n---\n([read]({{zoteroSelectURI}}))\n\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
-  "citationExportPath": "_annex/bibliographies/references.bib"
+  "citationExportPath": "_annex/resources/bibliographies/references.bib"
 }
