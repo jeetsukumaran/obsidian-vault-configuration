@@ -5,6 +5,10 @@
       "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
     },
     {
+      "basename": "linux-gnome-neovim-integration",
+      "path": "utility/gouge/linux-gnome-neovim-integration.md"
+    },
+    {
       "basename": "free-writing",
       "path": "general/flow/free-writing.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "DENDROPY-TODO",
       "path": "utility/gouge/DENDROPY-TODO.md"
-    },
-    {
-      "basename": "linux-gnome-neovim-integration",
-      "path": "utility/gouge/linux-gnome-neovim-integration.md"
     },
     {
       "basename": "ubuntu-set-default-applications",

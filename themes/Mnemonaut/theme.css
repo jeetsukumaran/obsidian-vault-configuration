@@ -499,7 +499,12 @@ body
 {
   color: var(--text-faint);
 }
+/* }}}2 */
 
+/* workspace {{{2 */
+.workspace-split .view-content {
+    /* border-left: solid var(--background-secondary) 0.5px; */
+}
 /* }}}2 */
 
 /* settings modal dialog {{{2 */
