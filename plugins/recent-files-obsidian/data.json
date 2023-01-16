@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "@gower-2022-demes-standard",
+      "path": "references/@gower-2022-demes-standard.md"
+    },
+    {
+      "basename": "@winsor-2000-species-demes",
+      "path": "references/@winsor-2000-species-demes.md"
+    },
+    {
       "basename": "how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity",
       "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "free-writing",
       "path": "general/flow/free-writing.md"
-    },
-    {
-      "basename": "@winsor-2000-species-demes",
-      "path": "references/@winsor-2000-species-demes.md"
     },
     {
       "basename": "evolutionary-biology-of-cancer",
