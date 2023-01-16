@@ -33,6 +33,7 @@
 :root
 {
     --mnemonaut-dark-bg1               : #323030; /* background main */
+    --mnemonaut-dark-fg1               : #c0b088; /* text */
     --mnemonaut-dark-fg1               : #aaa090; /* text */
     /* --mnemonaut-dark-fg1            : #b0a898; /1* text *1/ */
     /* --mnemonaut-dark-fg1            : #b0a898; /1* text *1/ */
@@ -470,9 +471,10 @@ body
 /*   background: linear-gradient(to bottom, transparent, var(--background-primary)) !important; */
 /* } */
 
-/* .workspace-leaf.mod-active .view-header { */
-/*   border: solid 1px var(--background-primary); */
-/* } */
+.workspace-leaf.mod-active .view-header {
+  border-bottom: solid 1px var(--background-secondary);
+  border-top: solid 1px var(--background-primary);
+}
 
 /* .workspace-leaf.mod-active .view-header-title-container:after { */
 /*   background: linear-gradient(to bottom, transparent, var(--background-secondary-alt)) !important; */
