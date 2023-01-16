@@ -389,10 +389,9 @@ body
   stroke-linecap="round";
 }
 
-
 .nav-folder-title {
     font-weight: normal;
-    color: var(--text-accent) !important;
+    color: var(--background-primary) !important;
 }
 
 .nav-file-title {
