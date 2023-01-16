@@ -56,7 +56,8 @@
     /* --mnemonaut-dark-text-muted     : #aaa070; /1* menu/interface text *1/ */
     /* --mnemonaut-dark-text-muted     : #f9edc7; /1* menu/interface text *1/ */
     /* --mnemonaut-dark-text-muted     : #b8b8c0; /1* menu/interface text *1/ */
-    --mnemonaut-dark-text-muted        : #b8b8c0; /* menu/interface text */
+    /* --mnemonaut-dark-text-muted        : #b8b8c0; /1* menu/interface text *1/ */
+    --mnemonaut-dark-text-muted        : #d5d5c5; /* menu/interface text */
 
     /* --mnemonaut-dark-text-heading-fg   : #546e7a; */
     /* --mnemonaut-dark-text-heading-fg   : var(--mnemonaut-dark-bg2); */
@@ -104,7 +105,10 @@
     --mnemonaut-light-bg2                           : #4E575F; /* menu background and border */
 
     --mnemonaut-light-text-normal                   : var(--mnemonaut-light-fg1); /* text */
-    --mnemonaut-light-text-faint                    : #eab676; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    /* --mnemonaut-light-text-faint                    : #eab676; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    /* --mnemonaut-light-text-faint                    : #995400; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
+    --mnemonaut-light-text-faint                    : #005499; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --mnemonaut-light-text-faint                    : #004466; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     /* --mnemonaut-light-text-faint                    : #873e23; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     /* --mnemonaut-light-text-faint                    : #e5c271; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     /* --mnemonaut-light-text-faint                    : #d39f27; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
@@ -333,13 +337,6 @@ body
 
 /* Interface {{{2 */
 
-/* little arrows in the native file explorer */
-/* svg.right-triangle path { */
-/*   stroke: blue; */
-/*   stroke-width: 2px; */
-/*   stroke-linecap="round"; */
-/* } */
-
 /* hash tags in headers */
 .cm-formatting-header {
     color: var(--h1-color);
@@ -383,6 +380,60 @@ body
 .nav-file-title,
 .nav-folder-title {
   padding: 0px 14px 0px 20px;
+}
+
+/* little arrows in the native file explorer */
+.theme-dark .right-triangle path {
+  stroke: #323030;
+  stroke-width: 4px;
+  stroke-linecap="round";
+}
+.theme-light .right-triangle path {
+  stroke: #00aaaa;
+  stroke-width: 4px;
+  stroke-linecap="round";
+}
+
+.nav-folder-title {
+    font-weight: normal;
+    color: var(--text-accent) !important;
+}
+
+.nav-file-title {
+    border-radius: 10px;
+    color: #d5d5c5 !important;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover,
+.nav-file-title-content:hover,
+.nav-folder-title-content:hover{
+    /* font-weight: bold; */
+    /* background: #bbb098 !important; */
+    /* color: #336699 !important; */
+}
+
+.nav-file .is-active {
+    border-radius: 20px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border: solid 0.5px;
+}
+
+.is-active .nav-file-title-content {
+    font-style: italic;
+}
+
+/* file xplor : smaller & bold vault title */
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: 6px;
+  font-size: 14px;
+  font-weight: bolder;
+  top: -6px;
+  cursor: default;
+  /* border: solid 1px red; */
 }
 
 /* }}}2 */

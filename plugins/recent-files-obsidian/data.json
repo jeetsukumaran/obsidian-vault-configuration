@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "owl-photography",
+      "path": "utility/gouge/owl-photography.md"
+    },
+    {
+      "basename": "DENDROPY-TODO",
+      "path": "utility/gouge/DENDROPY-TODO.md"
+    },
+    {
+      "basename": "how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity",
+      "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
+    },
+    {
       "basename": "linux-gnome-neovim-integration",
       "path": "utility/gouge/linux-gnome-neovim-integration.md"
     },
@@ -37,10 +49,6 @@
       "path": "references/@winsor-2000-species-demes.md"
     },
     {
-      "basename": "DENDROPY-TODO",
-      "path": "utility/gouge/DENDROPY-TODO.md"
-    },
-    {
       "basename": "sony-a7riii-setup-and-usage-notes",
       "path": "utility/gouge/sony-a7riii-setup-and-usage-notes.md"
     },
@@ -57,10 +65,6 @@
       "path": "utility/gouge/capture-00-gouge.md"
     },
     {
-      "basename": "how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity",
-      "path": "utility/gouge/how-to-create-and-work-with-a-GitHub-project-using-a-secondary-identity.md"
-    },
-    {
       "basename": "_scratch",
       "path": "_scratch.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "illustrator",
       "path": "utility/gouge/illustrator.md"
-    },
-    {
-      "basename": "owl-photography",
-      "path": "utility/gouge/owl-photography.md"
     },
     {
       "basename": "pythobits",
