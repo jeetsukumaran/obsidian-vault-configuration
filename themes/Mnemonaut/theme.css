@@ -59,6 +59,10 @@
     --mnemonaut-dark-code-fg                       : #60a8a0;
     /* --mnemonaut-dark-code-bg                       : #b8b0a3; */
     --mnemonaut-dark-code-bg                       : #282424;
+
+    --mnemonaut-dark-tag-fg                        : #ffffff;
+    --mnemonaut-dark-tag-background                : #ffffff;
+    --mnemonaut-dark-tag-background-hover          : #ffffff;
 }
 
 /* }}}1 */
