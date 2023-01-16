@@ -1,32 +1,3 @@
-/*
-
-** Beige/Tan/Brown/Red
-
-#ccc6bd
-#c8c1b7
-#bfb7ab
-#aaa090
-#999080;
-#8a8070
-#746c64
-#646060
-#514a3e
-#484032
-#453f35
-#323030
-#2e2a23
-#1b1b20
-
-** Slate/Blue
-
-#3d372f
-#404850
-#606c78
-#808d9a
-#909ba7
-#a0a9b3
-
-*/
 
 /* Dark Scheme Color Definitions {{{1 */
 
@@ -425,10 +396,11 @@ body
 
 .nav-file .is-active {
     border-radius: 20px !important;
-    padding-top: 2px !important;
+    padding-top: 1px !important;
     padding-bottom: 2px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
+    margin-left: 10px !important;
     border: solid 0.5px;
 }
 
@@ -652,3 +624,33 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 }
 
 /* }}}1 */
+
+/* color scratchpad {{{1
+
+** Beige/Tan/Brown/Red
+
+#ccc6bd
+#c8c1b7
+#bfb7ab
+#aaa090
+#999080;
+#8a8070
+#746c64
+#646060
+#514a3e
+#484032
+#453f35
+#323030
+#2e2a23
+#1b1b20
+
+** Slate/Blue
+
+#3d372f
+#404850
+#606c78
+#808d9a
+#909ba7
+#a0a9b3
+
+}}}1 */
