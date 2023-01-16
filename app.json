@@ -9,7 +9,7 @@
   "showFrontmatter": true,
   "alwaysUpdateLinks": true,
   "promptDelete": true,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
   "smartIndentList": false,

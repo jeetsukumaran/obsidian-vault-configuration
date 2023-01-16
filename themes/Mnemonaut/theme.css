@@ -369,6 +369,16 @@ body
 }
 /* }}}2 */
 
+/* file explorer {{{2 */
+
+/* more compact */
+.nav-file-title,
+.nav-folder-title {
+  padding: 0px 14px 0px 20px;
+}
+
+/* }}}2 */
+
 /* tab header {{{2 */
 
 .theme-light .workspace-tab-header-container-inner {
