@@ -39,6 +39,9 @@
     --mnemonaut-dark-tag-fg                        : #ffffff;
     --mnemonaut-dark-tag-background                : #ffffff;
     --mnemonaut-dark-tag-background-hover          : #ffffff;
+
+    --mnemonaut-dark-icon-hover                    : red;
+    --mnemonaut-dark-icon-focused                  : red;
 }
 
 /* }}}1 */
@@ -634,3 +637,10 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 #a0a9b3
 
 }}}1 */
+
+
+
+.collapse-indicator.collapse-icon {
+    background: var(--text-normal) !important;
+    border-radius: 20px;
+}
