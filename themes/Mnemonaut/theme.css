@@ -6,52 +6,21 @@
     --mnemonaut-dark-bg1               : #323030; /* background main */
     --mnemonaut-dark-fg1               : #c0b088; /* text */
     --mnemonaut-dark-fg1               : #aaa090; /* text */
-    /* --mnemonaut-dark-fg1            : #b0a898; /1* text *1/ */
-    /* --mnemonaut-dark-fg1            : #b0a898; /1* text *1/ */
-    /* --mnemonaut-dark-bg2               : #616E7A; /1* menu background and border *1/ */
-    /* --mnemonaut-dark-bg2               : #404850; /1* menu background and border *1/ */
-    /* --mnemonaut-dark-bg2               : #4e575f; /1* menu background and border *1/ */
     --mnemonaut-dark-bg2               : #4e575f; /* menu background and border */
 
     --mnemonaut-dark-text-normal       : var(--mnemonaut-dark-fg1); /* text */
-    /* --mnemonaut-dark-text-faint     : #787068; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint     : #746c64; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint     : #b8b8c0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint     : #f9edc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint     : #f0e8d0; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint     : #fceec4; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint        : #fff0c1; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-dark-text-faint     : #6b6666; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-dark-text-faint        : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    /* --mnemonaut-dark-text-muted     : #ccc6bd; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted     : #eee0b0; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted     : #aaa070; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted     : #f9edc7; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted     : #b8b8c0; /1* menu/interface text *1/ */
-    /* --mnemonaut-dark-text-muted        : #b8b8c0; /1* menu/interface text *1/ */
     --mnemonaut-dark-text-muted        : #d5d5c5; /* menu/interface text */
 
-    /* --mnemonaut-dark-text-heading-fg   : #546e7a; */
-    /* --mnemonaut-dark-text-heading-fg   : var(--mnemonaut-dark-bg2); */
-    /* --mnemonaut-dark-text-heading-fg   : #606B76; */
-    /* --mnemonaut-dark-text-heading-fg   : #4e575f; */
-    /* --mnemonaut-dark-text-heading-fg   : #5A646D; */
-    /* --mnemonaut-dark-text-heading-fg   : #5C6770; */
-    /* --mnemonaut-dark-text-heading-fg   : #555F68; */
-    --mnemonaut-dark-text-heading-fg   : #5A646D;
+    --mnemonaut-dark-text-heading-h1   : #cc6644;
+    --mnemonaut-dark-text-heading-h2   : #b57614;
+    --mnemonaut-dark-text-heading-h3   : #79740e;
+    --mnemonaut-dark-text-heading-h4   : #8f3f71;
+    --mnemonaut-dark-text-heading-h5   : #807070;
+    --mnemonaut-dark-text-heading-h6   : #ffffff;
+
     --mnemonaut-dark-text-highlight-bg  : #555555;
     --mnemonaut-dark-text-highlight-fg  : none;
-    /* --mnemonaut-dark-text-accent       : #76838E; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #61819E; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #4083BF; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #ffbf00; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #E0C36C; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #CEA52C; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #BF9F40; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #8F7A3D; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #A69359; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #669944; /1* links *1/ */
-    /* --mnemonaut-dark-text-accent       : #a8a060; /1* links *1/ */
     --mnemonaut-dark-text-accent       : #a8a060; /* links */
     --mnemonaut-dark-text-accent-hover : #ffff00; /* links */
 
@@ -183,12 +152,12 @@ body
     --text-faint:                    var(--mnemonaut-dark-text-faint);
     --text-muted:                    var(--mnemonaut-dark-text-muted);
 
-    --h1-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h2-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h3-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h4-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h5-color:                      var(--mnemonaut-dark-text-heading-fg);
-    --h6-color:                      var(--mnemonaut-dark-text-heading-fg);
+    --h1-color:                      var(--mnemonaut-dark-text-heading-h1);
+    --h2-color:                      var(--mnemonaut-dark-text-heading-h2);
+    --h3-color:                      var(--mnemonaut-dark-text-heading-h3);
+    --h4-color:                      var(--mnemonaut-dark-text-heading-h4);
+    --h5-color:                      var(--mnemonaut-dark-text-heading-h5);
+    --h6-color:                      var(--mnemonaut-dark-text-heading-h6);
 
     --text-highlight-bg:             var(--mnemonaut-dark-text-highlight-bg);
     --text-highlight-fg:             var(--mnemonaut-dark-text-highlight-fg);
