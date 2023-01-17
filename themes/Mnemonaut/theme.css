@@ -12,12 +12,13 @@
     --mnemonaut-dark-text-faint        : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-dark-text-muted        : #d5d5c5; /* menu/interface text */
 
-    --mnemonaut-dark-text-heading-h1   : #cc6644;
-    --mnemonaut-dark-text-heading-h2   : #b57614;
-    --mnemonaut-dark-text-heading-h3   : #79740e;
-    --mnemonaut-dark-text-heading-h4   : #8f3f71;
-    --mnemonaut-dark-text-heading-h5   : #807070;
-    --mnemonaut-dark-text-heading-h6   : #ffffff;
+    --mnemonaut-dark-text-heading-h1   : #448888;
+    --mnemonaut-dark-text-heading-h2   : #5b8060;
+    --mnemonaut-dark-text-heading-h3   : #999988;
+    --mnemonaut-dark-text-heading-h4   : #808060;
+    --mnemonaut-dark-text-heading-h5   : #667070;
+    /* --mnemonaut-dark-text-heading-h6   : #977070; */
+    --mnemonaut-dark-text-heading-h6   :#505050;
 
     --mnemonaut-dark-text-highlight-bg  : #555555;
     --mnemonaut-dark-text-highlight-fg  : none;
