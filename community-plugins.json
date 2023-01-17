@@ -15,5 +15,7 @@
   "dataview",
   "templater-obsidian",
   "omnisearch",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "calendar",
+  "obsidian-tasks-plugin"
 ]

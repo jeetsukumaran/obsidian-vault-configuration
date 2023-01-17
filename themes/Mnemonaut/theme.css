@@ -63,6 +63,12 @@
     --mnemonaut-dark-tag-fg                        : #ffffff;
     --mnemonaut-dark-tag-background                : #ffffff;
     --mnemonaut-dark-tag-background-hover          : #ffffff;
+
+    --mnemonaut-dark-checkbox-fg                   : var(--mnemonaut-dark-text-faint);
+    --mnemonaut-dark-checkbox-done-fg              : var(--mnemonaut-dark-text-muted);
+    --mnemonaut-dark-tag-fg                        : #ffffff;
+    --mnemonaut-dark-tag-background                : #ffffff;
+    --mnemonaut-dark-tag-background-hover          : #ffffff;
 }
 
 /* }}}1 */
@@ -124,8 +130,8 @@
     --mnemonaut-light-graph-node-tag                : #585858; /* graph line */
     --mnemonaut-light-graph-node-attachment         : #585858; /* graph line */
 
-    --mnemonaut-light-checkbox-fg                   : #fff000;
-    --mnemonaut-light-checkbox-done-fg              : #ffffff;
+    --mnemonaut-light-checkbox-fg                   : var(--mnemonaut-light-text-faint);
+    --mnemonaut-light-checkbox-done-fg              : var(--mnemonaut-light-text-muted);
     --mnemonaut-light-tag-fg                        : #ffffff;
     --mnemonaut-light-tag-background                : #ffffff;
     --mnemonaut-light-tag-background-hover          : #ffffff;

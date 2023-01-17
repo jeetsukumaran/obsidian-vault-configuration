@@ -3,7 +3,8 @@
   "obsidian-shellcommands:shell-command-kg0polj4gc": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "E"
     }
@@ -17,19 +18,10 @@
       "key": "T"
     }
   ],
-  "obsidian-shellcommands:shell-command-48sr4u8nqa": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
   "obsidian-shellcommands:shell-command-rob425oq6y": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Alt"
       ],
       "key": "T"
     }
@@ -43,8 +35,7 @@
   "obsidian-shellcommands:shell-command-fhwxws5blp": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Alt"
       ],
       "key": "E"
     }
@@ -55,6 +46,16 @@
         "Alt"
       ],
       "key": "O"
+    }
+  ],
+  "templater-obsidian:insert-templater": [],
+  "obsidian-shellcommands:shell-command-48sr4u8nqa": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
     }
   ]
 }
