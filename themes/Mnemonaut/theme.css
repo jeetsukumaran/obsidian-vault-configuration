@@ -60,18 +60,7 @@
     --mnemonaut-light-bg2                           : #4E575F; /* menu background and border */
 
     --mnemonaut-light-text-normal                   : var(--mnemonaut-light-fg1); /* text */
-    /* --mnemonaut-light-text-faint                    : #eab676; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #995400; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    --mnemonaut-light-text-faint                    : #005499; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-light-text-faint                    : #004466; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    /* --mnemonaut-light-text-faint                    : #873e23; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #e5c271; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #d39f27; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #d39300; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #bdc6cc; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #348cc7; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #266d9c; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
-    /* --mnemonaut-light-text-faint                    : #0095ff; /1* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. *1/ */
     --mnemonaut-light-text-muted                    : #ccc6bd; /* menu/interface text */
 
     --mnemonaut-light-text-heading-fg               : var(--mnemonaut-light-bg2);
@@ -337,12 +326,12 @@ body
   padding: 0px 14px 0px 20px;
 }
 
-/* little arrows in the native file explorer */
-.right-triangle path {
-  stroke: var(--background-primary);
-  stroke-width: 4px;
-  stroke-linecap="round";
-}
+/* little arrows in the native file explorer AND to collapse/uncollapse headings, lists, etc. */
+/* .right-triangle path { */
+/*   stroke: var(--background-primary); */
+/*   stroke-width: 4px; */
+/*   stroke-linecap="round"; */
+/* } */
 
 .theme-light .nav-folder-title {
     font-weight: normal;
@@ -637,10 +626,3 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 #a0a9b3
 
 }}}1 */
-
-
-
-.collapse-indicator.collapse-icon {
-    background: var(--text-normal) !important;
-    border-radius: 20px;
-}
