@@ -4,5 +4,6 @@
   "nativeMenus": false,
   "enabledCssSnippets": [],
   "baseFontSize": 16,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showViewHeader": true
 }
