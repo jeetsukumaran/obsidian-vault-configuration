@@ -12,7 +12,7 @@
     --mnemonaut-dark-text-faint        : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-dark-text-muted        : #d5d5c5; /* menu/interface text */
 
-    --mnemonaut-dark-text-heading-h1   : #977070;
+    --mnemonaut-dark-text-heading-h1   : #4e575f;
     --mnemonaut-dark-text-heading-h2   : #448888;
     --mnemonaut-dark-text-heading-h3   : #5b8060;
     --mnemonaut-dark-text-heading-h4   : #808060;
@@ -279,6 +279,48 @@ body
 
 /* Special Overrides {{{1 */
 
+/* body {{{2 */
+
+h1 {
+    background: var(--background-secondary) !important;
+    color: var(--background-primary) !important;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: solid 1px;
+}
+
+h3 {
+    border-bottom: solid 1px;
+}
+
+h4 {
+    border-bottom: solid 1px;
+}
+
+h5 {
+    border-bottom: solid 1px;
+}
+
+h6 {
+    border-bottom: solid 1px;
+}
+
+
+
+
+
+
+/* }}}2 */
+
 /* Interface {{{2 */
 
 /* hash tags in headers */
@@ -288,15 +330,11 @@ body
 
 
 .inline-title {
-    background: var(--background-secondary);
-    color: var(--text-muted);
     font-family: monospace;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px;
-    border-radius: 80px;
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 20px;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
 }
 
 .theme-dark .inline-title {
@@ -596,6 +634,7 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 }
 
 /* }}}1 */
+
 
 /* color scratchpad {{{1
 
