@@ -1,5 +1,16 @@
 {
-  "calendarSources": [],
+  "calendarSources": [
+    {
+      "type": "ical",
+      "color": "#669763",
+      "url": "https://calendar.google.com/calendar/u/0?cid=amVldHN1a3VtYXJhbkBnbWFpbC5jb20"
+    },
+    {
+      "type": "local",
+      "color": "hsl( 197,  18%, calc( 50% - 3.8%))",
+      "directory": "secretariat/calendar"
+    }
+  ],
   "defaultCalendar": 0,
   "recursiveLocal": true,
   "firstDay": 0,
