@@ -12,7 +12,9 @@
   "showInlineTitle": false,
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
-  "smartIndentList": false,
+  "smartIndentList": true,
   "useTab": false,
-  "attachmentFolderPath": "_annex/_attachments"
+  "attachmentFolderPath": "_annex/attachments",
+  "showLineNumber": true,
+  "newFileLocation": "current"
 }
