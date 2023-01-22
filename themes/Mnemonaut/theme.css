@@ -115,10 +115,10 @@ body
     --font-editor-theme: "Ubuntu";
     --font-monospace-theme: "Ubuntu Mono";
 
-    /* --link-decoration:                none; */
-    /* --link-decoration-hover:          none; */
-    /* --link-external-decoration:       none; */
-    /* --link-external-decoration-hover: none; */
+    --link-decoration:                none;
+    --link-decoration-hover:          underline;
+    --link-external-decoration:       none;
+    --link-external-decoration-hover: underline;
 
     /* --tag-decoration:                 none; */
     /* --tag-decoration-hover:           underline; */
@@ -314,8 +314,18 @@ h6 {
     border-bottom: solid 1px;
 }
 
+.dataview h4::before {
+    content: '🎮 ';
+}
 
 
+.dataview h4 {
+    border-bottom: solid 0.5px;
+}
+
+.dataview .small-text {
+    display: none;
+}
 
 
 
@@ -634,7 +644,6 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 }
 
 /* }}}1 */
-
 
 /* color scratchpad {{{1
 
