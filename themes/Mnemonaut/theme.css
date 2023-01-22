@@ -315,7 +315,7 @@ h6 {
 }
 
 .dataview h4::before {
-    content: '🎮 ';
+    content: '⮺ ';
 }
 
 
@@ -326,6 +326,7 @@ h6 {
 .dataview .small-text {
     display: none;
 }
+
 
 
 
