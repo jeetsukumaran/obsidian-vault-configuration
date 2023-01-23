@@ -315,13 +315,29 @@ h6 {
 }
 
 
-.dataview .inline-field-key {
-    color: var(--text-muted) !important;
+/* https://forum.obsidian.md/t/inline-property-style/46902/2?u=jeetsukumaran */
+
+span.dataview.inline-field {
+    white-space: nowrap;
 }
 
-.dataview .inline-field-value,
-.dataview .inline-field-standalone-value {
-    color: var(--text-faint) !important;
+span.dataview.inline-field-key {
+    border: thin solid var(--text-muted);
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+span.dataview.inline-field-value {
+    border: thin solid var(--text-muted);
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+span.dataview.inline-field-standalone-value {
+    border: thin solid var(--text-muted);
+    border-radius: 10px;
 }
 
 
