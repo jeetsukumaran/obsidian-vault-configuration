@@ -66,5 +66,19 @@
       ],
       "key": "L"
     }
+  ],
+  "quickadd:choice:23e56719-8db2-4701-8a96-5472b5d95a32": [
+    {
+      "modifiers": [],
+      "key": "F6"
+    }
+  ],
+  "obsidian-kanban:toggle-kanban-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
   ]
 }

@@ -1,14 +1,29 @@
 {
   "calendarSources": [
     {
-      "type": "ical",
-      "color": "#669763",
-      "url": "https://calendar.google.com/calendar/u/0?cid=amVldHN1a3VtYXJhbkBnbWFpbC5jb20"
+      "type": "local",
+      "color": "#806040",
+      "directory": "administration/scheduling/events/teaching"
     },
     {
       "type": "local",
-      "color": "hsl( 197,  18%, calc( 50% - 3.8%))",
-      "directory": "secretariat/calendar"
+      "color": "#808080",
+      "directory": "administration/scheduling/events/blocked"
+    },
+    {
+      "type": "local",
+      "color": "#206040",
+      "directory": "administration/scheduling/events/errands"
+    },
+    {
+      "type": "local",
+      "color": "#406080",
+      "directory": "administration/scheduling/events/focus"
+    },
+    {
+      "type": "local",
+      "color": "#604080",
+      "directory": "administration/scheduling/events/meetings"
     }
   ],
   "defaultCalendar": 0,

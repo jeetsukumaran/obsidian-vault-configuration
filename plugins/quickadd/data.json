@@ -6,12 +6,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "secretariat/calendar/{{DATE:YYYY-MM-DD}} - {{VALUE}}",
+      "captureTo": "administration/scheduling/events/{{DATE}} - {{VALUE}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "__annex/resources/quickadd/templates/full-calendar-event"
+        "template": "__annex__/resources/quickadd/templates/full-calendar-event"
       },
       "format": {
         "enabled": true,
@@ -31,7 +31,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default"
     }
   ],
