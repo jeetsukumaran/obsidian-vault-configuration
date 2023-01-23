@@ -323,7 +323,7 @@ span.dataview.inline-field-key {
     border-right: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    color: var(--text-muted);
+    color: black;
     background: var(--background-secondary);
 }
 
