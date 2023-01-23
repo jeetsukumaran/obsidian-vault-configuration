@@ -5,8 +5,8 @@
       "name": "Schedule as Full Calendar Event",
       "type": "Capture",
       "command": true,
-      "appendLink": false,
-      "captureTo": "administration/scheduling/events/{{DATE}} - {{VALUE}}",
+      "appendLink": true,
+      "captureTo": "administration/scheduling/events/test/{{DATE: YYYYMMDDHHmmss}} - {{VALUE}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
