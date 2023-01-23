@@ -30,9 +30,9 @@
     /* --mnemonaut-dark-code-bg                       : #b8b0a3; */
     --mnemonaut-dark-code-bg                       : #282424;
 
-    --mnemonaut-dark-tag-fg                        : #000000;
-    --mnemonaut-dark-tag-bg                        : var(--mnemonaut-dark-bg2);
-    --mnemonaut-dark-tag-bg-hover                  : #000000;
+    --mnemonaut-dark-tag-color                             : #888888;
+    --mnemonaut-dark-tag-background                        : #202020;
+    --mnemonaut-dark-tag-background-hover                  : #000000;
 
     --mnemonaut-dark-checkbox-fg                   : var(--mnemonaut-dark-text-faint);
     --mnemonaut-dark-checkbox-done-fg              : var(--mnemonaut-dark-text-muted);
@@ -91,7 +91,7 @@
 
     --mnemonaut-light-checkbox-fg                   : var(--mnemonaut-light-text-faint);
     --mnemonaut-light-checkbox-done-fg              : var(--mnemonaut-light-text-muted);
-    --mnemonaut-light-tag-fg                        : #ffffff;
+    --mnemonaut-light-tag-color                        : #ffffff;
     --mnemonaut-light-tag-background                : #ffffff;
     --mnemonaut-light-tag-background-hover          : #ffffff;
 }
@@ -155,9 +155,9 @@ body
     --text-accent:                   var(--mnemonaut-dark-text-accent);
     --text-accent-hover:             var(--mnemonaut-dark-text-accent-hover);
 
-    --tag-color:                     var(--mnemonaut-dark-tag-fg);
-    --tag-background:                var(--mnemonaut-dark-tag-bg);
-    --tag-background-hover:          var(--mnemonaut-dark-tag-bg-hover);
+    --tag-color:                     var(--mnemonaut-dark-tag-color);
+    --tag-background:                var(--mnemonaut-dark-tag-background);
+    --tag-background-hover:          var(--mnemonaut-dark-tag-background-hover);
 
     --titlebar-text-color-focused:   var(--mnemonaut-dark-titlebar-focused-text-fg);
 
@@ -229,9 +229,9 @@ body
     --text-accent:                   var(--mnemonaut-light-text-accent);
     --text-accent-hover:             var(--mnemonaut-light-text-accent-hover);
 
-    --tag-color:                     var(--mnemonaut-light-tag-fg);
-    --tag-background:                var(--mnemonaut-light-tag-bg);
-    --tag-background-hover:          var(--mnemonaut-light-tag-bg-hover);
+    --tag-color:                     var(--mnemonaut-light-tag-color);
+    --tag-background:                var(--mnemonaut-light-tag-background);
+    --tag-background-hover:          var(--mnemonaut-light-tag-background-hover);
 
     --titlebar-text-color-focused:   var(--mnemonaut-light-titlebar-focused-text-fg);
 
@@ -319,21 +319,27 @@ span.dataview.inline-field {
 }
 
 span.dataview.inline-field-key {
-    border: thin solid var(--text-muted);
+    border: thin solid var(--tag-background);
     border-right: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    color: var(--text-muted);
+    background: var(--background-secondary);
 }
 
 span.dataview.inline-field-value {
-    border: thin solid var(--text-muted);
+    border: thin solid var(--tag-background);
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    background: var(--tag-background);
+    color: var(--tag-color);
 }
 
 span.dataview.inline-field-standalone-value {
-    border: thin solid var(--text-muted);
+    background: var(--tag-background);
+    border: thin solid var(--tag-background);
+    color: var(--tag-color);
     border-radius: 10px;
 }
 
