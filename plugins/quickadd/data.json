@@ -1,40 +1,5 @@
 {
-  "choices": [
-    {
-      "id": "23e56719-8db2-4701-8a96-5472b5d95a32",
-      "name": "Schedule as Full Calendar Event",
-      "type": "Capture",
-      "command": true,
-      "appendLink": true,
-      "captureTo": "administration/scheduling/events/general/{{DATE: YYYYMMDDHHmmss}} - {{VALUE}}",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": true,
-        "template": "__annex__/resources/quickadd/templates/full-calendar-event.templater"
-      },
-      "format": {
-        "enabled": true,
-        "format": ""
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": true,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    }
-  ],
+  "choices": [],
   "macros": [],
   "inputPrompt": "single-line",
   "devMode": false
