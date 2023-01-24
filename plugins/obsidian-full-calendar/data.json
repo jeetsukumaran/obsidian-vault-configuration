@@ -34,6 +34,11 @@
       "type": "local",
       "color": "#603434",
       "directory": "administration/scheduling/events/admin"
+    },
+    {
+      "type": "ical",
+      "color": "#ffffff",
+      "url": "https://calendar.google.com/calendar/ical/jeetsukumaran%40gmail.com/private-180e998f7deb49e34d02950dfa9fb82b/basic.ics"
     }
   ],
   "defaultCalendar": 0,
