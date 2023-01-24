@@ -6,12 +6,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": true,
-      "captureTo": "administration/scheduling/events/test/{{DATE: YYYYMMDDHHmmss}} - {{VALUE}}",
+      "captureTo": "administration/scheduling/events/general/{{DATE: YYYYMMDDHHmmss}} - {{VALUE}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "__annex__/resources/quickadd/templates/full-calendar-event"
+        "template": "__annex__/resources/quickadd/templates/full-calendar-event.templater"
       },
       "format": {
         "enabled": true,

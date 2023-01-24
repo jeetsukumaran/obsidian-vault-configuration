@@ -48,7 +48,14 @@
       "key": "O"
     }
   ],
-  "templater-obsidian:insert-templater": [],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Insert"
+    }
+  ],
   "obsidian-shellcommands:shell-command-48sr4u8nqa": [
     {
       "modifiers": [
@@ -79,6 +86,12 @@
         "Alt"
       ],
       "key": "K"
+    }
+  ],
+  "templater-obsidian:__annex__/resources/templater/templates/create-full-calendar-event.md": [
+    {
+      "modifiers": [],
+      "key": "F7"
     }
   ]
 }

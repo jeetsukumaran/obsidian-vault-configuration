@@ -24,6 +24,11 @@
       "type": "local",
       "color": "#604080",
       "directory": "administration/scheduling/events/meetings"
+    },
+    {
+      "type": "local",
+      "color": "#bb00ff",
+      "directory": "administration/scheduling/events/testing"
     }
   ],
   "defaultCalendar": 0,
