@@ -44,8 +44,9 @@
 
 :root
 {
-    --mnemonaut-light-bg1                           : #999080; /* background main */
-    --mnemonaut-light-fg1                           : #444040; /* text */
+    /* --mnemonaut-light-bg1                           : #999080; /1* background main *1/ */
+    --mnemonaut-light-bg1                           : #908878; /* background main */
+    --mnemonaut-light-fg1                           : #222020; /* text */
     --mnemonaut-light-bg2                           : #404850; /* menu background and border */
     --mnemonaut-light-bg2                           : #616E7A; /* menu background and border */
     --mnemonaut-light-bg2                           : #606B76; /* menu background and border */
