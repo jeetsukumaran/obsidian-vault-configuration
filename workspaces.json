@@ -1,0 +1,192 @@
+{
+  "workspaces": {
+    "Tasking/Calendar": {
+      "main": {
+        "id": "0110787c5a81e107",
+        "type": "split",
+        "children": [
+          {
+            "id": "55ea6372a7c0bb1d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "148f7d0a762ebd22",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "administration/task-index.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "af09f864b8f0966d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f6fa59f394e90430",
+                "type": "leaf",
+                "state": {
+                  "type": "full-calendar-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "59b33f4ab6951261",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed7418541956d1df",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "87b3610050c8e308",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "4e2d0a06ac638992",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "af1aaa8ddb29b93e",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0469e85d449db58b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "497a6674448efc22",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 317.5
+      },
+      "right": {
+        "id": "bbd3d76c6148eede",
+        "type": "split",
+        "children": [
+          {
+            "id": "0e6323f9a849a125",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a0badda28288f578",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "administration/task-index.md"
+                  }
+                }
+              },
+              {
+                "id": "c7ecf15ab25ba629",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "administration/task-index.md",
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "4e84070ecbcbda2a",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "administration/task-index.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "eddb9df1198ea3c3",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 327.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-matrix:Obsidian Matrix": false,
+          "file-tree-alternative:File Tree Alternative Plugin": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "148f7d0a762ebd22"
+    }
+  },
+  "active": "Tasking/Calendar"
+}

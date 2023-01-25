@@ -3,42 +3,39 @@
 
 :root
 {
-    --mnemonaut-dark-bg1               : #323030; /* background main */
-    --mnemonaut-dark-fg1               : #c0b088; /* text */
-    --mnemonaut-dark-fg1               : #aaa090; /* text */
-    --mnemonaut-dark-bg2               : #4e575f; /* menu background and border */
+    --mnemonaut-dark-bg1                  : #323030; /* background main */
+    --mnemonaut-dark-fg1                  : #c0b088; /* text */
+    --mnemonaut-dark-fg1                  : #aaa090; /* text */
+    --mnemonaut-dark-bg2                  : #4e575f; /* menu background and border */
 
-    --mnemonaut-dark-text-normal       : var(--mnemonaut-dark-fg1); /* text */
-    --mnemonaut-dark-text-faint        : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --mnemonaut-dark-text-muted        : #d5d5c5; /* menu/interface text */
+    --mnemonaut-dark-text-normal          : var(--mnemonaut-dark-fg1); /* text */
+    --mnemonaut-dark-text-faint           : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --mnemonaut-dark-text-muted           : #d5d5c5; /* menu/interface text */
 
-    --mnemonaut-dark-text-heading-h1   : #4e575f;
-    --mnemonaut-dark-text-heading-h2   : #448888;
-    --mnemonaut-dark-text-heading-h3   : #5b8060;
-    --mnemonaut-dark-text-heading-h4   : #808060;
-    --mnemonaut-dark-text-heading-h5   : #667070;
-    /* --mnemonaut-dark-text-heading-h6   : #977070; */
-    --mnemonaut-dark-text-heading-h6   :#505050;
+    --mnemonaut-dark-text-heading-h1      : #4e575f;
+    --mnemonaut-dark-text-heading-h2      : #448888;
+    --mnemonaut-dark-text-heading-h3      : #5b8060;
+    --mnemonaut-dark-text-heading-h4      : #808060;
+    --mnemonaut-dark-text-heading-h5      : #667070;
+    --mnemonaut-dark-text-heading-h6      :#505050;
 
-    --mnemonaut-dark-text-highlight-bg  : #555555;
-    --mnemonaut-dark-text-highlight-fg  : none;
-    --mnemonaut-dark-text-accent       : #a8a060; /* links */
-    --mnemonaut-dark-text-accent-hover : #ffff00; /* links */
+    --mnemonaut-dark-text-highlight-bg    : #555555;
+    --mnemonaut-dark-text-highlight-fg    : none;
+    --mnemonaut-dark-text-accent          : #80b0a8; /* links */
+    --mnemonaut-dark-text-accent-hover    : #ffff00; /* links */
 
-    /* --mnemonaut-dark-code-fg                       : #908880; */
-    --mnemonaut-dark-code-fg                       : #60a8a0;
-    /* --mnemonaut-dark-code-bg                       : #b8b0a3; */
-    --mnemonaut-dark-code-bg                       : #282424;
+    --mnemonaut-dark-code-fg              : #60a8a0;
+    --mnemonaut-dark-code-bg              : #282424;
 
-    --mnemonaut-dark-tag-color                             : #888888;
-    --mnemonaut-dark-tag-background                        : #202020;
-    --mnemonaut-dark-tag-background-hover                  : #000000;
+    --mnemonaut-dark-tag-color            : #888888;
+    --mnemonaut-dark-tag-background       : #202020;
+    --mnemonaut-dark-tag-background-hover : #000000;
 
-    --mnemonaut-dark-checkbox-fg                   : var(--mnemonaut-dark-text-faint);
-    --mnemonaut-dark-checkbox-done-fg              : var(--mnemonaut-dark-text-muted);
+    --mnemonaut-dark-checkbox-fg          : var(--mnemonaut-dark-text-faint);
+    --mnemonaut-dark-checkbox-done-fg     : var(--mnemonaut-dark-text-muted);
 
-    --mnemonaut-dark-icon-hover                    : red;
-    --mnemonaut-dark-icon-focused                  : red;
+    --mnemonaut-dark-icon-hover           : red;
+    --mnemonaut-dark-icon-focused         : red;
 }
 
 /* }}}1 */

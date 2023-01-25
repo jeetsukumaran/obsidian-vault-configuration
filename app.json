@@ -4,7 +4,7 @@
   "readableLineLength": false,
   "strictLineBreaks": true,
   "trashOption": "system",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "showUnsupportedFiles": true,
   "showFrontmatter": true,
   "alwaysUpdateLinks": true,
