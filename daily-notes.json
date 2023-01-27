@@ -1,5 +1,5 @@
 {
   "format": "YYYY-MM-DD",
-  "template": "",
-  "folder": ""
+  "template": "__annex__/resources/obsidian/templates/daily-note.template",
+  "folder": "inbox/ephemera"
 }

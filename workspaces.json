@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "Tasking/Calendar": {
+    "Tasking": {
       "main": {
         "id": "0110787c5a81e107",
         "type": "split",
@@ -8,6 +8,7 @@
           {
             "id": "55ea6372a7c0bb1d",
             "type": "tabs",
+            "dimension": 54.41595441595442,
             "children": [
               {
                 "id": "148f7d0a762ebd22",
@@ -15,7 +16,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "administration/task-index.md",
+                    "file": "administration/tasks.index.md",
                     "mode": "preview",
                     "source": true
                   }
@@ -26,6 +27,7 @@
           {
             "id": "af09f864b8f0966d",
             "type": "tabs",
+            "dimension": 45.58404558404558,
             "children": [
               {
                 "id": "f6fa59f394e90430",
@@ -117,7 +119,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "administration/task-index.md"
+                    "file": "administration/tasks.index.md"
                   }
                 }
               },
@@ -127,7 +129,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "administration/task-index.md",
+                    "file": "administration/tasks.index.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -144,7 +146,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "administration/task-index.md",
+                    "file": "administration/tasks.index.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -188,5 +190,5 @@
       "active": "148f7d0a762ebd22"
     }
   },
-  "active": "Tasking/Calendar"
+  "active": "Tasking"
 }

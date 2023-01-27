@@ -93,5 +93,12 @@
       "modifiers": [],
       "key": "F7"
     }
-  ]
+  ],
+  "workspaces:load": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "app:open-help": []
 }
