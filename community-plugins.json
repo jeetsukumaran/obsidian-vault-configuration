@@ -5,13 +5,10 @@
   "copy-as-latex",
   "obsidian-latex",
   "obsidian-citation-plugin",
-  "obsidian-admonition",
   "obsidian-matrix",
   "obsidian-graphviz",
-  "obsidian-linter",
   "obsidian-outliner",
   "better-pdf-plugin",
-  "file-tree-alternative",
   "dataview",
   "templater-obsidian",
   "omnisearch",
@@ -22,8 +19,8 @@
   "obsidian-full-calendar",
   "convert-url-to-iframe",
   "quickadd",
-  "cmdr",
   "nldates-obsidian",
-  "metadata-menu",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "simple-embeds",
+  "obsidian-excalidraw-plugin"
 ]
