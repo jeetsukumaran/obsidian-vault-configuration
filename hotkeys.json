@@ -51,9 +51,9 @@
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "Insert"
+      "key": "I"
     }
   ],
   "obsidian-shellcommands:shell-command-48sr4u8nqa": [
@@ -100,5 +100,7 @@
       "key": "F1"
     }
   ],
-  "app:open-help": []
+  "app:open-help": [],
+  "insert-template": [],
+  "convert-url-to-iframe:url-to-iframe": []
 }
