@@ -4,26 +4,29 @@
       "id": "e4d93d28-214c-486b-a1d1-3ef96efb0097",
       "name": "New RxLog Entry",
       "type": "Template",
-      "command": false,
-      "templatePath": "",
+      "command": true,
+      "templatePath": "__annex__/resources/obsidian/plugins/quickadd/templates/rxlog-entry.quickadd-template.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "{{DATE:YYYYMMDDHHmmss}}.rxlog.data"
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "",
+          "personal/self/logs/rxlog"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false
       },
       "appendLink": false,
-      "incrementFileName": false,
+      "incrementFileName": true,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default"
     }
   ],
