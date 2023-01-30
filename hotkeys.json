@@ -26,12 +26,6 @@
       "key": "T"
     }
   ],
-  "app:reload": [
-    {
-      "modifiers": [],
-      "key": "F5"
-    }
-  ],
   "obsidian-shellcommands:shell-command-fhwxws5blp": [
     {
       "modifiers": [
@@ -102,5 +96,22 @@
   ],
   "app:open-help": [],
   "insert-template": [],
-  "convert-url-to-iframe:url-to-iframe": []
+  "convert-url-to-iframe:url-to-iframe": [],
+  "dataview:dataview-force-refresh-views": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "R"
+    }
+  ]
 }
