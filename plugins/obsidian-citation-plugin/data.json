@@ -1,7 +1,7 @@
 {
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
-  "literatureNoteFolder": "references/readings",
+  "literatureNoteFolder": "notes/literature",
   "literatureNoteContentTemplate": "---\ncitekey: {{citekey}}\nauthors: [{{authorString}}]\nyear: {{year}}\ntitle: >\n    {{title}}\ndoi: {{DOI}}\nurl: {{URL}}\nabstract: >\n    {{abstract}}\nkeywords: [{{entry.data.fields.keywords}}]\n---\n([read]({{zoteroSelectURI}}))\n\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",

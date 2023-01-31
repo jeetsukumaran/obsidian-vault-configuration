@@ -13,69 +13,9 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "personal/self/logs/rxlog"
+          "domestics/personal/logs/rxlog"
         ],
         "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": false,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "ede748b8-a3db-4bb2-bc38-52c47f0514df",
-      "name": "New Information Note from Selection",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "{{VALUE:title}}",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": true,
-        "template": "__annex__/resources/obsidian/plugins/templater/templates/create-new-note-from-selection"
-      },
-      "format": {
-        "enabled": false,
-        "format": ""
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": true,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "873696c1-e0e9-4e47-9081-9e9a4f507a46",
-      "name": "New Information Note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "__annex__/resources/obsidian/plugins/templater/templates/note-basic.templater.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{VALUE:title}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": true,
         "createInSameFolderAsActiveFile": false
       },
       "appendLink": false,

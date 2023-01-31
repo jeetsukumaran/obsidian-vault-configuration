@@ -135,6 +135,7 @@ body
     --background-modifier-border:    var(--mnemonaut-dark-bg2);
 
     --cursor-line-background:        var(--mnemonaut-dark-graph-line);
+    /* --divider-color:                 var(--mnemonaut-dark-graph-line); */
 
     --text-normal:                   var(--mnemonaut-dark-fg1);
     --text-faint:                    var(--mnemonaut-dark-text-faint);
@@ -478,6 +479,15 @@ span.dataview.inline-field-standalone-value {
 .theme-light .workspace-tab-header.is-active {
     color: var(--background-secondary);
     font-weight: bold;
+}
+
+/* }}}2 */
+
+/* tab drag handles {{{2 */
+
+.workspace-leaf-resize-handle {
+  border-top: solid 2px var(--text-faint);
+  filter: opacity(50%);
 }
 
 /* }}}2 */
