@@ -483,10 +483,51 @@ span.dataview.inline-field-standalone-value {
 
 /* }}}2 */
 
+/* ribbons / frame {{{2 */
+
+.side-dock-ribbon.mod-left {
+  border: solid 1px var(--background-primary);
+}
+
+.side-dock-ribbon {
+  background: #484c50;
+}
+
+.side-dock-ribbon > * {
+  filter: opacity(60%);
+}
+
+
+/* .logo-full, */
+/* .logo-wireframe, */
+/* .titlebar-button-container, */
+/* .titlebar-button-container.mod-left, */
+/* .titlebar-button.mod-logo { */
+/*   color: white; */
+/*   background: red !important; */
+/*   filter: opacity(100%); */
+/*   border: solid 1px red; */
+/*   stroke: white; */
+/* } */
+/* .right-triangle path { */
+/*   stroke: var(--background-primary); */
+/*   stroke-width: 4px; */
+/*   stroke-linecap="round"; */
+/* } */
+
+/* .workspace-ribbon.side-dock-ribbon.mod-right { */
+/*   border-left: solid 2px var(--background-primary); */
+/*   border-top: solid 2px var(--background-primary); */
+/*   filter: opacity(50%); */
+/* } */
+
+
+/* }}}2 */
+
 /* tab drag handles {{{2 */
 
 .workspace-leaf-resize-handle {
-  border-top: solid 2px var(--text-faint);
+  border-top: solid 2px var(--background-primary);
   filter: opacity(50%);
 }
 
