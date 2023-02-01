@@ -45,7 +45,7 @@
     --mnemonaut-dark-icon-focused         : red;
 
     --mnemonaut-dark-frame-accent-bg         : #484c50;
-    --mnemonaut-dark-heading-accent-bg         : #282828;
+    --mnemonaut-dark-heading-accent-bg         : #2a2828;
 }
 
 /* }}}1 */
@@ -291,15 +291,21 @@ body
 
 /* Special Overrides {{{1 */
 
-/* body {{{2 */
+/* headings {{{2 */
+
+h1:before {
+    content: '⮺ ';
+}
 
 h1 {
-    font-size: 20px !important;
-    border-bottom: solid 1px;
-    border-top: solid 1px;
+    font-size: 150% !important;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 8px;
+    position: relative;
     background: var(--mnemonaut-heading-accent-bg);
+    border-bottom: solid 1px;
+    border-top: solid 1px;
 }
 
 /* h1 { */
@@ -316,31 +322,57 @@ h1 {
 
 
 h2 {
+    font-size: 120% !important;
     border-bottom: solid 1px;
-    font-size: 20px !important;
 }
 
 h3 {
+    font-size: 150% !important;
     border-bottom: solid 1px;
     font-size: 20px !important;
 }
 
 h4 {
+    font-size: 150% !important;
     border-bottom: solid 1px;
     font-size: 20px !important;
 }
 
 h5 {
+    font-size: 150% !important;
     border-bottom: solid 1px;
     font-size: 20px !important;
 }
 
 h6 {
+    font-size: 150% !important;
     border-bottom: solid 1px;
     font-size: 20px !important;
 }
 
+/* }}}2 */
 
+/* numbered headings {{{2 */
+/* body { */
+/*     counter-reset: h2counter; */
+/*     counter-reset: h3counter; */
+/* } */
+/* h1 { */
+/*     counter-reset: h2counter; */
+/* } */
+/* h2:before { */
+/*     counter-increment: h2counter; */
+/*     content: counter(h2counter) ".\0000a0\0000a0"; */
+/*     counter-reset: h3counter; */
+/* } */
+/* h3:before { */
+/*     counter-increment: h3counter; */
+/*     content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0"; */
+/* } */
+/* }}}2 */
+
+
+/* dataview {{{2 */
 /* https://forum.obsidian.md/t/inline-property-style/46902/2?u=jeetsukumaran */
 
 span.dataview.inline-field {
