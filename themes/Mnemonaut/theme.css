@@ -297,7 +297,7 @@ h1:before {
     /* content: '⏹ '; */
     /* content: '⏺ '; */
     /* content: '≣ '; */
-    content: '⏣ ';
+    content: '⏣' "\0000a0";
     /* content: '░ '; */
     /* content: '▉ '; */
     /* content: '▎▎▎'; */
@@ -312,6 +312,47 @@ h1:before {
     /* content: '𝄛 '; */
     /* content: '🌀 '; */
 }
+
+/* h2:before { */
+/*     content: '⠆' "\0000a0"; */
+/* } */
+
+/* h3:before { */
+/*     content: '⠒' "\0000a0"; */
+/* } */
+
+/* h4:before { */
+/*     content: '⠲' "\0000a0"; */
+/* } */
+
+/* h5:before { */
+/*     content: '⠢' "\0000a0"; */
+/* } */
+
+/* h6:before { */
+/*     content: '⠖' "\0000a0"; */
+/* } */
+
+h2:before {
+    content: '𝄗' "\0000a0";
+}
+
+h3:before {
+    content: '𝄘' "\0000a0";
+}
+
+h4:before {
+    content: '𝄙' "\0000a0";
+}
+
+h5:before {
+    content: '𝄚' "\0000a0";
+}
+
+h6:before {
+    content: '𝄛' "\0000a0";
+}
+
 
 
 h1 {
