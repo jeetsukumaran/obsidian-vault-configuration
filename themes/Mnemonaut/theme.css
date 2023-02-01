@@ -45,7 +45,7 @@
     --mnemonaut-dark-icon-focused         : red;
 
     --mnemonaut-dark-frame-accent-bg         : #484c50;
-    /* --mnemonaut-dark-frame-accent-bg         : var(--mnemonaut-dark-bg2); */
+    --mnemonaut-dark-heading-accent-bg         : #282828;
 }
 
 /* }}}1 */
@@ -207,7 +207,8 @@ body
 
     --tab-text-color-focused-active:         var(--mnemonaut-dark-tab-focused-active-fg);
     --tab-text-color-focused-active-current: var(--mnemonaut-dark-tab-focused-active-current-fg);
-    --mnemonaut-frame-accent-bg: var(--mnemonaut-dark-frame-accent-bg)
+    --mnemonaut-frame-accent-bg: var(--mnemonaut-dark-frame-accent-bg);
+    --mnemonaut-heading-accent-bg: var(--mnemonaut-dark-heading-accent-bg);
 }
 
 /* }}}1 */
@@ -283,6 +284,7 @@ body
     --tab-text-color-focused-active:         var(--mnemonaut-light-tab-focused-active-fg);
     --tab-text-color-focused-active-current: var(--mnemonaut-light-tab-focused-active-current-fg);
     --mnemonaut-frame-accent-bg: var(--mnemonaut-light-frame-accent-bg)
+    --mnemonaut-heading-accent-bg: var(--mnemonaut-light-heading-accent-bg);
 }
 
 /* }}}1 */
@@ -297,7 +299,7 @@ h1 {
     border-top: solid 1px;
     padding-top: 12px;
     padding-bottom: 12px;
-    background: #282828;
+    background: var(--mnemonaut-heading-accent-bg);
 }
 
 /* h1 { */
