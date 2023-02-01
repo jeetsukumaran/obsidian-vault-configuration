@@ -313,46 +313,53 @@ h1:before {
     /* content: '🌀 '; */
 }
 
-/* h2:before { */
-/*     content: '⠆' "\0000a0"; */
-/* } */
-
-/* h3:before { */
-/*     content: '⠒' "\0000a0"; */
-/* } */
-
-/* h4:before { */
-/*     content: '⠲' "\0000a0"; */
-/* } */
-
-/* h5:before { */
-/*     content: '⠢' "\0000a0"; */
-/* } */
-
+/* h2:before, */
+/* h3:before, */
+/* h4:before, */
+/* h5:before, */
 /* h6:before { */
-/*     content: '⠖' "\0000a0"; */
+/*     /1* content: '⏹ '; *1/ */
+/*     /1* content: '⏺ '; *1/ */
+/*     /1* content: '≣ '; *1/ */
+/*     /1* content: '⏣' "\0000a0"; *1/ */
+/*     /1* content: '◯ '; *1/ */
+/*     /1* content: '◉ '; *1/ */
+/*     /1* content: '🞖 '; *1/ */
+/*     content: '🟔 '; */
+/*     /1* content: '𝄛 '; *1/ */
 /* } */
 
 h2:before {
-    content: '𝄗' "\0000a0";
+    content: '⫼⫼'     "\0000a0";
 }
-
 h3:before {
-    content: '𝄘' "\0000a0";
+    content: '⫼⫼⫼'    "\0000a0";
 }
-
 h4:before {
-    content: '𝄙' "\0000a0";
+    content: '⫼⫼⫼⫼'   "\0000a0";
 }
-
 h5:before {
-    content: '𝄚' "\0000a0";
+    content: '⫼⫼⫼⫼⫼'  "\0000a0";
 }
-
 h6:before {
-    content: '𝄛' "\0000a0";
+    content: '⫼⫼⫼⫼⫼⫼' "\0000a0";
 }
 
+/* h2:before { */
+/*     content: '##'     "\0000a0"; */
+/* } */
+/* h3:before { */
+/*     content: '###'    "\0000a0"; */
+/* } */
+/* h4:before { */
+/*     content: '####'   "\0000a0"; */
+/* } */
+/* h5:before { */
+/*     content: '#####'  "\0000a0"; */
+/* } */
+/* h6:before { */
+/*     content: '######' "\0000a0"; */
+/* } */
 
 
 h1 {
@@ -380,32 +387,28 @@ h1 {
 
 
 h2 {
-    font-size: 120% !important;
+    font-size: 140% !important;
     border-bottom: solid 1px;
 }
 
 h3 {
-    font-size: 150% !important;
+    font-size: 120% !important;
     border-bottom: solid 1px;
-    font-size: 20px !important;
 }
 
 h4 {
-    font-size: 150% !important;
+    font-size: 110% !important;
     border-bottom: solid 1px;
-    font-size: 20px !important;
 }
 
 h5 {
-    font-size: 150% !important;
+    font-size: 100% !important;
     border-bottom: solid 1px;
-    font-size: 20px !important;
 }
 
 h6 {
-    font-size: 150% !important;
+    font-size: 90% !important;
     border-bottom: solid 1px;
-    font-size: 20px !important;
 }
 
 /* }}}2 */
