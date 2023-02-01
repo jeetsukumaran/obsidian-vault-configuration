@@ -294,8 +294,25 @@ body
 /* headings {{{2 */
 
 h1:before {
-    content: '⮺ ';
+    /* content: '⏹ '; */
+    /* content: '⏺ '; */
+    /* content: '≣ '; */
+    content: '⏣ ';
+    /* content: '░ '; */
+    /* content: '▉ '; */
+    /* content: '▎▎▎'; */
+    /* content: '▏▏▏'; */
+    /* content: '▥'; */
+    /* content: '◯ '; */
+    /* content: '◎ '; */
+    /* content: '◉ '; */
+    /* content: '🞖 '; */
+    /* content: '🟔 '; */
+    /* content: '⯼ '; */
+    /* content: '𝄛 '; */
+    /* content: '🌀 '; */
 }
+
 
 h1 {
     font-size: 150% !important;
