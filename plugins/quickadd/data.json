@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "domestics/personal/logs/rxlog"
+          "personal/logs/rxlog"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false
@@ -25,7 +25,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": true,
+      "openFile": false,
       "openFileInMode": "default"
     }
   ],

@@ -88,12 +88,6 @@
       "key": "F7"
     }
   ],
-  "workspaces:load": [
-    {
-      "modifiers": [],
-      "key": "F1"
-    }
-  ],
   "app:open-help": [],
   "insert-template": [],
   "convert-url-to-iframe:url-to-iframe": [],
@@ -111,5 +105,24 @@
       "modifiers": [],
       "key": "F5"
     }
-  ]
+  ],
+  "workspaces:load": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:inbox/todo.md": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "obsidian-advanced-slides:reload-advanced-slides-preview": [],
+  "obsidian-advanced-slides:open-advanced-slides-preview": [],
+  "obsidian-citation-plugin:open-literature-note": [],
+  "obsidian-citation-plugin:update-bib-data": [],
+  "obsidian-citation-plugin:insert-citation": []
 }

@@ -1,0 +1,82 @@
+{
+  "hotkeys": [
+    {
+      "sequence": [
+        {
+          "key": "\\",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-citation-plugin:insert-citation"
+    },
+    {
+      "sequence": [
+        {
+          "key": "\\",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-citation-plugin:insert-markdown-citation"
+    },
+    {
+      "sequence": [
+        {
+          "key": "\\",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "o",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-citation-plugin:open-literature-note"
+    }
+  ]
+}
