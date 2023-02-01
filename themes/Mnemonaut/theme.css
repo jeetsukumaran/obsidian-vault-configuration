@@ -12,12 +12,19 @@
     --mnemonaut-dark-text-faint           : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
     --mnemonaut-dark-text-muted           : #d5d5c5; /* menu/interface text */
 
-    --mnemonaut-dark-text-heading-h1      : #4e575f;
+    --mnemonaut-dark-text-heading-h1      : #506868;
     --mnemonaut-dark-text-heading-h2      : #448888;
     --mnemonaut-dark-text-heading-h3      : #5b8060;
     --mnemonaut-dark-text-heading-h4      : #808060;
-    --mnemonaut-dark-text-heading-h5      : #667070;
-    --mnemonaut-dark-text-heading-h6      :#505050;
+    --mnemonaut-dark-text-heading-h5      : #707070;
+    --mnemonaut-dark-text-heading-h6      : #505050;
+
+    /* --mnemonaut-dark-text-heading-h1      : #427b58; */
+    /* --mnemonaut-dark-text-heading-h2      : #448888; */
+    /* --mnemonaut-dark-text-heading-h3      : #5b8060; */
+    /* --mnemonaut-dark-text-heading-h4      : #808060; */
+    /* --mnemonaut-dark-text-heading-h5      : #667070; */
+    /* --mnemonaut-dark-text-heading-h6      : #505050; */
 
     --mnemonaut-dark-text-highlight-bg    : #555555;
     --mnemonaut-dark-text-highlight-fg    : none;
@@ -284,17 +291,19 @@ body
 
 /* body {{{2 */
 
+/* h1 { */
+/*     background: var(--background-secondary) !important; */
+/*     color: var(--background-primary) !important; */
+/*     text-align: center; */
+/*     font-weight: 200; */
+/*     padding: 10px; */
+/*     text-align: center; */
+/*     margin-bottom: 20px; */
+/*     font-size: 20px !important; */
+/*     border-radius: 80px; */
+/* } */
 h1 {
-    background: var(--background-secondary) !important;
-    color: var(--background-primary) !important;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px;
-    border-radius: 80px;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 20px !important;
 }
 
 h2 {
