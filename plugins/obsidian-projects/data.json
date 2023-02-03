@@ -1,6 +1,101 @@
 {
   "version": 2,
-  "projects": [],
+  "projects": [
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "backlog",
+            "queued",
+            "in-progress"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "notes/literature",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "abstract": {
+                "hide": true
+              },
+              "authors": {
+                "hide": true
+              },
+              "doi": {
+                "hide": true
+              },
+              "keywords": {
+                "hide": true
+              },
+              "title": {
+                "width": 572
+              },
+              "url": {
+                "width": 424,
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "name": {
+                "width": 254
+              },
+              "citekey": {
+                "hide": true
+              }
+            },
+            "sortField": "name",
+            "sortAsc": true
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "status",
+                "operator": "is-not-empty"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "5678305a-9afb-4692-ba4d-412415454a8c",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "59420fc1-cd12-4c83-a5a2-3cbd917b2af4",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "73d917ce-8d42-44e8-8cd6-a4f49a577938",
+      "name": "literature"
+    }
+  ],
   "preferences": {
     "projectSizeLimit": 1000,
     "frontmatter": {
