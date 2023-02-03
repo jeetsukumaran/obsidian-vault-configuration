@@ -27,9 +27,31 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "bca9a2da-321e-40f5-9b90-07dde4f9e4d8",
+      "name": "Open Daily Log",
+      "type": "Macro",
+      "command": true,
+      "macroId": "f97a9cda-f4ce-4349-9f07-72090f18097e"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Open Log Note",
+      "id": "f97a9cda-f4ce-4349-9f07-72090f18097e",
+      "commands": [
+        {
+          "name": "openNote.quickadd::OpenDailyLog",
+          "type": "UserScript",
+          "id": "a0e964ab-e886-4e83-a215-293403b10520",
+          "path": "__annex__/resources/obsidian/plugins/quickadd/javascript/openNote.quickadd.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false
 }
