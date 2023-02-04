@@ -111,10 +111,9 @@
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
-        "kind": "folder",
+        "kind": "dataview",
         "config": {
-          "path": "scratch/test-project1",
-          "recursive": true
+          "query": "TABLE WITHOUT ID\n   file.link,\n   processing-status\nWHERE\n   processing-status\nSORT processing-status\n"
         }
       },
       "newNotesFolder": "",
