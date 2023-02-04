@@ -124,5 +124,13 @@
   "obsidian-advanced-slides:open-advanced-slides-preview": [],
   "obsidian-citation-plugin:open-literature-note": [],
   "obsidian-citation-plugin:update-bib-data": [],
-  "obsidian-citation-plugin:insert-citation": []
+  "obsidian-citation-plugin:insert-citation": [],
+  "workspace:split-horizontal": [],
+  "workspace:split-vertical": [],
+  "obsidian-hotkeys-for-specific-files:planning/tasks/tasks.capture.md": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ]
 }

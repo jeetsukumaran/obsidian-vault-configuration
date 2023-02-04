@@ -3,11 +3,12 @@
   "projects": [
     {
       "fieldConfig": {
-        "status": {
+        "processing-status": {
           "options": [
+            "active",
+            "assigned",
             "backlog",
-            "queued",
-            "in-progress"
+            "unplanned"
           ]
         }
       },
@@ -57,18 +58,23 @@
               },
               "citekey": {
                 "hide": true
+              },
+              "processing-status": {
+                "width": 108
+              },
+              "processing-tasks": {
+                "width": 105,
+                "hide": true
+              },
+              "processing-priority": {
+                "hide": true
               }
             },
-            "sortField": "name",
+            "sortField": "processing-status",
             "sortAsc": true
           },
           "filter": {
-            "conditions": [
-              {
-                "field": "status",
-                "operator": "is-not-empty"
-              }
-            ]
+            "conditions": []
           },
           "colors": {
             "conditions": []
@@ -79,7 +85,8 @@
         },
         {
           "config": {
-            "groupByField": "status"
+            "groupByField": "processing-status",
+            "priorityField": "processing-priority"
           },
           "filter": {
             "conditions": []
@@ -94,6 +101,139 @@
       ],
       "id": "73d917ce-8d42-44e8-8cd6-a4f49a577938",
       "name": "literature"
+    },
+    {
+      "fieldConfig": {
+        "processing-tasks": {}
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "scratch/test-project1",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "processing-status",
+            "sortAsc": true,
+            "fieldConfig": {
+              "date": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "content-issues": {
+                "width": 513
+              },
+              "processing-tasks": {
+                "width": 487
+              },
+              "tags": {
+                "width": 327
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "286a22c0-c9d1-405a-bd16-ff6d3ecfacc0",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "processing-status",
+            "columns": {
+              "unplanned": {
+                "weight": 0
+              },
+              "backlog": {
+                "weight": 1
+              },
+              "assigned": {
+                "weight": 2
+              },
+              "active": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "b09c1362-67fa-4195-beb6-7886978bad3e",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "91821d55-9bd7-4399-93e9-e18a9d73ebd4",
+      "name": "test-project1"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "projects/research/ideas",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 286
+              },
+              "created": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "b2783e90-c440-4def-a24d-4ad8d36c99e7",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "a68bb311-7152-422e-a26e-0ff075437b63",
+      "name": "research-project-ideas"
     }
   ],
   "preferences": {

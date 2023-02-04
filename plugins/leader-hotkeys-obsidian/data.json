@@ -77,6 +77,44 @@
         }
       ],
       "commandID": "obsidian-citation-plugin:open-literature-note"
+    },
+    {
+      "sequence": [
+        {
+          "key": "\\",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "ArrowDown",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:split-horizontal"
+    },
+    {
+      "sequence": [
+        {
+          "key": "\\",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "ArrowRight",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:split-vertical"
     }
   ]
 }
