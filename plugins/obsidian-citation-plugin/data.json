@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
   "literatureNoteFolder": "notes/literature",
-  "literatureNoteContentTemplate": "---\ncitekey: {{citekey}}\nauthors: [{{authorString}}]\nyear: {{year}}\ntitle: >\n    {{title}}\ndoi: {{DOI}}\nurl: {{URL}}\nabstract: >\n    {{abstract}}\nkeywords: [{{entry.data.fields.keywords}}]\nprocessing-status: unplanned\n---\n([read]({{zoteroSelectURI}}))\n\n",
+  "literatureNoteContentTemplate": "---\ncitekey: {{citekey}}\nauthors: [{{authorString}}]\nyear: {{year}}\ntitle: >\n    {{title}}\ndoi: {{DOI}}\nurl: {{URL}}\nabstract: >\n    {{abstract}}\nkeywords: [{{entry.data.fields.keywords}}]\njob-status: unplanned\njob-description: >\n Read/process\njob-activities: \n- reading\n---\n([read]({{zoteroSelectURI}}))\n\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "__annex__/resources/bibliographies/references.zotero.bib"

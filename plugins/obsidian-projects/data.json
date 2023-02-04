@@ -111,16 +111,17 @@
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
-        "kind": "dataview",
+        "kind": "folder",
         "config": {
-          "query": "TABLE WITHOUT ID\n   file.link,\n   processing-status\nWHERE\n   processing-status\nSORT processing-status\n"
+          "path": "scratch/test-project1",
+          "recursive": false
         }
       },
       "newNotesFolder": "",
       "views": [
         {
           "config": {
-            "sortField": "processing-status",
+            "sortField": "job-status",
             "sortAsc": true,
             "fieldConfig": {
               "date": {
@@ -140,6 +141,12 @@
               },
               "tags": {
                 "width": 327
+              },
+              "job-tasks": {
+                "width": 407
+              },
+              "job-status": {
+                "width": 156
               }
             }
           },
