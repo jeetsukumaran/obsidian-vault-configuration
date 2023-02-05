@@ -81,10 +81,10 @@
                 "hide": true
               },
               "notekeeping-activities": {
-                "width": 153
+                "width": 265
               },
               "notekeeping-status": {
-                "width": 131
+                "width": 270
               },
               "project": {
                 "hide": true
@@ -94,6 +94,9 @@
               },
               "notekeeping-project": {
                 "hide": true
+              },
+              "notekeeping-description": {
+                "width": 305
               }
             },
             "sortField": "notekeeping-status",
