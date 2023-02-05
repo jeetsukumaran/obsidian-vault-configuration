@@ -48,12 +48,13 @@
     --mnemonaut-dark-frame-accent-bg         : #484c50;
     --mnemonaut-dark-heading-accent-bg         : #2a2828;
 
-    /* --mnemonaut-dark-table-header-background: #445566; */
-    --mnemonaut-dark-table-header-background: #605545;
-    --mnemonaut-dark-table-header-background-hover: var(--mnemonaut-dark-table-header-background);
-    --mnemonaut-dark-table-row-even-background: #303030;
-    --mnemonaut-dark-table-row-odd-background:  #282828;
+    --mnemonaut-dark-table-row-even-background: #3d3d3d;
+    --mnemonaut-dark-table-row-odd-background:  #383838;
     --mnemonaut-dark-table-row-background-hover: var(--mnemonaut-dark-text-highlight-bg);
+    --mnemonaut-dark-table-header-background: #282828;
+    /* --mnemonaut-dark-table-header-background: var(--mnemonaut-dark-bg2); */
+    /* --mnemonaut-dark-table-header-background: #101010; */
+    --mnemonaut-dark-table-header-background-hover: var(--mnemonaut-dark-table-header-background);
 }
 
 /* }}}1 */
