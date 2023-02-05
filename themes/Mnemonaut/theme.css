@@ -564,6 +564,7 @@ span.dataview.inline-field-standalone-value {
 /* more compact */
 .nav-file-title,
 .nav-folder-title {
+  font-size: 16px;
   padding: 0px 14px 0px 20px;
 }
 
