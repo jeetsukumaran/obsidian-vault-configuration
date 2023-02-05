@@ -27,6 +27,7 @@
     /* --mnemonaut-dark-text-heading-h6      : #505050; */
 
     --mnemonaut-dark-text-highlight-bg    : #555555;
+    --mnemonaut-dark-text-selection       : #501818;
     --mnemonaut-dark-text-highlight-fg    : none;
     --mnemonaut-dark-text-accent          : #80b0a8; /* links */
     --mnemonaut-dark-text-accent-hover    : #ffff00; /* links */
@@ -46,6 +47,13 @@
 
     --mnemonaut-dark-frame-accent-bg         : #484c50;
     --mnemonaut-dark-heading-accent-bg         : #2a2828;
+
+    /* --mnemonaut-dark-table-header-background: #445566; */
+    --mnemonaut-dark-table-header-background: #605545;
+    --mnemonaut-dark-table-header-background-hover: var(--mnemonaut-dark-table-header-background);
+    --mnemonaut-dark-table-row-even-background: #303030;
+    --mnemonaut-dark-table-row-odd-background:  #282828;
+    --mnemonaut-dark-table-row-background-hover: var(--mnemonaut-dark-text-highlight-bg);
 }
 
 /* }}}1 */
@@ -186,12 +194,13 @@ body
     --checkbox-border-color-hover:   var(--mnemonaut-dark-checkbox-fg);
     --checklist-done-color:          var(--mnemonaut-dark-checkbox-donoe-fg);
 
-    --table-header-background:       var(--mnemonaut-dark-text-table-header-bg);
-    --table-header-background-hover: var(--mnemonaut-dark-text-highlight-bg);
-    --table-row-background:          var(--mnemonaut-dark-text-table-header-bg);
-    --table-row-background-hover:    var(--mnemonaut-dark-text-highlight-bg);
+    --table-header-background:       var(--mnemonaut-dark-table-header-background);
+    --table-header-background-hover: var(--mnemonaut-dark-table-header-background-hover);
+    --table-row-even-background:          var(--mnemonaut-dark-table-row-even-background);
+    --table-row-odd-background:          var(--mnemonaut-dark-table-row-odd-background);
+    --table-row-background-hover:    var(--mnemonaut-dark-table-row-background-hover);
 
-    --text-selection:                var(--mnemonaut-dark-text-highlight-bg);
+    --text-selection:                var(--mnemonaut-dark-text-selection);
 
     --code-normal:                   var(--mnemonaut-dark-code-fg);
     --code-background:               var(--mnemonaut-dark-code-bg);
@@ -199,7 +208,7 @@ body
     --icon-color-hover:              var(--mnemonaut-dark-item-hover);
     --icon-color-focused:            var(--mnemonaut-dark-item-focused);
 
-    --nav-item-color-hover:          var(--mnemonaut-dark-nav-item-hover);
+    --nav-item-color-hover:          red;
     --nav-item-color-active:         var(--mnemonaut-dark-nav-item-active);
     --nav-file-tag:                  var(--mnemonaut-dark-nav-file-tag);
 
@@ -869,6 +878,25 @@ HyperMD-codeblock.cm-line {
     line-height: normal !important;
 }
 
+/* }}}2 */
+
+
+/* tables {{{2 */
+.markdown-rendered tbody tr:nth-child(even)
+{
+    background-color: var(--table-row-even-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd)
+{
+    background-color: var(--table-row-odd-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even):hover,
+.markdown-rendered tbody tr:nth-child(odd):hover
+{
+    background-color: var(--table-row-background-hover) !important;
+}
 /* }}}2 */
 
 /* }}}1 */

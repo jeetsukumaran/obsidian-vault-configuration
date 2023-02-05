@@ -322,7 +322,7 @@ thead
 {
     border-bottom: 2px solid var(--background-modifier-border) !important;
 }
-  
+
 th
 {
     font-weight: 600 !important;
@@ -423,7 +423,7 @@ pre[class*="language-"]
  * This assumes --list-indent is default at 2em.
  */
 /*
-.cm-indent 
+.cm-indent
 {
     text-indent: 1em !important;
 }

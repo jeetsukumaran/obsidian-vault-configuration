@@ -2,7 +2,9 @@
   "accentColor": "",
   "cssTheme": "Mnemonaut",
   "nativeMenus": false,
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "dashboard"
+  ],
   "baseFontSize": 15,
   "theme": "obsidian",
   "showViewHeader": true,
