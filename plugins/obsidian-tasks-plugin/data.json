@@ -1,5 +1,5 @@
 {
-  "globalFilter": "",
+  "globalFilter": "#job",
   "removeGlobalFilter": false,
   "setDoneDate": false,
   "autoSuggestInEditor": false,

@@ -44,7 +44,8 @@
                 "hide": true
               },
               "title": {
-                "width": 572
+                "width": 572,
+                "hide": false
               },
               "url": {
                 "width": 424,
@@ -54,7 +55,8 @@
                 "hide": true
               },
               "name": {
-                "width": 254
+                "width": 254,
+                "hide": false
               },
               "citekey": {
                 "hide": true
@@ -68,9 +70,33 @@
               },
               "processing-priority": {
                 "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "job-priority": {
+                "hide": true
+              },
+              "job-activities": {
+                "width": 153
+              },
+              "job-status": {
+                "width": 131
+              },
+              "project": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              },
+              "job-project": {
+                "hide": true
               }
             },
-            "sortField": "processing-status",
+            "sortField": "job-status",
             "sortAsc": true
           },
           "filter": {

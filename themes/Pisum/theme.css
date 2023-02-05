@@ -13,7 +13,7 @@
     --font-size-h6:                  18px;
     --font-family-editor:            Avenir, Avenir Next, sans-serif;
     --font-family-preview:           Avenir, Avenir Next, sans-serif;
-} 
+}
 
 .theme-light,
 .theme-dark {
@@ -62,7 +62,7 @@
   --blockquote-border:          #b57614;
   --vim-cursor:                 #d65d0e;
   --border-color:               #504945; /*also like transparent*/
-  --hover-bg:                   rgba(0, 0, 0, 0.5); 
+  --hover-bg:                   rgba(0, 0, 0, 0.5);
 }
 /* better use rgba color for all color var ended with `bg`*/
 
@@ -103,7 +103,7 @@
 
 /*vertical resize-handle*/
 .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
-.workspace-split.mod-left-split > .workspace-leaf-resize-handle, 
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
 .workspace-split.mod-right-split > .workspace-leaf-resize-handle{
   width: 1px !important;
   background-color: var(--border-color);
@@ -166,7 +166,7 @@ a.tag:hover {
 }
 
 /* to customize tags */
-.tag[href="#obsidian"] { 
+.tag[href="#obsidian"] {
 /* .tag[href^="#obsidian"] match any tag started with "xxx"*/
 /* .tag[href="#obsidian"] exact match with "xxx"*/
   background-color: black;
@@ -208,7 +208,7 @@ a:not(.internal-link) {
 /*footnote*/
 .cm-s-obsidian pre.HyperMD-footnote span.cm-hmd-footnote,
 .cm-s-obsidian span.cm-footref {
-  color: var(--text-accent) !important; 
+  color: var(--text-accent) !important;
 }
 
 /***************************************/
@@ -236,7 +236,7 @@ a:not(.internal-link) {
 /* set the text selection color for preview mode */
 ::selection {
   background-color: var(--text-selection);
-} 
+}
 
 /* normal text outside of headings and code of editor */
 .cm-s-obsidian, .mod-single-child .cm-s-obsidian {
@@ -431,7 +431,7 @@ code{
 }
 
 .theme-dark .token.function,
-.theme-dark .token.class-name, 
+.theme-dark .token.class-name,
 .theme-light .token.function,
 .theme-light .token.class-name {
   color: #DD4A68;
@@ -527,7 +527,7 @@ code{
   border: 0px !important;
 }
 
-/*an active line highlight in vim normal mode 
+/*an active line highlight in vim normal mode
 .cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
   background-color: var(--text-selection) !important;
 } */
@@ -667,7 +667,7 @@ thead {
 }
 
 /* search result in backlink or file search */
-.search-result-file-title {  
+.search-result-file-title {
   font-size: var(--font-size-side-dock-title) ;
 }
 
@@ -689,7 +689,7 @@ thead {
 }
 
 .nav-file.is-active > .nav-file-title {
-  background-color: var(--hover-bg) !important; 
+  background-color: var(--hover-bg) !important;
 }
 /* .nav-file-title:hover, .nav-folder-title:hover {
   background-color: var(--hover-bg) !important;
@@ -701,7 +701,7 @@ thead {
 }
 
 .workspace-leaf-content[data-type="tag"] .tag-pane-tag-count,
-.workspace-leaf-content[data-type="tag"] .tag-pane-tag-text {  
+.workspace-leaf-content[data-type="tag"] .tag-pane-tag-text {
   font-size: var(--font-size-side-dock);
 }
 
@@ -720,8 +720,8 @@ thead {
 .markdown-preview-view .markdown-embed-content>:first-child { display:none;}*/
 /*remove the following two line, you will get border and scroll*/
 .markdown-preview-view .markdown-embed { border:none; padding:0; margin:0; }
-.markdown-preview-view .markdown-embed-content 
-{ 
+.markdown-preview-view .markdown-embed-content
+{
   max-height: unset;
   background-color: var(--background-secondary);
 }
@@ -742,7 +742,7 @@ color: var(--text-accent) !important;
 .graph-view.color-fill-highlight,
 .graph-view.color-line-highlight
 {
-    color: var(--text-accent) !important;    
+    color: var(--text-accent) !important;
 }
 
 .graph-view.color-text
@@ -778,10 +778,10 @@ color: var(--text-accent) !important;
   z-index: 100;
 }
 
-.workspace-ribbon:not(:hover) .workspace-ribbon-collapse-btn, 
-.workspace-ribbon:not(:hover) .side-dock-actions, 
+.workspace-ribbon:not(:hover) .workspace-ribbon-collapse-btn,
+.workspace-ribbon:not(:hover) .side-dock-actions,
 .workspace-ribbon:not(:hover) .side-dock-settings {
-  display:none; 
+  display:none;
   transition: all 300ms ease-in-out;}
 .workspace-ribbon:not(:hover) {
   width: 0px;
@@ -795,7 +795,7 @@ color: var(--text-accent) !important;
 /*           width of content          */
 /***************************************/
 
-.markdown-source-view.is-readable-line-width .CodeMirror, 
+.markdown-source-view.is-readable-line-width .CodeMirror,
 .markdown-preview-view.is-readable-line-width .markdown-preview-section {
   max-width: 42vmax; /* 1vmax = 1% of the larger dimension*/
   margin-left: auto;
@@ -810,7 +810,7 @@ color: var(--text-accent) !important;
 /* header */
 
 .theme-dark .view-header {
-  background-color: var(--background-primary) !important;   
+  background-color: var(--background-primary) !important;
   border-top: 1px solid var(--border-color) !important;
   border-bottom: 1px solid var(--border-color) !important;
 }
@@ -820,7 +820,7 @@ color: var(--text-accent) !important;
 }
 
 .theme-dark .workspace-leaf.mod-active .view-header {
-  background-color: var(--background-secondary-alt) !important;  
+  background-color: var(--background-secondary-alt) !important;
   border-top: 0px !important;
   border-bottom: 3px solid var(--interactive-accent) !important;
 }
@@ -847,11 +847,11 @@ color: var(--text-accent) !important;
 
 /* everything under .mod-root now. Don't want Andy messing with sidebars */
 /* also, Andy only makes sense for vertical splits, at the root level, right? */
-.theme-light .mod-root.workspace-split.mod-vertical { 
-  overflow-x:auto; 
+.theme-light .mod-root.workspace-split.mod-vertical {
+  overflow-x:auto;
   --sticky-left: 25px; /* <- 36px is the header height in the default theme */
 }
-.theme-light .mod-root.workspace-split.mod-vertical > div { 
+.theme-light .mod-root.workspace-split.mod-vertical > div {
   min-width: calc(700px + var(--sticky-left)); /* <-- 700px is the default theme's "readable" max-width */
   box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
   position:sticky;
@@ -914,7 +914,7 @@ color: var(--text-accent) !important;
 
 /* active titles have different border colours */
 .theme-light .workspace-leaf.mod-active .view-header {
-  background-color: var(--background-secondary-alt) !important; 
+  background-color: var(--background-secondary-alt) !important;
   border-right: 3px solid var(--interactive-accent) !important;
   border-left: 0px;
   border-bottom: none;
@@ -987,8 +987,8 @@ ul ul::before { left: -1em; top: 0; bottom: 0; }
 /***************************************/
 
 /* Hide scrollbar in preview, search, file, tag, back links *//*
-.markdown-preview-view::-webkit-scrollbar, 
-.workspace-leaf-content::-webkit-scrollbar, 
+.markdown-preview-view::-webkit-scrollbar,
+.workspace-leaf-content::-webkit-scrollbar,
 .workspace-leaf-content[data-type = "backlink"] .view-content::-webkit-scrollbar {
   display: none;
 }*/
@@ -1001,7 +1001,7 @@ ul ul::before { left: -1em; top: 0; bottom: 0; }
 .search-result-container::-webkit-scrollbar,
 .nav-files-container::-webkit-scrollbar,
 .tag-pane-tags::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 */
 

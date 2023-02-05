@@ -106,14 +106,7 @@
       "key": "F5"
     }
   ],
-  "workspaces:load": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": " "
-    }
-  ],
+  "workspaces:load": [],
   "obsidian-hotkeys-for-specific-files:inbox/todo.md": [
     {
       "modifiers": [],
@@ -125,8 +118,24 @@
   "obsidian-citation-plugin:open-literature-note": [],
   "obsidian-citation-plugin:update-bib-data": [],
   "obsidian-citation-plugin:insert-citation": [],
-  "workspace:split-horizontal": [],
-  "workspace:split-vertical": [],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
   "obsidian-hotkeys-for-specific-files:planning/tasks/tasks.capture.md": [
     {
       "modifiers": [],
