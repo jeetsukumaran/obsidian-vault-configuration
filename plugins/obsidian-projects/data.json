@@ -77,13 +77,13 @@
               "created": {
                 "hide": true
               },
-              "job-priority": {
+              "notekeeping-priority": {
                 "hide": true
               },
-              "job-activities": {
+              "notekeeping-activities": {
                 "width": 153
               },
-              "job-status": {
+              "notekeeping-status": {
                 "width": 131
               },
               "project": {
@@ -92,11 +92,11 @@
               "tags": {
                 "hide": true
               },
-              "job-project": {
+              "notekeeping-project": {
                 "hide": true
               }
             },
-            "sortField": "job-status",
+            "sortField": "notekeeping-status",
             "sortAsc": true
           },
           "filter": {
@@ -147,7 +147,7 @@
       "views": [
         {
           "config": {
-            "sortField": "job-status",
+            "sortField": "notekeeping-status",
             "sortAsc": true,
             "fieldConfig": {
               "date": {
@@ -168,10 +168,10 @@
               "tags": {
                 "width": 327
               },
-              "job-tasks": {
+              "notekeeping-tasks": {
                 "width": 407
               },
-              "job-status": {
+              "notekeeping-status": {
                 "width": 156
               }
             }
