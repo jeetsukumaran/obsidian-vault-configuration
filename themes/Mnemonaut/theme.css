@@ -209,7 +209,7 @@ body
     --icon-color-hover:              var(--mnemonaut-dark-item-hover);
     --icon-color-focused:            var(--mnemonaut-dark-item-focused);
 
-    --nav-item-color-hover:          red;
+    --nav-item-color-hover:          var(--mnemonaut-dark-nav-item-active);
     --nav-item-color-active:         var(--mnemonaut-dark-nav-item-active);
     --nav-file-tag:                  var(--mnemonaut-dark-nav-file-tag);
 
