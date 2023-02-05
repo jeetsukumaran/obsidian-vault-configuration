@@ -406,6 +406,7 @@ Project
 Progress
 Projects
 Prep
+Plan
 url
 unplanned
 unclear
@@ -987,6 +988,9 @@ Alejandro
 As
 Adrian
 Add
+Activity
+Active
+Anticipated
 for
 focused
 functioned
@@ -1181,6 +1185,7 @@ Number
 Nm
 Nbr
 NAME
+Notekeeping
 Tautz
 The
 Two
@@ -1251,6 +1256,7 @@ Up
 Understanding
 Uses
 Upcoming
+Urgent
 Questions
 xAxisLabel
 YYYY

@@ -568,11 +568,11 @@ span.dataview.inline-field-standalone-value {
 }
 
 /* little arrows in the native file explorer AND to collapse/uncollapse headings, lists, etc. */
-/* .right-triangle path { */
-/*   stroke: var(--background-primary); */
-/*   stroke-width: 4px; */
-/*   stroke-linecap="round"; */
-/* } */
+.right-triangle path {
+  stroke: #d5d5c5 !important;
+  stroke-width: 4px;
+  stroke-linecap="round";
+}
 
 .theme-light .nav-folder-title {
     font-weight: normal;
@@ -963,6 +963,3 @@ span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
 
 }}}1 */
 
-thead {
-  border-bottom: 3px solid var(--background-modifier-border);
-}
