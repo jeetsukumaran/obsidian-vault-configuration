@@ -583,6 +583,8 @@ storage
 sandbox
 splitting
 speciation
+supports
+supported
 zotero
 items
 it
@@ -669,6 +671,7 @@ Speciation
 Show
 Simulation
 Simulate
+Supports
 right
 rarer
 recorded
@@ -865,6 +868,7 @@ pgtest
 potential
 proposed
 post
+parent
 was
 were
 women
@@ -896,6 +900,7 @@ weeks
 want
 weirdness
 workspaces
+workplan
 backlog
 bibliography
 before
@@ -1251,6 +1256,7 @@ WITHOUT
 WHERE
 While
 What
+Write
 Endless
 Evolutionary
 Explanation

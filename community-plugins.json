@@ -3,7 +3,6 @@
   "obsidian-advanced-slides",
   "obsidian-auto-link-title",
   "obsidian-citation-plugin",
-  "obsidian-completr",
   "creases",
   "dbfolder",
   "obsidian-latex",
@@ -26,5 +25,8 @@
   "recent-files-obsidian",
   "reveal-active-file-button",
   "obsidian-shellcommands",
-  "obsidian-sortable"
+  "obsidian-sortable",
+  "graph-analysis",
+  "excalibrain",
+  "obsidian-excalidraw-plugin"
 ]

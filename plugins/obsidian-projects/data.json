@@ -77,13 +77,13 @@
               "created": {
                 "hide": true
               },
-              "notekeeping-priority": {
+              "production-priority": {
                 "hide": true
               },
-              "notekeeping-activities": {
+              "production-activities": {
                 "width": 265
               },
-              "notekeeping-status": {
+              "production-status": {
                 "width": 270
               },
               "project": {
@@ -92,14 +92,14 @@
               "tags": {
                 "hide": true
               },
-              "notekeeping-project": {
+              "production-project": {
                 "hide": true
               },
-              "notekeeping-description": {
+              "production-brief": {
                 "width": 305
               }
             },
-            "sortField": "notekeeping-status",
+            "sortField": "production-status",
             "sortAsc": true
           },
           "filter": {
@@ -150,7 +150,7 @@
       "views": [
         {
           "config": {
-            "sortField": "notekeeping-status",
+            "sortField": "production-status",
             "sortAsc": true,
             "fieldConfig": {
               "date": {
@@ -171,10 +171,10 @@
               "tags": {
                 "width": 327
               },
-              "notekeeping-tasks": {
+              "production-tasks": {
                 "width": 407
               },
-              "notekeeping-status": {
+              "production-status": {
                 "width": 156
               }
             }
