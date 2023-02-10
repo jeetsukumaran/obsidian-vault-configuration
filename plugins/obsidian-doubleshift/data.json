@@ -8,7 +8,7 @@
       "lastKeyUpTime": 0
     },
     {
-      "command": "obsidian-citation-plugin:insert-citation",
+      "command": "obsidian-hotkeys-for-specific-files:logs/tasks.log.md",
       "key": "Control",
       "lastKeyUpTime": 0
     }
