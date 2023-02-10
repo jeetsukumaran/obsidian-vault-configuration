@@ -1,6 +1,5 @@
 [
   "dataview",
-  "obsidian-advanced-slides",
   "obsidian-auto-link-title",
   "obsidian-citation-plugin",
   "creases",
@@ -28,5 +27,15 @@
   "obsidian-sortable",
   "graph-analysis",
   "excalibrain",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-book-search-plugin",
+  "obsidian-pandoc",
+  "obsidian-csv-table",
+  "csv-obsidian",
+  "obsidian-style-settings",
+  "obsidian-copy-block-link",
+  "ob-table-enhancer",
+  "pane-relief",
+  "obsidian-doubleshift",
+  "obsidian-toggle-case"
 ]

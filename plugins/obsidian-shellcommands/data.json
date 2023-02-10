@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.17.0",
+  "settings_version": "0.18.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -38,7 +38,10 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "id": "v90bful6s0",
@@ -63,7 +66,10 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "id": "rob425oq6y",
@@ -88,7 +94,10 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "id": "kg0polj4gc",
@@ -113,7 +122,10 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "id": "q1uo5urr1c",
@@ -138,7 +150,10 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "id": "48sr4u8nqa",
@@ -163,7 +178,10 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     },
     {
       "id": "fhwxws5blp",
@@ -188,10 +206,14 @@
       "events": {},
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {},
+      "input_contents": {
+        "stdin": null
+      }
     }
   ],
   "prompts": [],
+  "builtin_variables": {},
   "custom_variables": [],
   "output_wrappers": []
 }

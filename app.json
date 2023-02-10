@@ -16,5 +16,6 @@
   "useTab": false,
   "attachmentFolderPath": "_annex/attachments",
   "showLineNumber": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "defaultViewMode": "preview"
 }

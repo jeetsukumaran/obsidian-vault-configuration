@@ -3,9 +3,10 @@
   "cssTheme": "Minimal",
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "dashboard"
+    "dashboard",
+    "obsidian-tasks"
   ],
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "theme": "obsidian",
   "showViewHeader": true,
   "textFontFamily": "Noto Mono"

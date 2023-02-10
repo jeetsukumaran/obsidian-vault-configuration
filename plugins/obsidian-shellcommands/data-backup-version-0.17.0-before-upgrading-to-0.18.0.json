@@ -1,0 +1,197 @@
+{
+  "settings_version": "0.17.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "id": "sb5kdbj7w9",
+      "platform_specific_commands": {
+        "default": "echo {{file_path:absolute}}  >&2"
+      },
+      "shells": {},
+      "alias": "Copy Filepath to Clipboard",
+      "icon": "clipboard-copy",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "clipboard"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "v90bful6s0",
+      "platform_specific_commands": {
+        "default": "echo {{vault_path}} | xclip -selection c"
+      },
+      "shells": {},
+      "alias": "Copy Vault Path to Clipboard",
+      "icon": "inbox",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "ignore"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "rob425oq6y",
+      "platform_specific_commands": {
+        "default": "cd {{vault_path}} && gnome-terminal "
+      },
+      "shells": {},
+      "alias": "Open Terminal in Vault Path",
+      "icon": "terminal-square",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "kg0polj4gc",
+      "platform_specific_commands": {
+        "default": "cd {{vault_path}} && gnome-terminal -- nvim \"+call cursor({{caret_position:line}}, {{caret_position:column}})\" {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "Edit in NeoVim",
+      "icon": "hammer",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "q1uo5urr1c",
+      "platform_specific_commands": {
+        "default": "cd {{vault_path}}/.obsidian && gnome-terminal "
+      },
+      "shells": {},
+      "alias": "Open Terminal in Vault Configuration Path",
+      "icon": "cpu",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "48sr4u8nqa",
+      "platform_specific_commands": {
+        "default": "cd {{folder_path:absolute}} && gnome-terminal"
+      },
+      "shells": {},
+      "alias": "Open Terminal in Folder Path",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "fhwxws5blp",
+      "platform_specific_commands": {
+        "default": "nvim --server /tmp/neovim.pipe --remote-silent {{file_path:absolute}} && nvim --server /tmp/neovim.pipe --remote-send ':call cursor({{caret_position:line}}, {{caret_position:column}})<CR>'"
+      },
+      "shells": {},
+      "alias": "Edit in NeoVim RPC",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [],
+  "custom_variables": [],
+  "output_wrappers": []
+}

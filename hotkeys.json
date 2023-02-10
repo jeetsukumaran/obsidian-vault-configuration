@@ -117,7 +117,6 @@
   "obsidian-advanced-slides:open-advanced-slides-preview": [],
   "obsidian-citation-plugin:open-literature-note": [],
   "obsidian-citation-plugin:update-bib-data": [],
-  "obsidian-citation-plugin:insert-citation": [],
   "workspace:split-horizontal": [
     {
       "modifiers": [
@@ -140,6 +139,25 @@
     {
       "modifiers": [],
       "key": "F1"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "switcher:open": [],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Q"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "delay": 500,
+  "key": "Shift",
+  "shortcuts": [
+    {
+      "command": "quickadd:runQuickAdd",
+      "key": "Shift",
+      "lastKeyUpTime": 0
+    },
+    {
+      "command": "obsidian-citation-plugin:insert-citation",
+      "key": "Control",
+      "lastKeyUpTime": 0
+    }
+  ]
+}

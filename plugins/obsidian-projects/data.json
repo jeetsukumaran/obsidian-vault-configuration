@@ -19,7 +19,7 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "notes/literature",
+          "path": "literature",
           "recursive": false
         }
       },
@@ -81,7 +81,7 @@
                 "hide": true
               },
               "production-activities": {
-                "width": 265
+                "width": 174
               },
               "production-status": {
                 "width": 270
@@ -103,7 +103,12 @@
             "sortAsc": true
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "production-status",
+                "operator": "is-not-empty"
+              }
+            ]
           },
           "colors": {
             "conditions": []
