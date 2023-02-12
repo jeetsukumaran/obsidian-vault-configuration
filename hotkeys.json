@@ -141,15 +141,6 @@
       "key": "F1"
     }
   ],
-  "obsidian-citation-plugin:insert-citation": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "2"
-    }
-  ],
   "switcher:open": [],
   "quickadd:runQuickAdd": [
     {
@@ -158,6 +149,23 @@
         "Mod"
       ],
       "key": "Q"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "obsidian-citation-plugin:insert-markdown-citation": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
     }
   ]
 }

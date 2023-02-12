@@ -30,7 +30,7 @@
   "underlineExternal": false,
   "useSystemTheme": false,
   "folding": true,
-  "lineNumbers": true,
+  "lineNumbers": false,
   "readableLineLength": false,
   "devBlockWidth": false
 }

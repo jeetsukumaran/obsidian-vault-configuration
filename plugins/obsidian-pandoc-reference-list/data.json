@@ -1,0 +1,4 @@
+{
+  "pathToPandoc": "/usr/bin/pandoc",
+  "tooltipDelay": 800
+}

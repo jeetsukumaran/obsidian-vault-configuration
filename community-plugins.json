@@ -5,7 +5,6 @@
   "creases",
   "dbfolder",
   "obsidian-latex",
-  "obsidian-file-info-plugin",
   "obsidian-full-calendar",
   "obsidian-kanban",
   "obsidian-tikzjax",
@@ -28,15 +27,13 @@
   "graph-analysis",
   "excalibrain",
   "obsidian-excalidraw-plugin",
-  "obsidian-book-search-plugin",
-  "obsidian-pandoc",
   "obsidian-csv-table",
   "csv-obsidian",
   "obsidian-style-settings",
   "obsidian-copy-block-link",
-  "ob-table-enhancer",
-  "pane-relief",
-  "obsidian-doubleshift",
   "obsidian-toggle-case",
-  "obsidian-hotkeys-for-specific-files"
+  "obsidian-hotkeys-for-specific-files",
+  "obsidian-pandoc-reference-list",
+  "obsidian-show-file-path",
+  "obsidian-completr"
 ]

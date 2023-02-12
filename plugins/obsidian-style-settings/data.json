@@ -1,3 +1,19 @@
 {
-  "minimal-style@@embed-strict": false
+  "minimal-style@@embed-strict": false,
+  "minimal-style@@bg1@@dark": "#323030",
+  "minimal-style@@bg2@@dark": "#4E575F",
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-index",
+  "minimal-style@@sidebar-lines-off": false,
+  "minimal-style@@row-alt": false,
+  "minimal-style@@col-alt": false,
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-style@@image-muted": 0.9,
+  "minimal-style@@tx1@@dark": "#AAA090",
+  "minimal-style@@tx3@@dark": "#809090",
+  "minimal-style@@tx2@@dark": "#D5D5C5",
+  "minimal-style@@tabs-style": "tabs-default",
+  "minimal-style@@row-lines": true,
+  "minimal-style@@col-lines": true,
+  "minimal-style@@table-lines": true,
+  "minimal-style@@table-tabular": true
 }

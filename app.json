@@ -15,7 +15,7 @@
   "smartIndentList": true,
   "useTab": false,
   "attachmentFolderPath": "_annex/attachments",
-  "showLineNumber": true,
+  "showLineNumber": false,
   "newFileLocation": "current",
   "defaultViewMode": "preview"
 }
