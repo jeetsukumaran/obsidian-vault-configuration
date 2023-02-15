@@ -14,7 +14,7 @@
   "autoPairMarkdown": false,
   "smartIndentList": true,
   "useTab": false,
-  "attachmentFolderPath": "_annex/attachments",
+  "attachmentFolderPath": "__annex__/attachments",
   "showLineNumber": false,
   "newFileLocation": "current",
   "defaultViewMode": "preview"

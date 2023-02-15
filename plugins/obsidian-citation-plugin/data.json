@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
   "literatureNoteFolder": "literature",
-  "literatureNoteContentTemplate": "---\ncitekey: {{citekey}}\nauthors: [{{authorString}}]\nyear: {{year}}\ntitle: >\n    {{title}}\ndoi: {{DOI}}\nurl: {{URL}}\nabstract: >\n    {{abstract}}\nkeywords: [{{entry.data.fields.keywords}}]\n---\n([read]({{zoteroSelectURI}}))\n\n# {{title}}\n",
+  "literatureNoteContentTemplate": "---\ncitekey: {{citekey}}\nauthors: [{{authorString}}]\nyear: {{year}}\ntitle: >\n    {{title}}\ndoi: {{DOI}}\nurl: {{URL}}\nzotero: {{zoteroSelectURI}}\nabstract: >\n    {{abstract}}\nkeywords: [{{entry.data.fields.keywords}}]\n---\n[read]({{zoteroSelectURI}})\n\n# {{title}}\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "__annex__/resources/bibliographies/references.zotero.bib"

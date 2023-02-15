@@ -1,4 +1,6 @@
 {
   "pathToPandoc": "/usr/bin/pandoc",
-  "tooltipDelay": 800
+  "tooltipDelay": 800,
+  "pathToBibliography": "/home/jeet/site/storage/workspaces/note/content/jotter/__annex__/resources/bibliographies/references.zotero.bib",
+  "hideLinks": false
 }

@@ -29,11 +29,14 @@
   "obsidian-excalidraw-plugin",
   "obsidian-csv-table",
   "csv-obsidian",
-  "obsidian-style-settings",
   "obsidian-copy-block-link",
   "obsidian-toggle-case",
   "obsidian-hotkeys-for-specific-files",
   "obsidian-pandoc-reference-list",
-  "obsidian-show-file-path",
-  "obsidian-completr"
+  "obsidian-completr",
+  "obsidian-heading-shifter",
+  "obsidian-link-converter",
+  "obsidian-style-settings",
+  "obsidian42-text-transporter",
+  "obsidian42-strange-new-worlds"
 ]

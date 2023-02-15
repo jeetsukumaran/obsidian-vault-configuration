@@ -34,14 +34,6 @@
       "key": "E"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "O"
-    }
-  ],
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
@@ -115,7 +107,15 @@
   ],
   "obsidian-advanced-slides:reload-advanced-slides-preview": [],
   "obsidian-advanced-slides:open-advanced-slides-preview": [],
-  "obsidian-citation-plugin:open-literature-note": [],
+  "obsidian-citation-plugin:open-literature-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
   "obsidian-citation-plugin:update-bib-data": [],
   "workspace:split-horizontal": [
     {
@@ -141,7 +141,6 @@
       "key": "F1"
     }
   ],
-  "switcher:open": [],
   "quickadd:runQuickAdd": [
     {
       "modifiers": [
@@ -162,10 +161,18 @@
   "obsidian-citation-plugin:insert-markdown-citation": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "["
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
     }
   ]
 }

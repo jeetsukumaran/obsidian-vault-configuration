@@ -15,5 +15,7 @@
   "minimal-style@@row-lines": true,
   "minimal-style@@col-lines": true,
   "minimal-style@@table-lines": true,
-  "minimal-style@@table-tabular": true
+  "minimal-style@@table-tabular": true,
+  "minimal-style@@code-background@@dark": "#282424",
+  "minimal-style@@code-normal@@dark": "#909860"
 }
