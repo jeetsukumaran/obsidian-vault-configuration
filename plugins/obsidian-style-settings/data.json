@@ -17,5 +17,10 @@
   "minimal-style@@table-lines": true,
   "minimal-style@@table-tabular": true,
   "minimal-style@@code-background@@dark": "#282424",
-  "minimal-style@@code-normal@@dark": "#909860"
+  "minimal-style@@code-normal@@dark": "#909860",
+  "minimal-style@@trim-cols": false,
+  "minimal-style@@tag-background@@dark": "#202020",
+  "minimal-style@@tag-border-width": "0",
+  "minimal-style@@tag-radius": "14px",
+  "minimal-style@@minimal-unstyled-tags": false
 }
