@@ -3,7 +3,7 @@
   "livePreview": false,
   "readableLineLength": false,
   "strictLineBreaks": true,
-  "trashOption": "system",
+  "trashOption": "local",
   "newLinkFormat": "shortest",
   "showUnsupportedFiles": true,
   "showFrontmatter": true,
@@ -17,5 +17,6 @@
   "attachmentFolderPath": "__annex__/attachments",
   "showLineNumber": false,
   "newFileLocation": "current",
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "spellcheck": false
 }

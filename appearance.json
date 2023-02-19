@@ -6,7 +6,9 @@
     "obsidian-tasks",
     "dashboard-headers",
     "dashboard",
-    "minimal-customization"
+    "minimal-customization",
+    "ui-customization",
+    "ui-folder-colors"
   ],
   "baseFontSize": 14,
   "theme": "obsidian",

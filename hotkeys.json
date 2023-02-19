@@ -174,5 +174,21 @@
       ],
       "key": "O"
     }
+  ],
+  "obsidian-toggle-case:toggle-case": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
   ]
 }
