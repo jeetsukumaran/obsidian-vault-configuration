@@ -39,5 +39,7 @@
   "obsidian-sortable",
   "simple-embeds",
   "obsidian-shellcommands",
-  "creases"
+  "creases",
+  "customjs",
+  "obsidian-image-caption"
 ]

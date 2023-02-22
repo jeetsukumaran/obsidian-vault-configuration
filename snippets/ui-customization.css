@@ -232,3 +232,15 @@ span.dataview.inline-field-standalone-value {
 
 /* }}}1 */
 
+
+/* Show alt-text as image caption {{{1 */
+.image-embed[alt]:after {
+    content: attr(alt);
+    display: block;
+    margin: 0.2rem 1rem 1rem 1rem;
+    font-size: 90%;
+    line-height: 1.4;
+    color: var(--text-faint);
+}
+/* }}}1 */
+
