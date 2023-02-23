@@ -32,6 +32,7 @@
     display: flex;
     column-gap: 20px;
     flex-flow: row wrap;
+    padding-left: 0 !important;
 }
 
 .dashboard div > ul > li {
@@ -69,3 +70,8 @@
 .markdown-preview-view .markdown-embed-content { max-height: unset;}
 .markdown-preview-view .markdown-embed-content>:first-child { margin-top: 0; }
 .markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: 0; }
+
+ul {
+  list-style: none !important;
+  list-style-type: none !important;
+}
