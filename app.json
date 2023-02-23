@@ -8,7 +8,7 @@
   "showUnsupportedFiles": true,
   "showFrontmatter": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "showInlineTitle": false,
   "autoPairBrackets": false,
   "autoPairMarkdown": false,

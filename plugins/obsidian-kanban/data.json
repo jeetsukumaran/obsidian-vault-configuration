@@ -1,4 +1,12 @@
 {
   "new-note-template": "__annex/resources/quickadd/templates/full-calendar-event.md",
-  "new-note-folder": "secretariat/calendar"
+  "new-note-folder": "secretariat/calendar",
+  "metadata-keys": [
+    {
+      "metadataKey": "workplan-category",
+      "label": "",
+      "shouldHideLabel": true,
+      "containsMarkdown": false
+    }
+  ]
 }
